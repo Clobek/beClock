@@ -5,8 +5,8 @@ function Icon() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="80"
-      height="145"
+      width="120"
+      height="215"
       version="1.1"
       viewBox="0 0 160 297"
     >
@@ -2029,12 +2029,12 @@ function Icon() {
       </defs>
       <g transform="matrix(9.07379 0 0 9.18926 -665.624 -1132.24)">
         <path
-          fill="url(#linearGradient16269-5)"
+          fill="url(#linearGradient16269)"
           strokeWidth="0.265"
           d="M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
         ></path>
         <path
-          fill="url(#radialGradient16271-4)"
+          fill="url(#radialGradient16271)"
           stroke="#3a4d53"
           strokeWidth="0.156"
           d="M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
@@ -2461,7 +2461,7 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient8850-7)"
+          stroke="url(#linearGradient8850)"
           strokeWidth="0.269"
           d="M88.068 149.21l-.011-19.568-5.077-2.524-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
         ></path>
@@ -2877,25 +2877,25 @@ function Icon() {
         ></path>
         <path
           fill="#494a4d"
-          stroke="url(#linearGradient9008-4)"
+          stroke="url(#linearGradient9008)"
           strokeWidth="0.187"
           d="M83.056 151.176a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
         ></path>
         <path
           fill="#060a18"
-          stroke="url(#linearGradient9010-9)"
+          stroke="url(#linearGradient9010)"
           strokeWidth="0.104"
           d="M82.574 150.72l.185.21-1.075.772-.184-.21z"
         ></path>
         <path
           fill="#494a4d"
-          stroke="url(#linearGradient9012-1)"
+          stroke="url(#linearGradient9012)"
           strokeWidth="0.187"
           d="M82.967 127.257a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
         ></path>
         <path
           fill="#060a18"
-          stroke="url(#linearGradient9014-5)"
+          stroke="url(#linearGradient9014)"
           strokeWidth="0.104"
           d="M82.486 126.8l.184.21-1.074.773-.185-.21z"
         ></path>

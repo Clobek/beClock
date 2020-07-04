@@ -34037,7 +34037,30 @@ var global = arguments[3];
 
 })));
 
-},{}],"src/components/Default.js":[function(require,module,exports) {
+},{}],"src/components/Header.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactDom = _interopRequireDefault(require("react-dom"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var _default = function _default(props) {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__header"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__header-name"
+  }, "beClock"));
+};
+
+exports.default = _default;
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"src/components/Default.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -34053,8 +34076,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "141",
+    width: "120",
+    height: "211",
     version: "1.1",
     viewBox: "0 0 160 287"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -36137,8 +36160,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "145",
+    width: "120",
+    height: "215",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -36414,34 +36437,7 @@ function Icon() {
     colorInterpolationFilters: "sRGB"
   }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
     stdDeviation: "1.687"
-  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient16269",
-    x1: "410.4",
-    x2: "225.82",
-    y1: "613.99",
-    y2: "282.66",
-    gradientTransform: "matrix(.47324 0 0 .4786 -85.964 -91.412)",
-    gradientUnits: "userSpaceOnUse",
-    xlinkHref: "#k"
-  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
-    id: "radialGradient16271",
-    cx: "349",
-    cy: "498.5",
-    r: "131.11",
-    gradientTransform: "matrix(.01864 -1.5624 .44319 .00542 -148.234 689.763)",
-    gradientUnits: "userSpaceOnUse",
-    xlinkHref: "#j"
-  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient16273",
-    x1: "478.23",
-    x2: "220.65",
-    y1: "766.21",
-    y2: "209.62",
-    gradientTransform: "matrix(.47324 0 0 .4786 -85.964 -91.412)",
-    gradientUnits: "userSpaceOnUse",
-    xlinkHref: "#i"
-  }), /*#__PURE__*/_react.default.createElement("filter", {
-    id: "q",
+  })), /*#__PURE__*/_react.default.createElement("filter", {
     width: "4.213",
     height: "1.123",
     x: "-1.607",
@@ -36449,15 +36445,7 @@ function Icon() {
     colorInterpolationFilters: "sRGB"
   }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
     stdDeviation: "8.661"
-  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
-    id: "radialGradient16275",
-    cx: "627.18",
-    cy: "503.78",
-    r: "109.15",
-    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
-    gradientUnits: "userSpaceOnUse",
-    xlinkHref: "#l"
-  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
     id: "l"
   }, /*#__PURE__*/_react.default.createElement("stop", {
     offset: "0",
@@ -36483,7 +36471,6 @@ function Icon() {
     stopColor: "#ffad00",
     stopOpacity: "0.992"
   })), /*#__PURE__*/_react.default.createElement("filter", {
-    id: "s",
     colorInterpolationFilters: "sRGB"
   }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
     stdDeviation: "8.364"
@@ -36496,7 +36483,6 @@ function Icon() {
   }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
     stdDeviation: "8.661"
   })), /*#__PURE__*/_react.default.createElement("filter", {
-    id: "u",
     width: "1.2",
     height: "1.2",
     x: "-0.1",
@@ -36505,7 +36491,269 @@ function Icon() {
   }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
     stdDeviation: "2"
   })), /*#__PURE__*/_react.default.createElement("filter", {
-    id: "v",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "772.26",
+    x2: "801.666",
+    y1: "540.527",
+    y2: "540.527",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "751.999",
+    x2: "781.406",
+    y1: "565.145",
+    y2: "565.145",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "731.752",
+    x2: "761.159",
+    y1: "541.124",
+    y2: "541.124",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "711.492",
+    x2: "740.898",
+    y1: "565.931",
+    y2: "565.931",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "792.575",
+    x2: "821.982",
+    y1: "565.203",
+    y2: "565.203",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "224.673",
+    x2: "253.475",
+    y1: "820.097",
+    y2: "820.097",
+    gradientTransform: "scale(1.45657 .68655)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(62.18 113.565) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 55.32 198.652)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(62.18 113.565) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
     width: "1.2",
     height: "1.2",
     x: "-0.1",
@@ -36514,160 +36762,142 @@ function Icon() {
   }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
     stdDeviation: "0.9"
   })), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8766",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45148 0 0 .46878 -424.597 75.583)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.877 131.754)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8772",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45148 0 0 .46878 -424.853 -87.056)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8782",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -424.879 -82.44)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8800",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -424.994 -98.422)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8816",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -425.474 -129.857)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8834",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -424.602 59.664)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8850",
     x1: "976.82",
     x2: "1258.5",
     y1: "276.12",
     y2: "720.6",
-    gradientTransform: "matrix(.45148 0 0 .46878 -424.853 -87.056)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#b"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8852",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -424.994 -114.287)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8868",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -425.107 -67.05)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8884",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -425.107 -51.069)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8900",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -425.107 -35.559)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8916",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -424.994 -19.578)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8932",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -424.763 12.268)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8948",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -424.763 28.132)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8964",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -424.763 43.759)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8980",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .4688 -425.248 -145.72)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.805 107.65)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient8988",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
     y2: "305.68",
-    gradientTransform: "matrix(.45147 0 0 .46878 -424.983 -3.478)",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient9004",
     x1: "-214.5",
     x2: "-271.17",
     y1: "170.74",
@@ -36676,12 +36906,10 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#g"
   }), /*#__PURE__*/_react.default.createElement("filter", {
-    id: "S-3",
     colorInterpolationFilters: "sRGB"
   }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
     stdDeviation: "1.687"
   })), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient9006",
     x1: "237.71",
     x2: "288.74",
     y1: "289.86",
@@ -36690,12 +36918,952 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#f"
   }), /*#__PURE__*/_react.default.createElement("filter", {
-    id: "U-2",
     colorInterpolationFilters: "sRGB"
   }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
     stdDeviation: "3.868"
   })), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient9008",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 64.022 117.59)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 99.015 114.147)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 63.933 93.67)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 98.926 90.228)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.877 131.754)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.877 131.754)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.805 107.65)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.805 107.65)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "matrix(.47324 0 0 .4786 -85.964 -91.412)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.01864 -1.5624 .44319 .00542 -148.234 689.763)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "matrix(.47324 0 0 .4786 -85.964 -91.412)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45148 0 0 .46878 -424.597 75.583)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45148 0 0 .46878 -424.853 -87.056)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.879 -82.44)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.994 -98.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -425.474 -129.857)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.602 59.664)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.45148 0 0 .46878 -424.853 -87.056)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.994 -114.287)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -425.107 -67.05)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -425.107 -51.069)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -425.107 -35.559)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.994 -19.578)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.763 12.268)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.763 28.132)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.763 43.759)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -425.248 -145.72)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .46878 -424.983 -3.478)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
     x1: "331.11",
     x2: "372.53",
     y1: "712.42",
@@ -36704,7 +37872,6 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#c"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient9010",
     x1: "381.34",
     x2: "390.85",
     y1: "747.55",
@@ -36713,7 +37880,6 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#d"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient9012",
     x1: "331.11",
     x2: "372.53",
     y1: "712.42",
@@ -36722,7 +37888,6 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#e"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient9014",
     x1: "384.99",
     x2: "390.85",
     y1: "747.14",
@@ -36731,7 +37896,81 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#d"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2039",
+    id: "linearGradient16269-2",
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "matrix(.47324 0 0 .4786 -85.964 -91.412)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16271-1",
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.01864 -1.5624 .44319 .00542 -148.234 689.763)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16273-8",
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "matrix(.47324 0 0 .4786 -85.964 -91.412)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "q-0",
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16275-6",
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "s-61",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "u-5",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "v-7",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2039-6",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36740,7 +37979,197 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2041",
+    id: "linearGradient2043-7",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45148 0 0 .46878 -424.853 -87.056)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2053-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.879 -82.44)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2067-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.994 -98.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2079-2",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -425.474 -129.857)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2091-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.602 59.664)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8850-4",
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.45148 0 0 .46878 -424.853 -87.056)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2103-3",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.994 -114.287)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2115-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -425.107 -67.05)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2127-7",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -425.107 -51.069)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2139-8",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -425.107 -35.559)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2151-6",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.994 -19.578)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2163-8",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.763 12.268)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2175-8",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.763 28.132)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2187-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -424.763 43.759)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2199-3",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .4688 -425.248 -145.72)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient2203-1",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45147 0 0 .46878 -424.983 -3.478)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "S-3-2",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "U-2-9",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9008-6",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.42366 0 0 .42847 -69.247 -54.465)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9010-5",
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.30379 .35053 -.38266 .27829 248.412 -86.066)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9012-8",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.42366 0 0 .42847 -70.054 -274.066)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9014-2",
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.30379 .35053 -.38266 .27829 247.607 -305.667)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6703",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36749,7 +38178,16 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2043",
+    id: "linearGradient6705",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.45148 0 0 .46878 -424.597 75.583)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6707",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36758,7 +38196,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2045",
+    id: "linearGradient6709",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36767,7 +38205,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2047",
+    id: "linearGradient6711",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36776,7 +38214,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2049",
+    id: "linearGradient6713",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36785,7 +38223,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2051",
+    id: "linearGradient6715",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36794,7 +38232,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2053",
+    id: "linearGradient6717",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36803,7 +38241,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2055",
+    id: "linearGradient6719",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36812,7 +38250,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2057",
+    id: "linearGradient6721",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36821,7 +38259,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2059",
+    id: "linearGradient6723",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36830,7 +38268,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2061",
+    id: "linearGradient6725",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36839,7 +38277,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2063",
+    id: "linearGradient6727",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36848,7 +38286,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2065",
+    id: "linearGradient6729",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36857,7 +38295,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2067",
+    id: "linearGradient6731",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36866,7 +38304,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2069",
+    id: "linearGradient6733",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36875,7 +38313,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2071",
+    id: "linearGradient6735",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36884,7 +38322,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2073",
+    id: "linearGradient6737",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36893,7 +38331,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2075",
+    id: "linearGradient6739",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36902,7 +38340,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2077",
+    id: "linearGradient6741",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36911,7 +38349,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2079",
+    id: "linearGradient6743",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36920,7 +38358,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2081",
+    id: "linearGradient6745",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36929,7 +38367,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2083",
+    id: "linearGradient6747",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36938,7 +38376,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2085",
+    id: "linearGradient6749",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36947,7 +38385,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2087",
+    id: "linearGradient6751",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36956,7 +38394,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2089",
+    id: "linearGradient6753",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36965,7 +38403,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2091",
+    id: "linearGradient6755",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36974,7 +38412,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2093",
+    id: "linearGradient6757",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36983,7 +38421,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2095",
+    id: "linearGradient6759",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -36992,7 +38430,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2097",
+    id: "linearGradient6761",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37001,7 +38439,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2099",
+    id: "linearGradient6763",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37010,7 +38448,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2101",
+    id: "linearGradient6765",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37019,7 +38457,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2103",
+    id: "linearGradient6767",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37028,7 +38466,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2105",
+    id: "linearGradient6769",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37037,7 +38475,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2107",
+    id: "linearGradient6771",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37046,7 +38484,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2109",
+    id: "linearGradient6773",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37055,7 +38493,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2111",
+    id: "linearGradient6775",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37064,7 +38502,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2113",
+    id: "linearGradient6777",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37073,7 +38511,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2115",
+    id: "linearGradient6779",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37082,7 +38520,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2117",
+    id: "linearGradient6781",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37091,7 +38529,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2119",
+    id: "linearGradient6783",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37100,7 +38538,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2121",
+    id: "linearGradient6785",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37109,7 +38547,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2123",
+    id: "linearGradient6787",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37118,7 +38556,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2125",
+    id: "linearGradient6789",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37127,7 +38565,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2127",
+    id: "linearGradient6791",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37136,7 +38574,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2129",
+    id: "linearGradient6793",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37145,7 +38583,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2131",
+    id: "linearGradient6795",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37154,7 +38592,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2133",
+    id: "linearGradient6797",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37163,7 +38601,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2135",
+    id: "linearGradient6799",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37172,7 +38610,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2137",
+    id: "linearGradient6801",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37181,7 +38619,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2139",
+    id: "linearGradient6803",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37190,7 +38628,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2141",
+    id: "linearGradient6805",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37199,7 +38637,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2143",
+    id: "linearGradient6807",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37208,7 +38646,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2145",
+    id: "linearGradient6809",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37217,7 +38655,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2147",
+    id: "linearGradient6811",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37226,7 +38664,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2149",
+    id: "linearGradient6813",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37235,7 +38673,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2151",
+    id: "linearGradient6815",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37244,7 +38682,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2153",
+    id: "linearGradient6817",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37253,7 +38691,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2155",
+    id: "linearGradient6819",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37262,7 +38700,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2157",
+    id: "linearGradient6821",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37271,7 +38709,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2159",
+    id: "linearGradient6823",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37280,7 +38718,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2161",
+    id: "linearGradient6825",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37289,7 +38727,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2163",
+    id: "linearGradient6827",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37298,7 +38736,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2165",
+    id: "linearGradient6829",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37307,7 +38745,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2167",
+    id: "linearGradient6831",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37316,7 +38754,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2169",
+    id: "linearGradient6833",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37325,7 +38763,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2171",
+    id: "linearGradient6835",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37334,7 +38772,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2173",
+    id: "linearGradient6837",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37343,7 +38781,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2175",
+    id: "linearGradient6839",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37352,7 +38790,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2177",
+    id: "linearGradient6841",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37361,7 +38799,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2179",
+    id: "linearGradient6843",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37370,7 +38808,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2181",
+    id: "linearGradient6845",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37379,7 +38817,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2183",
+    id: "linearGradient6847",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37388,7 +38826,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2185",
+    id: "linearGradient6849",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37397,7 +38835,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2187",
+    id: "linearGradient6851",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37406,7 +38844,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2189",
+    id: "linearGradient6853",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37415,7 +38853,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2191",
+    id: "linearGradient6855",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37424,7 +38862,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2193",
+    id: "linearGradient6857",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37433,7 +38871,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2195",
+    id: "linearGradient6859",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37442,7 +38880,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2197",
+    id: "linearGradient6861",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37451,7 +38889,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2199",
+    id: "linearGradient6863",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37460,7 +38898,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2201",
+    id: "linearGradient6865",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37469,7 +38907,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2203",
+    id: "linearGradient6867",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37478,7 +38916,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2205",
+    id: "linearGradient6869",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37487,7 +38925,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2207",
+    id: "linearGradient6871",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37496,7 +38934,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2209",
+    id: "linearGradient6873",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37505,7 +38943,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2211",
+    id: "linearGradient6875",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37514,7 +38952,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   }), /*#__PURE__*/_react.default.createElement("linearGradient", {
-    id: "linearGradient2213",
+    id: "linearGradient6877",
     x1: "1147.3",
     x2: "1060.9",
     y1: "605.28",
@@ -37522,17 +38960,35 @@ function Icon() {
     gradientTransform: "matrix(.45147 0 0 .46878 -424.983 -3.478)",
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
-  })), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16269)",
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6879",
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(1910.902 -23.064)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6881",
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(1204.028 -600.772)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  })), /*#__PURE__*/_react.default.createElement("g", null, /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16269-2)",
     strokeWidth: "2.415",
     d: "M64.262 274.89c-.793-.094-3.497-.405-6.007-.694-13.328-1.526-25.186-5.903-32.939-12.158-5.613-4.525-13.097-13.797-13.964-17.29-.144-.593-.195-45.437-.108-99.657l.156-98.578 1.097-2.415c2.498-5.497 8.7-12.22 14.37-15.585 17.815-10.571 45.573-15.196 70.19-11.696 16.88 2.4 33.921 9.119 41.864 16.503 1.713 1.596 6.725 8.053 7.71 9.928 1.357 2.592 1.513 14.908 1.383 107.26l-.136 94.254-1.355 2.714c-2.582 5.166-11.005 13.906-17.411 18.072-7.508 4.878-18.658 7.963-33.136 9.165-5.315.443-28.39.571-31.716.177z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#radialGradient16271)",
+    fill: "url(#radialGradient16271-1)",
     stroke: "#3a4d53",
     strokeWidth: "1.423",
     d: "M70.099 266.025l-52.236-24.899.142-189.429 52.382-23.73h17.966l52.187 23.502-.113 190.656c-14.995 7.59-38.297 17.54-53.686 24.252l-16.64-.353zm66.816-25.931l.36-184.782-49.129-24.007-17.348-.046L21.21 55.67l.238 183.639 49.007 23.258 16.138.185 50.32-22.659z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16273)",
+    fill: "url(#linearGradient16273-8)",
     stroke: "#ebe5e5",
     strokeOpacity: "0.297",
     strokeWidth: "1.442",
@@ -37542,7 +38998,7 @@ function Icon() {
     stroke: "#ff2124",
     strokeWidth: "2.699",
     d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
-    filter: "url(#q)",
+    filter: "url(#q-0)",
     transform: "matrix(.28534 0 0 .48048 -16.008 -99.622)"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#140b0b",
@@ -37550,9 +39006,9 @@ function Icon() {
     strokeWidth: "0.476",
     d: "M86.455 261.652l49.507-22.12.24-183.599-48.315-23.66-16.79-.027L22.185 56.24l.18 182.45 49.418 22.722 14.67.243z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#radialGradient16275)",
+    fill: "url(#radialGradient16275-6)",
     d: "M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z",
-    filter: "url(#s)",
+    filter: "url(#s-61)",
     opacity: "0.85",
     transform: "matrix(.49526 0 0 .5027 -93.642 -104.614)"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -37560,7 +39016,7 @@ function Icon() {
     stroke: "#ff2124",
     strokeWidth: "2.699",
     d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
-    filter: "url(#q)",
+    filter: "url(#q-0)",
     transform: "matrix(.28534 0 0 .48048 110.032 -100.14)"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#722",
@@ -37603,43 +39059,43 @@ function Icon() {
     stroke: "#fe72dc",
     strokeWidth: "1.519",
     d: "M220.557 286.278v77.775h5.092v-77.775z",
-    filter: "url(#u)",
+    filter: "url(#u-5)",
     transform: "matrix(2.40185 0 0 2.4291 -456.301 -644)"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#fbea46",
     stroke: "#ffa300",
     strokeWidth: "1.182",
     d: "M221.554 288.054v74.354h3.226v-74.354z",
-    filter: "url(#v)",
+    filter: "url(#v-7)",
     transform: "matrix(2.40185 0 0 2.4291 -456.49 -642.11)"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2039)",
+    stroke: "url(#linearGradient6703)",
     strokeWidth: "1.904",
     d: "M60.026 254.64l1.783-3.896 8.86-.028 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2041)",
+    stroke: "url(#linearGradient6705)",
     strokeWidth: "1.904",
     d: "M75.135 258.474l8.86-.027"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8766)",
+    stroke: "url(#linearGradient2039-6)",
     strokeWidth: "1.904",
     d: "M84.056 258.532l4.405-7.982 8.86-.027 2.117 4.045"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2043)",
+    stroke: "url(#linearGradient6707)",
     strokeWidth: "1.904",
     d: "M133.4 68.515h-5.415"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2045)",
+    stroke: "url(#linearGradient6709)",
     strokeWidth: "1.904",
     d: "M133.32 84.38h-5.416"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2047)",
+    stroke: "url(#linearGradient6711)",
     strokeWidth: "1.904",
     d: "M133.521 100.366h-5.415"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -37661,47 +39117,47 @@ function Icon() {
     d: "M30.447 132.227h-5.414"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2049)",
+    stroke: "url(#linearGradient6713)",
     strokeWidth: "1.904",
     d: "M30.405 116.108H24.99"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2051)",
+    stroke: "url(#linearGradient6715)",
     strokeWidth: "1.904",
     d: "M30.651 100.83h-5.415"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2053)",
+    stroke: "url(#linearGradient6717)",
     strokeWidth: "1.904",
     d: "M43.798 108.691l4.405-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2055)",
+    stroke: "url(#linearGradient6719)",
     strokeWidth: "1.904",
     d: "M57.12 100.707l4.407-7.982 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2057)",
+    stroke: "url(#linearGradient6721)",
     strokeWidth: "1.904",
     d: "M70.435 108.438l4.406-7.982 8.86-.027 4.453 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2059)",
+    stroke: "url(#linearGradient6723)",
     strokeWidth: "1.904",
     d: "M83.758 100.514l4.406-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2061)",
+    stroke: "url(#linearGradient6725)",
     strokeWidth: "1.904",
     d: "M97.117 108.457l4.406-7.982 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2063)",
+    stroke: "url(#linearGradient6727)",
     strokeWidth: "1.904",
     d: "M110.435 100.51l4.406-7.981 8.86-.028 4.454 7.953-4.406 7.982"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8782)",
+    stroke: "url(#linearGradient2053-4)",
     strokeWidth: "1.904",
     d: "M34.903 108.818l-4.453-7.953 4.405-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -37711,42 +39167,42 @@ function Icon() {
     d: "M133.32 131.848h-5.416"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2065)",
+    stroke: "url(#linearGradient6729)",
     strokeWidth: "1.904",
     d: "M30.405 84.922H24.99"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2067)",
+    stroke: "url(#linearGradient6731)",
     strokeWidth: "1.904",
     d: "M43.682 92.71l4.406-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2069)",
+    stroke: "url(#linearGradient6733)",
     strokeWidth: "1.904",
     d: "M57.005 84.726l4.406-7.982 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2071)",
+    stroke: "url(#linearGradient6735)",
     strokeWidth: "1.904",
     d: "M70.32 92.457l4.405-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2073)",
+    stroke: "url(#linearGradient6737)",
     strokeWidth: "1.904",
     d: "M83.642 84.533l4.406-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2075)",
+    stroke: "url(#linearGradient6739)",
     strokeWidth: "1.904",
     d: "M97.001 92.476l4.406-7.982 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2077)",
+    stroke: "url(#linearGradient6741)",
     strokeWidth: "1.904",
     d: "M110.32 84.53l4.406-7.982 8.86-.028 4.453 7.953-4.406 7.982"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8800)",
+    stroke: "url(#linearGradient2067-5)",
     strokeWidth: "1.904",
     d: "M34.788 92.837l-4.454-7.953 4.406-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -37776,42 +39232,42 @@ function Icon() {
     d: "M133.28 147.338h-5.417"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2079)",
+    stroke: "url(#linearGradient6743)",
     strokeWidth: "1.904",
     d: "M43.202 61.275l4.406-7.982 8.86-.027 4.453 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2081)",
+    stroke: "url(#linearGradient6745)",
     strokeWidth: "1.904",
     d: "M56.525 53.29l4.406-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2083)",
+    stroke: "url(#linearGradient6747)",
     strokeWidth: "1.904",
     d: "M69.839 61.022l4.406-7.982 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2085)",
+    stroke: "url(#linearGradient6749)",
     strokeWidth: "1.904",
     d: "M83.162 53.098l4.406-7.982 8.86-.027 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2087)",
+    stroke: "url(#linearGradient6751)",
     strokeWidth: "1.904",
     d: "M96.521 61.04l4.406-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2089)",
+    stroke: "url(#linearGradient6753)",
     strokeWidth: "1.904",
     d: "M126.048 55.509l-2.633 5.219m-13.595-7.63l2.31-4.508"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8816)",
+    stroke: "url(#linearGradient2079-2)",
     strokeWidth: "1.904",
     d: "M45.279 49.203l2.317 4.186m-12.983 7.885l-3.003-5.107"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8772)",
+    stroke: "url(#linearGradient2043-7)",
     strokeWidth: "1.904",
     d: "M30.367 69.104h-5.415"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -37844,37 +39300,37 @@ function Icon() {
     d: "M30.528 163.7h-5.416"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2091)",
+    stroke: "url(#linearGradient6755)",
     strokeWidth: "1.904",
     d: "M45.835 248.25l2.638-5.435 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2093)",
+    stroke: "url(#linearGradient6757)",
     strokeWidth: "1.904",
     d: "M57.397 242.812l4.406-7.982 8.86-.027 4.453 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2095)",
+    stroke: "url(#linearGradient6759)",
     strokeWidth: "1.904",
     d: "M70.71 250.543l4.407-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2097)",
+    stroke: "url(#linearGradient6761)",
     strokeWidth: "1.904",
     d: "M84.034 242.62l4.406-7.982 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2099)",
+    stroke: "url(#linearGradient6763)",
     strokeWidth: "1.904",
     d: "M97.393 250.562l4.406-7.982 8.86-.027 2.914 5.407"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2101)",
+    stroke: "url(#linearGradient6765)",
     strokeWidth: "1.904",
     d: "M110.711 242.616l4.406-7.982 8.86-.027 3.884 7.183"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8834)",
+    stroke: "url(#linearGradient2091-5)",
     strokeWidth: "1.904",
     d: "M31.297 241.725l3.836-6.738 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -37884,372 +39340,372 @@ function Icon() {
     d: "M133.563 226.508h-5.417"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8850)",
+    stroke: "url(#linearGradient8850-4)",
     strokeWidth: "2.459",
     d: "M133.545 238.942l-.1-179.66-46.09-23.173-16.018-.028-46.661 23.5.171 178.702 47.627 21.587 13.592-.019 47.15-20.743.327-.165z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2103)",
+    stroke: "url(#linearGradient6767)",
     strokeWidth: "1.904",
     d: "M43.682 76.845l4.406-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2105)",
+    stroke: "url(#linearGradient6769)",
     strokeWidth: "1.904",
     d: "M57.005 68.861l4.406-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2107)",
+    stroke: "url(#linearGradient6771)",
     strokeWidth: "1.904",
     d: "M70.32 76.592l4.405-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2109)",
+    stroke: "url(#linearGradient6773)",
     strokeWidth: "1.904",
     d: "M83.642 68.669l4.406-7.982 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2111)",
+    stroke: "url(#linearGradient6775)",
     strokeWidth: "1.904",
     d: "M97.001 76.611l4.406-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2113)",
+    stroke: "url(#linearGradient6777)",
     strokeWidth: "1.904",
     d: "M110.32 68.665l4.406-7.982 8.86-.027 4.453 7.952-4.406 7.982"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8852)",
+    stroke: "url(#linearGradient2103-3)",
     strokeWidth: "1.904",
     d: "M34.788 76.972l-4.454-7.953 4.406-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2115)",
+    stroke: "url(#linearGradient6779)",
     strokeWidth: "1.904",
     d: "M43.57 124.082l4.405-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2117)",
+    stroke: "url(#linearGradient6781)",
     strokeWidth: "1.904",
     d: "M56.892 116.097l4.406-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2119)",
+    stroke: "url(#linearGradient6783)",
     strokeWidth: "1.904",
     d: "M70.206 123.829l4.406-7.982 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2121)",
+    stroke: "url(#linearGradient6785)",
     strokeWidth: "1.904",
     d: "M83.53 115.905l4.405-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2123)",
+    stroke: "url(#linearGradient6787)",
     strokeWidth: "1.904",
     d: "M96.889 123.847l4.406-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2125)",
+    stroke: "url(#linearGradient6789)",
     strokeWidth: "1.904",
     d: "M110.207 115.901l4.406-7.981 8.86-.028 4.454 7.953-4.406 7.981"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8868)",
+    stroke: "url(#linearGradient2115-0)",
     strokeWidth: "1.904",
     d: "M34.675 124.208l-4.453-7.952 4.405-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2127)",
+    stroke: "url(#linearGradient6791)",
     strokeWidth: "1.904",
     d: "M43.57 140.063l4.405-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2129)",
+    stroke: "url(#linearGradient6793)",
     strokeWidth: "1.904",
     d: "M56.892 132.079l4.406-7.982 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2131)",
+    stroke: "url(#linearGradient6795)",
     strokeWidth: "1.904",
     d: "M70.206 139.81l4.406-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2133)",
+    stroke: "url(#linearGradient6797)",
     strokeWidth: "1.904",
     d: "M83.53 131.886l4.405-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2135)",
+    stroke: "url(#linearGradient6799)",
     strokeWidth: "1.904",
     d: "M96.889 139.829l4.406-7.982 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2137)",
+    stroke: "url(#linearGradient6801)",
     strokeWidth: "1.904",
     d: "M110.207 131.882l4.406-7.981 8.86-.028 4.454 7.953-4.406 7.981"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8884)",
+    stroke: "url(#linearGradient2127-7)",
     strokeWidth: "1.904",
     d: "M34.675 140.19l-4.453-7.953 4.405-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2139)",
+    stroke: "url(#linearGradient6803)",
     strokeWidth: "1.904",
     d: "M43.57 155.573l4.405-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2141)",
+    stroke: "url(#linearGradient6805)",
     strokeWidth: "1.904",
     d: "M56.892 147.588l4.406-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2143)",
+    stroke: "url(#linearGradient6807)",
     strokeWidth: "1.904",
     d: "M70.206 155.32l4.406-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2145)",
+    stroke: "url(#linearGradient6809)",
     strokeWidth: "1.904",
     d: "M83.53 147.396l4.405-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2147)",
+    stroke: "url(#linearGradient6811)",
     strokeWidth: "1.904",
     d: "M96.889 155.338l4.406-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2149)",
+    stroke: "url(#linearGradient6813)",
     strokeWidth: "1.904",
     d: "M110.207 147.392l4.406-7.981 8.86-.028 4.454 7.953-4.406 7.981"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8900)",
+    stroke: "url(#linearGradient2139-8)",
     strokeWidth: "1.904",
     d: "M34.675 155.7l-4.453-7.953 4.405-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2151)",
+    stroke: "url(#linearGradient6815)",
     strokeWidth: "1.904",
     d: "M43.682 171.554l4.406-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2153)",
+    stroke: "url(#linearGradient6817)",
     strokeWidth: "1.904",
     d: "M57.005 163.57l4.406-7.982 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2155)",
+    stroke: "url(#linearGradient6819)",
     strokeWidth: "1.904",
     d: "M70.32 171.3l4.405-7.98 8.86-.028 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2157)",
+    stroke: "url(#linearGradient6821)",
     strokeWidth: "1.904",
     d: "M83.642 163.377l4.406-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2159)",
+    stroke: "url(#linearGradient6823)",
     strokeWidth: "1.904",
     d: "M97.001 171.32l4.406-7.982 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2161)",
+    stroke: "url(#linearGradient6825)",
     strokeWidth: "1.904",
     d: "M110.32 163.373l4.406-7.981 8.86-.028 4.453 7.953-4.406 7.982"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8916)",
+    stroke: "url(#linearGradient2151-6)",
     strokeWidth: "1.904",
     d: "M34.788 171.68l-4.454-7.952 4.406-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2163)",
+    stroke: "url(#linearGradient6827)",
     strokeWidth: "1.904",
     d: "M43.913 203.4l4.406-7.982 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2165)",
+    stroke: "url(#linearGradient6829)",
     strokeWidth: "1.904",
     d: "M57.236 195.415l4.406-7.982 8.86-.027 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2167)",
+    stroke: "url(#linearGradient6831)",
     strokeWidth: "1.904",
     d: "M70.55 203.146l4.406-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2169)",
+    stroke: "url(#linearGradient6833)",
     strokeWidth: "1.904",
     d: "M83.873 195.223l4.406-7.982 8.86-.027 4.453 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2171)",
+    stroke: "url(#linearGradient6835)",
     strokeWidth: "1.904",
     d: "M97.232 203.165l4.406-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2173)",
+    stroke: "url(#linearGradient6837)",
     strokeWidth: "1.904",
     d: "M110.55 195.22l4.406-7.983 8.86-.027 4.454 7.953-4.406 7.981"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8932)",
+    stroke: "url(#linearGradient2163-8)",
     strokeWidth: "1.904",
     d: "M35.019 203.526l-4.454-7.952 4.405-7.982 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2175)",
+    stroke: "url(#linearGradient6839)",
     strokeWidth: "1.904",
     d: "M43.913 219.264l4.406-7.982 8.86-.027 4.453 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2177)",
+    stroke: "url(#linearGradient6841)",
     strokeWidth: "1.904",
     d: "M57.236 211.28l4.406-7.982 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2179)",
+    stroke: "url(#linearGradient6843)",
     strokeWidth: "1.904",
     d: "M70.55 219.01l4.406-7.98 8.86-.028 4.453 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2181)",
+    stroke: "url(#linearGradient6845)",
     strokeWidth: "1.904",
     d: "M83.873 211.087l4.406-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2183)",
+    stroke: "url(#linearGradient6847)",
     strokeWidth: "1.904",
     d: "M97.232 219.03l4.406-7.982 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2185)",
+    stroke: "url(#linearGradient6849)",
     strokeWidth: "1.904",
     d: "M110.55 211.084l4.406-7.982 8.86-.028 4.454 7.953-4.406 7.982"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8948)",
+    stroke: "url(#linearGradient2175-8)",
     strokeWidth: "1.904",
     d: "M35.019 219.39l-4.454-7.952 4.405-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2187)",
+    stroke: "url(#linearGradient6851)",
     strokeWidth: "1.904",
     d: "M43.913 234.89l4.406-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2189)",
+    stroke: "url(#linearGradient6853)",
     strokeWidth: "1.904",
     d: "M57.236 226.906l4.406-7.982 8.86-.027 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2191)",
+    stroke: "url(#linearGradient6855)",
     strokeWidth: "1.904",
     d: "M70.55 234.637l4.406-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2193)",
+    stroke: "url(#linearGradient6857)",
     strokeWidth: "1.904",
     d: "M83.873 226.714l4.406-7.982 8.86-.027 4.453 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2195)",
+    stroke: "url(#linearGradient6859)",
     strokeWidth: "1.904",
     d: "M97.232 234.656l4.406-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2197)",
+    stroke: "url(#linearGradient6861)",
     strokeWidth: "1.904",
     d: "M110.55 226.71l4.406-7.982 8.86-.027 4.454 7.952-4.406 7.982"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8964)",
+    stroke: "url(#linearGradient2187-4)",
     strokeWidth: "1.904",
     d: "M35.019 235.017l-4.454-7.952 4.405-7.982 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2199)",
+    stroke: "url(#linearGradient6863)",
     strokeWidth: "1.904",
     d: "M59.41 42.01l1.713 3.348"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2201)",
+    stroke: "url(#linearGradient6865)",
     strokeWidth: "1.904",
     d: "M70.065 45.16l4.406-7.982 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8980)",
+    stroke: "url(#linearGradient2199-3)",
     strokeWidth: "1.904",
     d: "M96.747 45.178l1.745-3.293"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2203)",
+    stroke: "url(#linearGradient6867)",
     strokeWidth: "1.904",
     d: "M43.688 187.646l4.406-7.982 8.86-.027 4.453 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2205)",
+    stroke: "url(#linearGradient6869)",
     strokeWidth: "1.904",
     d: "M57.012 179.665l4.406-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2207)",
+    stroke: "url(#linearGradient6871)",
     strokeWidth: "1.904",
     d: "M70.34 187.392l4.405-7.981 8.86-.028 4.454 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2209)",
+    stroke: "url(#linearGradient6873)",
     strokeWidth: "1.904",
     d: "M83.663 179.469l4.406-7.982 8.86-.027 4.454 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2211)",
+    stroke: "url(#linearGradient6875)",
     strokeWidth: "1.904",
     d: "M96.99 187.416l4.407-7.981 8.86-.028 4.453 7.953"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient2213)",
+    stroke: "url(#linearGradient6877)",
     strokeWidth: "1.904",
     d: "M110.317 179.466l4.405-7.981 8.86-.028 4.454 7.953-4.406 7.981"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8988)",
+    stroke: "url(#linearGradient2203-1)",
     strokeWidth: "1.904",
     d: "M34.815 187.775l-4.454-7.953 4.406-7.981 8.86-.027 4.453 7.952"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient9004)",
+    fill: "url(#linearGradient6879)",
     d: "M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z",
-    filter: "url(#S-3)",
+    filter: "url(#S-3-2)",
     opacity: "0.535",
     transform: "matrix(.47324 0 0 .4786 -664.61 190.134)"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient9006)",
+    fill: "url(#linearGradient6881)",
     d: "M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z",
-    filter: "url(#U-2)",
+    filter: "url(#U-2-9)",
     opacity: "0.827",
     transform: "matrix(.47324 0 0 .4786 -664.61 190.134)"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9008)",
+    stroke: "url(#linearGradient9008-6)",
     strokeWidth: "1.704",
     d: "M88.05 256.986c0 4.972-3.985 9.002-8.9 9.002-4.916 0-8.901-4.03-8.901-9.002 0-4.971 3.985-9.002 8.9-9.002 4.916 0 8.901 4.03 8.901 9.002z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient9010)",
+    stroke: "url(#linearGradient9010-5)",
     strokeWidth: "0.952",
     d: "M83.676 252.79l1.674 1.933-9.753 7.092-1.674-1.931z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9012)",
+    stroke: "url(#linearGradient9012-8)",
     strokeWidth: "1.704",
     d: "M87.243 37.385c0 4.971-3.985 9.002-8.9 9.002-4.916 0-8.901-4.03-8.901-9.002s3.985-9.002 8.9-9.002c4.916 0 8.901 4.03 8.901 9.002z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient9014)",
+    stroke: "url(#linearGradient9014-2)",
     strokeWidth: "0.952",
     d: "M82.871 33.19l1.674 1.931-9.753 7.093-1.674-1.931z"
-  }));
+  })));
 }
 
 var _default = Icon;
@@ -38270,8 +39726,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "145",
+    width: "120",
+    height: "215",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -39889,7 +41345,7 @@ function Icon() {
     gradientUnits: "userSpaceOnUse",
     xlinkHref: "#a"
   })), /*#__PURE__*/_react.default.createElement("g", {
-    transform: "matrix(9.07475 0 0 9.21425 -650.206 -1139.2)"
+    transform: "matrix(9.07558 0 0 9.18875 -650.275 -1135.262)"
   }, /*#__PURE__*/_react.default.createElement("path", {
     fill: "url(#linearGradient16269-5)",
     strokeWidth: "0.265",
@@ -40638,8 +42094,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "145",
+    width: "120",
+    height: "215",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -42303,16 +43759,16 @@ function Icon() {
   })), /*#__PURE__*/_react.default.createElement("g", {
     transform: "matrix(9.07148 0 0 9.18935 -649.972 -1135.347)"
   }, /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16269-5)",
+    fill: "url(#linearGradient16269)",
     strokeWidth: "0.265",
     d: "M78.729 153.463l-.662-.076c-1.468-.166-2.774-.642-3.628-1.324-.619-.493-1.443-1.503-1.539-1.883-.015-.065-.021-4.95-.011-10.855l.017-10.737.12-.263c.276-.599.959-1.331 1.584-1.698 1.962-1.151 5.02-1.655 7.732-1.274 1.859.262 3.736.994 4.611 1.798.189.174.741.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.917 1.969-.827.53-2.056.867-3.65.998-.586.048-3.128.062-3.494.02z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#radialGradient16271-4)",
+    fill: "url(#radialGradient16271)",
     stroke: "#3a4d53",
     strokeWidth: "0.156",
     d: "M79.372 152.497l-5.754-2.712.015-20.633 5.77-2.584h1.98l5.749 2.56-.013 20.766c-1.652.827-4.219 1.91-5.914 2.642l-1.833-.039zm7.36-2.824l.04-20.127-5.412-2.615-1.911-.005-5.462 2.66.026 20.002 5.398 2.533 1.778.02 5.543-2.468z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16273-7)",
+    fill: "url(#linearGradient16273)",
     stroke: "#ebe5e5",
     strokeOpacity: "0.297",
     strokeWidth: "0.158",
@@ -42664,7 +44120,7 @@ function Icon() {
     d: "M86.363 148.193h-.597"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8850-7)",
+    stroke: "url(#linearGradient8850)",
     strokeWidth: "0.269",
     d: "M86.361 149.548l-.01-19.57-5.078-2.523-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -43011,22 +44467,22 @@ function Icon() {
     transform: "translate(-1.562 144.231) scale(.05213)"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9008-7)",
+    stroke: "url(#linearGradient9008)",
     strokeWidth: "0.187",
     d: "M81.35 151.513a.98.98 0 11-1.962 0 .98.98 0 011.961 0z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient9010-6)",
+    stroke: "url(#linearGradient9010)",
     strokeWidth: "0.104",
     d: "M80.867 151.056l.185.21-1.074.773-.185-.21z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9012-3)",
+    stroke: "url(#linearGradient9012)",
     strokeWidth: "0.187",
     d: "M81.26 127.594a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient9014-1)",
+    stroke: "url(#linearGradient9014)",
     strokeWidth: "0.104",
     d: "M80.779 127.137l.184.21-1.074.773-.185-.21z"
   })));
@@ -43050,8 +44506,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "145",
+    width: "120",
+    height: "215",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -44759,11 +46215,11 @@ function Icon() {
   })), /*#__PURE__*/_react.default.createElement("g", {
     transform: "matrix(9.07379 0 0 9.18926 -653.32 -1134.367)"
   }, /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16269-5)",
+    fill: "url(#linearGradient16269-9)",
     strokeWidth: "0.265",
     d: "M79.08 153.358l-.662-.076c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.883-.016-.065-.021-4.95-.012-10.855l.017-10.737.121-.263c.276-.6.959-1.332 1.583-1.698 1.963-1.151 5.02-1.655 7.732-1.274 1.86.261 3.737.993 4.612 1.798.189.173.74.877.85 1.081.149.282.166 1.624.152 11.683l-.015 10.266-.15.296c-.284.563-1.212 1.515-1.918 1.968-.827.532-2.055.868-3.65.999-.585.048-3.127.062-3.494.019z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#radialGradient16271-4)",
+    fill: "url(#radialGradient16271-9)",
     stroke: "#3a4d53",
     strokeWidth: "0.156",
     d: "M79.723 152.392l-5.755-2.712.016-20.633 5.77-2.584h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.91-5.914 2.642l-1.833-.039zm7.36-2.824l.04-20.127-5.412-2.615-1.911-.005-5.463 2.66.027 20.001 5.398 2.534 1.778.02 5.543-2.468z"
@@ -45506,8 +46962,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "145",
+    width: "120",
+    height: "215",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -47299,14 +48755,14 @@ function Icon() {
   })), /*#__PURE__*/_react.default.createElement("g", {
     transform: "matrix(9.0722 0 0 9.19353 -653.206 -1135.026)"
   }, /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16269-5)",
+    fill: "url(#linearGradient16269)",
     strokeWidth: "0.265",
     d: "M79.08 153.358l-.662-.076c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.883-.016-.065-.021-4.95-.012-10.855l.017-10.737.121-.263c.276-.6.959-1.332 1.583-1.698 1.963-1.151 5.02-1.655 7.732-1.274 1.86.261 3.737.993 4.612 1.798.189.173.74.877.85 1.081.149.282.166 1.624.152 11.683l-.015 10.266-.15.296c-.284.563-1.212 1.515-1.918 1.968-.827.532-2.055.868-3.65.999-.585.048-3.127.062-3.494.019z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#radialGradient16271-4)",
+    fill: "url(#radialGradient16271)",
     stroke: "#3a4d53",
     strokeWidth: "0.156",
-    d: "M79.372 152.497l-5.754-2.712.015-20.633 5.77-2.584h1.98l5.749 2.56-.013 20.766c-1.652.827-4.219 1.91-5.914 2.642l-1.833-.039zm7.36-2.824l.04-20.127-5.412-2.615-1.911-.005-5.462 2.66.026 20.002 5.398 2.533 1.778.02 5.543-2.468z"
+    d: "M79.723 152.392l-5.755-2.712.016-20.633 5.77-2.584h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.91-5.914 2.642l-1.833-.039zm7.36-2.824l.04-20.127-5.412-2.615-1.911-.005-5.463 2.66.027 20.001 5.398 2.534 1.778.02 5.543-2.468z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "url(#linearGradient16273)",
     stroke: "#ebe5e5",
@@ -47660,7 +49116,7 @@ function Icon() {
     d: "M86.714 148.088h-.597"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8850-7)",
+    stroke: "url(#linearGradient8850)",
     strokeWidth: "0.269",
     d: "M86.712 149.442l-.011-19.569-5.077-2.524-1.765-.003-5.14 2.56.019 19.465 5.246 2.35 1.498-.001 5.194-2.26.036-.018z"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -48007,22 +49463,22 @@ function Icon() {
     transform: "translate(-1.212 144.126) scale(.05213)"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9008-7)",
+    stroke: "url(#linearGradient9008)",
     strokeWidth: "0.187",
     d: "M81.7 151.408a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient9010-6)",
+    stroke: "url(#linearGradient9010)",
     strokeWidth: "0.104",
     d: "M81.218 150.95l.185.211-1.075.773-.184-.21z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9012-3)",
+    stroke: "url(#linearGradient9012)",
     strokeWidth: "0.187",
     d: "M81.611 127.488a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient9014-1)",
+    stroke: "url(#linearGradient9014)",
     strokeWidth: "0.104",
     d: "M81.13 127.031l.184.21-1.074.773-.185-.21z"
   })));
@@ -48046,8 +49502,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "145",
+    width: "120",
+    height: "215",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -49887,12 +51343,12 @@ function Icon() {
     strokeWidth: "0.265",
     d: "M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#radialGradient16271-1)",
+    fill: "url(#radialGradient16271)",
     stroke: "#3a4d53",
     strokeWidth: "0.156",
     d: "M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16273)",
+    fill: "url(#linearGradient16273-1)",
     stroke: "#ebe5e5",
     strokeOpacity: "0.297",
     strokeWidth: "0.158",
@@ -50591,12 +52047,12 @@ function Icon() {
     transform: "translate(.144 143.895) scale(.05213)"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9008-0)",
+    stroke: "url(#linearGradient9008-3)",
     strokeWidth: "0.187",
     d: "M83.056 151.176a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient909)",
+    stroke: "url(#linearGradient9010-9)",
     strokeWidth: "0.104",
     d: "M82.574 150.72l.185.21-1.075.772-.184-.21z"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -50630,8 +52086,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "145",
+    width: "120",
+    height: "215",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -52511,11 +53967,11 @@ function Icon() {
   })), /*#__PURE__*/_react.default.createElement("g", {
     transform: "matrix(9.07379 0 0 9.18926 -665.624 -1132.24)"
   }, /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16269-5)",
+    fill: "url(#linearGradient16269)",
     strokeWidth: "0.265",
     d: "M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#radialGradient16271-4)",
+    fill: "url(#radialGradient16271)",
     stroke: "#3a4d53",
     strokeWidth: "0.156",
     d: "M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
@@ -52872,7 +54328,7 @@ function Icon() {
     d: "M88.07 147.856h-.597"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8850-7)",
+    stroke: "url(#linearGradient8850)",
     strokeWidth: "0.269",
     d: "M88.068 149.21l-.011-19.568-5.077-2.524-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -53219,22 +54675,22 @@ function Icon() {
     transform: "translate(.144 143.895) scale(.05213)"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9008-4)",
+    stroke: "url(#linearGradient9008)",
     strokeWidth: "0.187",
     d: "M83.056 151.176a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient9010-9)",
+    stroke: "url(#linearGradient9010)",
     strokeWidth: "0.104",
     d: "M82.574 150.72l.185.21-1.075.772-.184-.21z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9012-0)",
+    stroke: "url(#linearGradient9012)",
     strokeWidth: "0.187",
     d: "M82.967 127.257a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient9014-5)",
+    stroke: "url(#linearGradient9014)",
     strokeWidth: "0.104",
     d: "M82.486 126.8l.184.21-1.074.773-.185-.21z"
   })));
@@ -53258,8 +54714,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "145",
+    width: "120",
+    height: "215",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -55183,7 +56639,7 @@ function Icon() {
   })), /*#__PURE__*/_react.default.createElement("g", {
     transform: "matrix(9.07379 0 0 9.18926 -665.624 -1132.24)"
   }, /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16269-2)",
+    fill: "url(#linearGradient16269)",
     strokeWidth: "0.265",
     d: "M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -55192,7 +56648,7 @@ function Icon() {
     strokeWidth: "0.156",
     d: "M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16273)",
+    fill: "url(#linearGradient16273-7)",
     stroke: "#ebe5e5",
     strokeOpacity: "0.297",
     strokeWidth: "0.158",
@@ -55930,8 +57386,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "145",
+    width: "120",
+    height: "215",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -57899,11 +59355,11 @@ function Icon() {
   })), /*#__PURE__*/_react.default.createElement("g", {
     transform: "matrix(9.07379 0 0 9.18926 -665.624 -1132.24)"
   }, /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16269-5)",
+    fill: "url(#linearGradient16269)",
     strokeWidth: "0.265",
     d: "M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#radialGradient16271-4)",
+    fill: "url(#radialGradient16271)",
     stroke: "#3a4d53",
     strokeWidth: "0.156",
     d: "M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
@@ -58260,7 +59716,7 @@ function Icon() {
     d: "M88.07 147.856h-.597"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "none",
-    stroke: "url(#linearGradient8850-7)",
+    stroke: "url(#linearGradient8850)",
     strokeWidth: "0.269",
     d: "M88.068 149.21l-.011-19.568-5.077-2.524-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
   }), /*#__PURE__*/_react.default.createElement("path", {
@@ -58607,22 +60063,22 @@ function Icon() {
     transform: "translate(.144 143.895) scale(.05213)"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9008-4)",
+    stroke: "url(#linearGradient9008)",
     strokeWidth: "0.187",
     d: "M83.056 151.176a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient9010-9)",
+    stroke: "url(#linearGradient9010)",
     strokeWidth: "0.104",
     d: "M82.574 150.72l.185.21-1.075.772-.184-.21z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#494a4d",
-    stroke: "url(#linearGradient9012-1)",
+    stroke: "url(#linearGradient9012)",
     strokeWidth: "0.187",
     d: "M82.967 127.257a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
   }), /*#__PURE__*/_react.default.createElement("path", {
     fill: "#060a18",
-    stroke: "url(#linearGradient9014-5)",
+    stroke: "url(#linearGradient9014)",
     strokeWidth: "0.104",
     d: "M82.486 126.8l.184.21-1.074.773-.185-.21z"
   })));
@@ -58646,8 +60102,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "80",
-    height: "145",
+    width: "120",
+    height: "215",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -60663,12 +62119,12 @@ function Icon() {
     strokeWidth: "0.265",
     d: "M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#radialGradient16271-4)",
+    fill: "url(#radialGradient16271-6)",
     stroke: "#3a4d53",
     strokeWidth: "0.156",
     d: "M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
   }), /*#__PURE__*/_react.default.createElement("path", {
-    fill: "url(#linearGradient16273)",
+    fill: "url(#linearGradient16273-6)",
     stroke: "#ebe5e5",
     strokeOpacity: "0.297",
     strokeWidth: "0.158",
@@ -61462,7 +62918,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel/src/builtins/css-loader.js"}],"src/app.js":[function(require,module,exports) {
+},{"/home/bryce/Desktop/beClock/Frontend/src/css/font/Sportrop.ttf":[["Sportrop.9e5b7804.ttf","src/css/font/Sportrop.ttf"],"src/css/font/Sportrop.ttf"],"_css_loader":"node_modules/parcel/src/builtins/css-loader.js"}],"src/app.js":[function(require,module,exports) {
 "use strict";
 
 var _slicedToArray2 = _interopRequireDefault(require("@babel/runtime/helpers/slicedToArray"));
@@ -61472,6 +62928,8 @@ var _react = _interopRequireDefault(require("react"));
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
 var _moment = _interopRequireDefault(require("moment"));
+
+var _Header = _interopRequireDefault(require("./components/Header.js"));
 
 var _Default = _interopRequireDefault(require("./components/Default.js"));
 
@@ -61509,7 +62967,7 @@ var App = function App(props) {
       setTime = _useState2[1];
 
   setInterval(function () {
-    setTime((0, _moment.default)().format('hh:mm:ss'));
+    setTime((0, _moment.default)().format('HH:mm:ss'));
   }, 1000);
 
   var checkTime = function checkTime(num) {
@@ -61538,29 +62996,37 @@ var App = function App(props) {
 
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "app"
-  }, /*#__PURE__*/_react.default.createElement(_Default.default, null), /*#__PURE__*/_react.default.createElement(_One.default, null), /*#__PURE__*/_react.default.createElement(_Two.default, null), /*#__PURE__*/_react.default.createElement(_Three.default, null), /*#__PURE__*/_react.default.createElement(_Four.default, null), /*#__PURE__*/_react.default.createElement(_Five.default, null), /*#__PURE__*/_react.default.createElement(_Six.default, null), /*#__PURE__*/_react.default.createElement(_Seven.default, null), /*#__PURE__*/_react.default.createElement(_Eight.default, null), /*#__PURE__*/_react.default.createElement(_Nine.default, null), /*#__PURE__*/_react.default.createElement(_Zero.default, null), /*#__PURE__*/_react.default.createElement("div", {
-    style: {
-      color: "white"
-    }
-  }, time), /*#__PURE__*/_react.default.createElement("div", {
-    style: {
-      display: "flex"
-    }
-  }, /*#__PURE__*/_react.default.createElement("div", null, checkTime(0)), /*#__PURE__*/_react.default.createElement("div", null, checkTime(1)), /*#__PURE__*/_react.default.createElement("div", {
-    style: {
-      width: "calc(1vw)"
-    }
-  }, "\xA0"), /*#__PURE__*/_react.default.createElement("div", null, checkTime(3)), /*#__PURE__*/_react.default.createElement("div", null, checkTime(4)), /*#__PURE__*/_react.default.createElement("div", {
-    style: {
-      width: "calc(1vw)"
-    }
-  }, "\xA0"), /*#__PURE__*/_react.default.createElement("div", null, checkTime(6)), /*#__PURE__*/_react.default.createElement("div", null, checkTime(7))));
+  }, /*#__PURE__*/_react.default.createElement(_Header.default, null), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-one"
+  }, checkTime(0)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-space"
+  }, "\xA0"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-two"
+  }, checkTime(1)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-bigSpace"
+  }, "\xA0"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-three"
+  }, checkTime(3)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-space"
+  }, "\xA0"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-four"
+  }, checkTime(4)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-bigSpace"
+  }, "\xA0"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-five"
+  }, checkTime(6)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-space"
+  }, "\xA0"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "app__clock-six"
+  }, checkTime(7))));
 };
 
 var target = document.getElementById('app');
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(App, null), target);
-},{"@babel/runtime/helpers/slicedToArray":"node_modules/@babel/runtime/helpers/slicedToArray.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","moment":"node_modules/moment/moment.js","./components/Default.js":"src/components/Default.js","./components/One.js":"src/components/One.js","./components/Two.js":"src/components/Two.js","./components/Three.js":"src/components/Three.js","./components/Four.js":"src/components/Four.js","./components/Five.js":"src/components/Five.js","./components/Six.js":"src/components/Six.js","./components/Seven.js":"src/components/Seven.js","./components/Eight.js":"src/components/Eight.js","./components/Nine.js":"src/components/Nine.js","./components/Zero.js":"src/components/Zero.js","./css/style.scss":"src/css/style.scss"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"@babel/runtime/helpers/slicedToArray":"node_modules/@babel/runtime/helpers/slicedToArray.js","react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","moment":"node_modules/moment/moment.js","./components/Header.js":"src/components/Header.js","./components/Default.js":"src/components/Default.js","./components/One.js":"src/components/One.js","./components/Two.js":"src/components/Two.js","./components/Three.js":"src/components/Three.js","./components/Four.js":"src/components/Four.js","./components/Five.js":"src/components/Five.js","./components/Six.js":"src/components/Six.js","./components/Seven.js":"src/components/Seven.js","./components/Eight.js":"src/components/Eight.js","./components/Nine.js":"src/components/Nine.js","./components/Zero.js":"src/components/Zero.js","./css/style.scss":"src/css/style.scss"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -61588,7 +63054,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "43137" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39487" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

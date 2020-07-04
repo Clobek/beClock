@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import moment from 'moment';
+import Header from './components/Header.js'
 import Default from './components/Default.js'
 import One from './components/One.js'
+import Test from './components/One.js'
 import Two from './components/Two.js'
 import Three from './components/Three.js'
 import Four from './components/Four.js'
@@ -18,13 +20,13 @@ const {useState, useEffect} = React
 const App = (props) => {
     const [time, setTime] = useState('')
 
-    setInterval(function(){setTime(moment().format('hh:mm:ss'))}, 1000)
+    setInterval(function(){setTime(moment().format('HH:mm:ss'))}, 1000)
 
     const checkTime = (num) =>{
         if(time.split('')[num] == '0'){
             return <Zero/>
         } else if (time.split('')[num] == '1'){
-            return <One/>
+            return <Test/>
         } else if (time.split('')[num] == '2'){
             return <Two/>
         } else if (time.split('')[num] == '3'){
@@ -45,27 +47,19 @@ const App = (props) => {
     }
     return (
         <div className="app">
-            <Default/>
-            <One/>
-            <Two/>
-            <Three/>
-            <Four/>
-            <Five/>
-            <Six/>
-            <Seven/>
-            <Eight/>
-            <Nine/>
-            <Zero/>
-            <div style={{color: "white"}}>{time}</div>
-            <div style={{display: "flex"}}>
-                <div>{checkTime(0)}</div>
-                <div>{checkTime(1)}</div>
-                <div style={{width: "calc(1vw)"}}>&nbsp;</div>
-                <div>{checkTime(3)}</div>
-                <div>{checkTime(4)}</div>
-                <div style={{width: "calc(1vw)"}}>&nbsp;</div>
-                <div>{checkTime(6)}</div>
-                <div>{checkTime(7)}</div>
+            <Header/>
+            <div className="app__clock">
+                <div className="app__clock-one">{checkTime(0)}</div>
+                <div className="app__clock-space">&nbsp;</div>
+                <div className="app__clock-two">{checkTime(1)}</div>
+                <div className="app__clock-bigSpace">&nbsp;</div>
+                <div className="app__clock-three">{checkTime(3)}</div>
+                <div className="app__clock-space">&nbsp;</div>
+                <div className="app__clock-four">{checkTime(4)}</div>
+                <div className="app__clock-bigSpace">&nbsp;</div>
+                <div className="app__clock-five">{checkTime(6)}</div>
+                <div className="app__clock-space">&nbsp;</div>
+                <div className="app__clock-six">{checkTime(7)}</div>
             </div>
         </div>
     );

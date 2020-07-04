@@ -4,6 +4,21 @@ html > * {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "belock";
+  src: url("/Sportrop.9e5b7804.ttf");
+}
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 30px #ffa300, 0.3vmin 0.5vmin #ffa300;
+  }
+  50% {
+    text-shadow: 0 0 20px rgba(255, 163, 0, 0.7), 0.3vmin 0.5vmin rgba(255, 163, 0, 0.5);
+  }
+  100% {
+    text-shadow: 0 0 30px #ffa300, 0.3vmin 0.5vmin #ffa300;
+  }
+}
 body {
   width: 100vw;
   height: 100vh;
@@ -16,6 +31,48 @@ body #app {
 body #app .app {
   height: 100%;
   width: 100%;
+}
+body #app .app__header {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 20%;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: solid #fbea46;
+}
+body #app .app__header-name {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 2vmax;
+  padding-bottom: 1vmax;
+  align-items: center;
+  height: 100%;
+  font-size: 8vmax;
+  color: #fbea46;
+  font-family: belock;
+  box-sizing: border-box;
+  animation: glow 2s infinite;
+}
+body #app .app__clock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 12vmax;
+}
+body #app .app__clock-space {
+  width: 0.5%;
+}
+body #app .app__clock-bigSpace {
+  width: 3%;
+}
+body #app .app__clock-one, body #app .app__clock-two, body #app .app__clock-three, body #app .app__clock-four, body #app .app__clock-five, body #app .app__clock-six {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 6%;
 }
 
 /*# sourceMappingURL=/app.a6a4d504.css.map */

@@ -5,8 +5,8 @@ function Icon() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="80"
-      height="145"
+      width="120"
+      height="215"
       version="1.1"
       viewBox="0 0 160 297"
     >
@@ -1670,7 +1670,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
       </defs>
-      <g transform="matrix(9.07475 0 0 9.21425 -650.206 -1139.2)">
+      <g transform="matrix(9.07558 0 0 9.18875 -650.275 -1135.262)">
         <path
           fill="url(#linearGradient16269-5)"
           strokeWidth="0.265"
@@ -2518,28 +2518,24 @@ function Icon() {
           opacity="0.827"
           transform="translate(-1.562 144.231) scale(.05213)"
         ></path>
-        {/* Bottom screw */}
         <path
           fill="#494a4d"
           stroke="url(#linearGradient9008-7)"
           strokeWidth="0.187"
           d="M81.35 151.513a.98.98 0 11-1.962 0 .98.98 0 011.961 0z"
         ></path>
-        {/* Bottom screw-hole */}
         <path
           fill="#060a18"
           stroke="url(#linearGradient9010-6)"
           strokeWidth="0.104"
           d="M80.867 151.056l.185.21-1.074.773-.185-.21z"
         ></path>
-        {/* Top screw */}
         <path
           fill="#494a4d"
           stroke="url(#linearGradient9012-3)"
           strokeWidth="0.187"
           d="M81.26 127.594a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
         ></path>
-        {/* Top screw-hole */}
         <path
           fill="#060a18"
           stroke="url(#linearGradient9014-1)"
