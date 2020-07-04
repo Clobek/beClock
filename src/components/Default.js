@@ -5,10 +5,10 @@ function Icon() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="160"
-      height="288"
+      width="80"
+      height="141"
       version="1.1"
-      viewBox="0 0 160 288"
+      viewBox="0 0 160 287"
     >
       <defs>
         <linearGradient

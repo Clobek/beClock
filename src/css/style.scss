@@ -1,1 +1,20 @@
+html > * {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    #app{
+        height: 100%;
+        width: 100%;
+        .app {
+            height: 100%;
+            width: 100%;
+        }      
+    }
+      
+}

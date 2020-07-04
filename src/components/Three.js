@@ -238,6 +238,286 @@ function Icon() {
         <filter colorInterpolationFilters="sRGB">
           <feGaussianBlur stdDeviation="1.687"></feGaussianBlur>
         </filter>
+        <filter
+          width="4.213"
+          height="1.123"
+          x="-1.607"
+          y="-0.061"
+          colorInterpolationFilters="sRGB"
+        >
+          <feGaussianBlur stdDeviation="8.661"></feGaussianBlur>
+        </filter>
+        <linearGradient id="l">
+          <stop offset="0" stopColor="#931709"></stop>
+          <stop offset="0.471" stopColor="#b82508" stopOpacity="0.961"></stop>
+          <stop offset="0.598" stopColor="#dd3307" stopOpacity="0.925"></stop>
+          <stop offset="0.755" stopColor="#e22c06" stopOpacity="0.851"></stop>
+          <stop offset="0.953" stopColor="orange" stopOpacity="0.745"></stop>
+          <stop offset="1" stopColor="#ffad00" stopOpacity="0.992"></stop>
+        </linearGradient>
+        <filter colorInterpolationFilters="sRGB">
+          <feGaussianBlur stdDeviation="8.364"></feGaussianBlur>
+        </filter>
+        <filter
+          width="4.213"
+          height="1.123"
+          x="-1.607"
+          y="-0.061"
+          colorInterpolationFilters="sRGB"
+        >
+          <feGaussianBlur stdDeviation="8.661"></feGaussianBlur>
+        </filter>
+        <filter
+          width="1.2"
+          height="1.2"
+          x="-0.1"
+          y="-0.1"
+          colorInterpolationFilters="sRGB"
+        >
+          <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+        </filter>
+        <filter
+          width="1.2"
+          height="1.2"
+          x="-0.1"
+          y="-0.1"
+          colorInterpolationFilters="sRGB"
+        >
+          <feGaussianBlur stdDeviation="0.9"></feGaussianBlur>
+        </filter>
+        <filter colorInterpolationFilters="sRGB">
+          <feGaussianBlur stdDeviation="1.687"></feGaussianBlur>
+        </filter>
+        <filter colorInterpolationFilters="sRGB">
+          <feGaussianBlur stdDeviation="3.868"></feGaussianBlur>
+        </filter>
+        <radialGradient
+          cx="349"
+          cy="498.5"
+          r="131.11"
+          gradientTransform="matrix(.00205 -.17018 .04882 .00059 26.587 154.414)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#j"
+        ></radialGradient>
+        <radialGradient
+          cx="-816.34"
+          cy="-59.112"
+          r="100.8"
+          gradientTransform="matrix(.05213 0 0 .09064 94.322 100.794)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#h"
+        ></radialGradient>
+        <radialGradient
+          cx="-822.07"
+          cy="-55.121"
+          r="106.26"
+          gradientTransform="matrix(.05213 0 0 .0897 94.322 100.589)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#h"
+        ></radialGradient>
+        <radialGradient
+          cx="-823.52"
+          cy="-59.37"
+          r="102.38"
+          gradientTransform="matrix(.05213 0 0 .09275 94.322 100.93)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#h"
+        ></radialGradient>
+        <radialGradient
+          cx="-824.82"
+          cy="-63.561"
+          r="8.187"
+          gradientTransform="matrix(.05213 0 0 1.20144 94.322 171.57)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#h"
+        ></radialGradient>
+        <radialGradient
+          cx="-831.73"
+          cy="-73.753"
+          r="108"
+          gradientTransform="matrix(.05213 0 0 .08997 94.322 101.309)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#h"
+        ></radialGradient>
+        <linearGradient
+          x1="772.26"
+          x2="801.666"
+          y1="540.527"
+          y2="540.527"
+          gradientTransform="scale(1.45652 .68657)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#1d1120"></stop>
+          <stop offset="1" stopColor="#ebe6ec" stopOpacity="0.841"></stop>
+        </linearGradient>
+        <linearGradient
+          x1="751.999"
+          x2="781.406"
+          y1="565.145"
+          y2="565.145"
+          gradientTransform="scale(1.45652 .68657)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#1d1120"></stop>
+          <stop offset="1" stopColor="#ebe6ec" stopOpacity="0.841"></stop>
+        </linearGradient>
+        <linearGradient
+          x1="731.752"
+          x2="761.159"
+          y1="541.124"
+          y2="541.124"
+          gradientTransform="scale(1.45652 .68657)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#1d1120"></stop>
+          <stop offset="1" stopColor="#ebe6ec" stopOpacity="0.841"></stop>
+        </linearGradient>
+        <linearGradient
+          x1="711.492"
+          x2="740.898"
+          y1="565.931"
+          y2="565.931"
+          gradientTransform="scale(1.45652 .68657)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#1d1120"></stop>
+          <stop offset="1" stopColor="#ebe6ec" stopOpacity="0.841"></stop>
+        </linearGradient>
+        <linearGradient
+          x1="792.575"
+          x2="821.982"
+          y1="565.203"
+          y2="565.203"
+          gradientTransform="scale(1.45652 .68657)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#1d1120"></stop>
+          <stop offset="1" stopColor="#ebe6ec" stopOpacity="0.841"></stop>
+        </linearGradient>
+        <linearGradient
+          x1="976.82"
+          x2="1258.5"
+          y1="276.12"
+          y2="720.6"
+          gradientTransform="matrix(.95402 0 0 .97946 -1099.002 4.751)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#b"
+        ></linearGradient>
+        <linearGradient
+          x1="224.673"
+          x2="253.475"
+          y1="820.097"
+          y2="820.097"
+          gradientTransform="scale(1.45657 .68655)"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0" stopColor="#1d1120"></stop>
+          <stop offset="1" stopColor="#ebe6ec" stopOpacity="0.841"></stop>
+        </linearGradient>
+        <linearGradient
+          x1="1147.3"
+          x2="1060.9"
+          y1="605.28"
+          y2="305.68"
+          gradientTransform="translate(-745.587 182.997) scale(.97946)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#a"
+        ></linearGradient>
+        <linearGradient
+          x1="331.11"
+          x2="372.53"
+          y1="712.42"
+          y2="743.76"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#c"
+        ></linearGradient>
+        <linearGradient
+          x1="381.34"
+          x2="390.85"
+          y1="747.55"
+          y2="747.55"
+          gradientTransform="matrix(.9739 0 0 .99594 423.534 -526.422)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#d"
+        ></linearGradient>
+        <linearGradient
+          x1="384.99"
+          x2="390.85"
+          y1="747.14"
+          y2="747.55"
+          gradientTransform="matrix(.9739 0 0 .99594 423.534 -526.422)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#d"
+        ></linearGradient>
+        <linearGradient
+          x1="237.71"
+          x2="288.74"
+          y1="289.86"
+          y2="344.43"
+          gradientTransform="translate(-1185.05 -571.56)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#f"
+        ></linearGradient>
+        <filter colorInterpolationFilters="sRGB">
+          <feGaussianBlur stdDeviation="3.868"></feGaussianBlur>
+        </filter>
+        <linearGradient
+          x1="-214.5"
+          x2="-271.17"
+          y1="170.74"
+          y2="121.4"
+          gradientTransform="translate(-473.762 -1.414)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#g"
+        ></linearGradient>
+        <filter colorInterpolationFilters="sRGB">
+          <feGaussianBlur stdDeviation="1.687"></feGaussianBlur>
+        </filter>
+        <filter
+          width="4.213"
+          height="1.123"
+          x="-1.607"
+          y="-0.061"
+          colorInterpolationFilters="sRGB"
+        >
+          <feGaussianBlur stdDeviation="8.661"></feGaussianBlur>
+        </filter>
+        <filter colorInterpolationFilters="sRGB">
+          <feGaussianBlur stdDeviation="8.364"></feGaussianBlur>
+        </filter>
+        <filter
+          width="4.213"
+          height="1.123"
+          x="-1.607"
+          y="-0.061"
+          colorInterpolationFilters="sRGB"
+        >
+          <feGaussianBlur stdDeviation="8.661"></feGaussianBlur>
+        </filter>
+        <filter
+          width="1.2"
+          height="1.2"
+          x="-0.1"
+          y="-0.1"
+          colorInterpolationFilters="sRGB"
+        >
+          <feGaussianBlur stdDeviation="2"></feGaussianBlur>
+        </filter>
+        <filter
+          width="1.2"
+          height="1.2"
+          x="-0.1"
+          y="-0.1"
+          colorInterpolationFilters="sRGB"
+        >
+          <feGaussianBlur stdDeviation="0.9"></feGaussianBlur>
+        </filter>
+        <filter colorInterpolationFilters="sRGB">
+          <feGaussianBlur stdDeviation="1.687"></feGaussianBlur>
+        </filter>
+        <filter colorInterpolationFilters="sRGB">
+          <feGaussianBlur stdDeviation="3.868"></feGaussianBlur>
+        </filter>
         <linearGradient
           id="linearGradient16269"
           x1="410.4"
@@ -268,7 +548,7 @@ function Icon() {
           xlinkHref="#i"
         ></linearGradient>
         <filter
-          id="q"
+          id="q-3"
           width="4.213"
           height="1.123"
           x="-1.607"
@@ -286,15 +566,7 @@ function Icon() {
           gradientUnits="userSpaceOnUse"
           xlinkHref="#l"
         ></radialGradient>
-        <linearGradient id="l">
-          <stop offset="0" stopColor="#931709"></stop>
-          <stop offset="0.471" stopColor="#b82508" stopOpacity="0.961"></stop>
-          <stop offset="0.598" stopColor="#dd3307" stopOpacity="0.925"></stop>
-          <stop offset="0.755" stopColor="#e22c06" stopOpacity="0.851"></stop>
-          <stop offset="0.953" stopColor="orange" stopOpacity="0.745"></stop>
-          <stop offset="1" stopColor="#ffad00" stopOpacity="0.992"></stop>
-        </linearGradient>
-        <filter id="s" colorInterpolationFilters="sRGB">
+        <filter id="s-0" colorInterpolationFilters="sRGB">
           <feGaussianBlur stdDeviation="8.364"></feGaussianBlur>
         </filter>
         <filter
@@ -307,7 +579,7 @@ function Icon() {
           <feGaussianBlur stdDeviation="8.661"></feGaussianBlur>
         </filter>
         <filter
-          id="u"
+          id="u-4"
           width="1.2"
           height="1.2"
           x="-0.1"
@@ -317,7 +589,7 @@ function Icon() {
           <feGaussianBlur stdDeviation="2"></feGaussianBlur>
         </filter>
         <filter
-          id="v"
+          id="v-2"
           width="1.2"
           height="1.2"
           x="-0.1"
@@ -506,7 +778,7 @@ function Icon() {
           gradientUnits="userSpaceOnUse"
           xlinkHref="#g"
         ></linearGradient>
-        <filter id="S-3" colorInterpolationFilters="sRGB">
+        <filter id="S-2" colorInterpolationFilters="sRGB">
           <feGaussianBlur stdDeviation="1.687"></feGaussianBlur>
         </filter>
         <linearGradient
@@ -519,7 +791,7 @@ function Icon() {
           gradientUnits="userSpaceOnUse"
           xlinkHref="#f"
         ></linearGradient>
-        <filter id="U-2" colorInterpolationFilters="sRGB">
+        <filter id="U-0" colorInterpolationFilters="sRGB">
           <feGaussianBlur stdDeviation="3.868"></feGaussianBlur>
         </filter>
         <linearGradient
@@ -563,7 +835,7 @@ function Icon() {
           xlinkHref="#d"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2039"
+          id="linearGradient7393"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -573,7 +845,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2041"
+          id="linearGradient7395"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -583,7 +855,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2043"
+          id="linearGradient7397"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -593,7 +865,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2045"
+          id="linearGradient7399"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -603,7 +875,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2047"
+          id="linearGradient7401"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -613,7 +885,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2049"
+          id="linearGradient7403"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -623,7 +895,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2051"
+          id="linearGradient7405"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -633,7 +905,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2053"
+          id="linearGradient7407"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -643,7 +915,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2055"
+          id="linearGradient7409"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -653,7 +925,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2057"
+          id="linearGradient7411"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -663,7 +935,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2059"
+          id="linearGradient7413"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -673,7 +945,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2061"
+          id="linearGradient7415"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -683,7 +955,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2063"
+          id="linearGradient7417"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -693,7 +965,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2065"
+          id="linearGradient7419"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -703,7 +975,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2067"
+          id="linearGradient7421"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -713,7 +985,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2069"
+          id="linearGradient7423"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -723,7 +995,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2071"
+          id="linearGradient7425"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -733,7 +1005,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2073"
+          id="linearGradient7427"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -743,7 +1015,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2075"
+          id="linearGradient7429"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -753,7 +1025,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2077"
+          id="linearGradient7431"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -763,7 +1035,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2079"
+          id="linearGradient7433"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -773,7 +1045,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2081"
+          id="linearGradient7435"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -783,7 +1055,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2083"
+          id="linearGradient7437"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -793,7 +1065,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2085"
+          id="linearGradient7439"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -803,7 +1075,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2087"
+          id="linearGradient7441"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -813,7 +1085,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2089"
+          id="linearGradient7443"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -823,7 +1095,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2091"
+          id="linearGradient7445"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -833,7 +1105,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2093"
+          id="linearGradient7447"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -843,7 +1115,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2095"
+          id="linearGradient7449"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -853,7 +1125,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2097"
+          id="linearGradient7451"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -863,7 +1135,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2099"
+          id="linearGradient7453"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -873,7 +1145,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2101"
+          id="linearGradient7455"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -883,7 +1155,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2103"
+          id="linearGradient7457"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -893,7 +1165,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2105"
+          id="linearGradient7459"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -903,7 +1175,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2107"
+          id="linearGradient7461"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -913,7 +1185,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2109"
+          id="linearGradient7463"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -923,7 +1195,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2111"
+          id="linearGradient7465"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -933,7 +1205,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2113"
+          id="linearGradient7467"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -943,7 +1215,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2115"
+          id="linearGradient7469"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -953,7 +1225,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2117"
+          id="linearGradient7471"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -963,7 +1235,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2119"
+          id="linearGradient7473"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -973,7 +1245,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2121"
+          id="linearGradient7475"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -983,7 +1255,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2123"
+          id="linearGradient7477"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -993,7 +1265,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2125"
+          id="linearGradient7479"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1003,7 +1275,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2127"
+          id="linearGradient7481"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1013,7 +1285,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2129"
+          id="linearGradient7483"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1023,7 +1295,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2131"
+          id="linearGradient7485"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1033,7 +1305,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2133"
+          id="linearGradient7487"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1043,7 +1315,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2135"
+          id="linearGradient7489"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1053,7 +1325,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2137"
+          id="linearGradient7491"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1063,7 +1335,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2139"
+          id="linearGradient7493"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1073,7 +1345,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2141"
+          id="linearGradient7495"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1083,7 +1355,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2143"
+          id="linearGradient7497"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1093,7 +1365,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2145"
+          id="linearGradient7499"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1103,7 +1375,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2147"
+          id="linearGradient7501"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1113,7 +1385,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2149"
+          id="linearGradient7503"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1123,7 +1395,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2151"
+          id="linearGradient7505"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1133,7 +1405,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2153"
+          id="linearGradient7507"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1143,7 +1415,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2155"
+          id="linearGradient7509"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1153,7 +1425,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2157"
+          id="linearGradient7511"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1163,7 +1435,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2159"
+          id="linearGradient7513"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1173,7 +1445,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2161"
+          id="linearGradient7515"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1183,7 +1455,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2163"
+          id="linearGradient7517"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1193,7 +1465,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2165"
+          id="linearGradient7519"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1203,7 +1475,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2167"
+          id="linearGradient7521"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1213,7 +1485,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2169"
+          id="linearGradient7523"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1223,7 +1495,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2171"
+          id="linearGradient7525"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1233,7 +1505,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2173"
+          id="linearGradient7527"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1243,7 +1515,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2175"
+          id="linearGradient7529"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1253,7 +1525,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2177"
+          id="linearGradient7531"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1263,7 +1535,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2179"
+          id="linearGradient7533"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1273,7 +1545,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2181"
+          id="linearGradient7535"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1283,7 +1555,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2183"
+          id="linearGradient7537"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1293,7 +1565,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2185"
+          id="linearGradient7539"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1303,7 +1575,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2187"
+          id="linearGradient7541"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1313,7 +1585,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2189"
+          id="linearGradient7543"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1323,7 +1595,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2191"
+          id="linearGradient7545"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1333,7 +1605,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2193"
+          id="linearGradient7547"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1343,7 +1615,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2195"
+          id="linearGradient7549"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1353,7 +1625,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2197"
+          id="linearGradient7551"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1363,7 +1635,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2199"
+          id="linearGradient7553"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1373,7 +1645,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2201"
+          id="linearGradient7555"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1383,7 +1655,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2203"
+          id="linearGradient7557"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1393,7 +1665,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2205"
+          id="linearGradient7559"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1403,7 +1675,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2207"
+          id="linearGradient7561"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1413,7 +1685,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2209"
+          id="linearGradient7563"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1423,7 +1695,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2211"
+          id="linearGradient7565"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1433,7 +1705,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
         <linearGradient
-          id="linearGradient2213"
+          id="linearGradient7567"
           x1="1147.3"
           x2="1060.9"
           y1="605.28"
@@ -1443,7 +1715,7 @@ function Icon() {
           xlinkHref="#a"
         ></linearGradient>
       </defs>
-      <g transform="matrix(9.07784 0 0 9.18089 -650.427 -1134.037)">
+      <g transform="matrix(9.07148 0 0 9.18935 -649.972 -1135.347)">
         <path
           fill="url(#linearGradient16269)"
           strokeWidth="0.265"
@@ -1467,7 +1739,7 @@ function Icon() {
           stroke="#ff2124"
           strokeWidth="2.699"
           d="M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z"
-          filter="url(#q)"
+          filter="url(#q-3)"
           transform="matrix(.03143 0 0 .05233 69.887 112.67)"
         ></path>
         <path
@@ -1479,7 +1751,7 @@ function Icon() {
         <path
           fill="url(#radialGradient16275)"
           d="M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z"
-          filter="url(#s)"
+          filter="url(#s-0)"
           opacity="0.85"
           transform="matrix(.05456 0 0 .05476 61.334 112.127)"
         ></path>
@@ -1488,7 +1760,7 @@ function Icon() {
           stroke="#ff2124"
           strokeWidth="2.699"
           d="M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z"
-          filter="url(#q)"
+          filter="url(#q-3)"
           transform="matrix(.03143 0 0 .05233 83.77 112.614)"
         ></path>
         <path
@@ -1539,28 +1811,28 @@ function Icon() {
         <path
           fill="#fe72dc"
           stroke="#fe72dc"
-          strokeWidth="1.519"
-          d="M220.557 286.278v77.775h5.092v-77.775z"
-          filter="url(#u)"
-          transform="matrix(.26458 0 0 .26458 21.468 53.16)"
+          strokeWidth="5.896"
+          d="M612.63 362.01l172.9-1.615-82.879 143.71s89.342 2.938 93.674 77.926c-2.531 49.086-15.354 86.297-79.519 92.94-80.882 7.01-83.486-49.545-77.036-80.485-2.989-.545-18.97-8.915-22.969-9.927-11.06 38.102 4.711 115.83 100.6 113.75 86.639-4.68 103.21-78.374 103.8-113.04-2.264-80.714-83.049-100.39-83.049-100.39l66.595-117.97.05-23.777-192.11-1.138-.051 20.012z"
+          filter="url(#u-4)"
+          transform="matrix(.05213 0 0 .054 43.187 111.943)"
         ></path>
         <path
           fill="#fbea46"
           stroke="#ffa300"
-          strokeWidth="1.182"
-          d="M221.554 288.054v74.354h3.226v-74.354z"
-          filter="url(#v)"
-          transform="matrix(.26458 0 0 .26458 21.468 53.16)"
+          strokeWidth="5.896"
+          d="M622.72 345.87l-.051 13.231h171.23l-81.541 142.16s87.89 6.702 92.22 81.69c-2.53 49.085-17.798 93.11-83.45 97.973-80.882 7.009-91.282-53.633-82.492-87.157-2.989-.544-13.481-5.93-16.476-5.004-8.05 33.259 3.373 109.38 99.262 107.3 91.32-10.493 98.866-88.421 98.444-112.07-4.27-79.1-86.393-94.9-86.393-94.9l69.605-121.85.384-19.902-180.74-1.461z"
+          filter="url(#v-2)"
+          transform="matrix(.05213 0 0 .054 43.09 111.878)"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2039)"
+          stroke="url(#linearGradient7393)"
           strokeWidth="0.209"
           d="M78.262 151.257l.197-.424.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2041)"
+          stroke="url(#linearGradient7395)"
           strokeWidth="0.209"
           d="M79.927 151.675l.976-.003"
         ></path>
@@ -1572,19 +1844,19 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2043)"
+          stroke="url(#linearGradient7397)"
           strokeWidth="0.209"
           d="M86.345 130.984h-.597"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2045)"
+          stroke="url(#linearGradient7399)"
           strokeWidth="0.209"
           d="M86.336 132.712h-.596"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2047)"
+          stroke="url(#linearGradient7401)"
           strokeWidth="0.209"
           d="M86.358 134.454h-.596"
         ></path>
@@ -1610,49 +1882,49 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2049)"
+          stroke="url(#linearGradient7403)"
           strokeWidth="0.209"
           d="M75 136.168h-.597"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2051)"
+          stroke="url(#linearGradient7405)"
           strokeWidth="0.209"
           d="M75.026 134.504h-.596"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2053)"
+          stroke="url(#linearGradient7407)"
           strokeWidth="0.209"
           d="M76.475 135.36l.485-.869.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2055)"
+          stroke="url(#linearGradient7409)"
           strokeWidth="0.209"
           d="M77.942 134.49l.486-.869.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2057)"
+          stroke="url(#linearGradient7411)"
           strokeWidth="0.209"
           d="M79.409 135.333l.485-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2059)"
+          stroke="url(#linearGradient7413)"
           strokeWidth="0.209"
           d="M80.877 134.47l.485-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2061)"
+          stroke="url(#linearGradient7415)"
           strokeWidth="0.209"
           d="M82.348 135.335l.485-.87.976-.003.491.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2063)"
+          stroke="url(#linearGradient7417)"
           strokeWidth="0.209"
           d="M83.815 134.47l.486-.87.976-.003.49.866-.485.87"
         ></path>
@@ -1670,43 +1942,43 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2065)"
+          stroke="url(#linearGradient7419)"
           strokeWidth="0.209"
           d="M75 132.771h-.597"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2067)"
+          stroke="url(#linearGradient7421)"
           strokeWidth="0.209"
           d="M76.462 133.62l.485-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2069)"
+          stroke="url(#linearGradient7423)"
           strokeWidth="0.209"
           d="M77.93 132.75l.485-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2071)"
+          stroke="url(#linearGradient7425)"
           strokeWidth="0.209"
           d="M79.396 133.592l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2073)"
+          stroke="url(#linearGradient7427)"
           strokeWidth="0.209"
           d="M80.864 132.73l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2075)"
+          stroke="url(#linearGradient7429)"
           strokeWidth="0.209"
           d="M82.335 133.594l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2077)"
+          stroke="url(#linearGradient7431)"
           strokeWidth="0.209"
           d="M83.803 132.729l.485-.87.976-.003.49.866-.485.87"
         ></path>
@@ -1748,37 +2020,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2079)"
+          stroke="url(#linearGradient7433)"
           strokeWidth="0.209"
           d="M76.409 130.196l.485-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2081)"
+          stroke="url(#linearGradient7435)"
           strokeWidth="0.209"
           d="M77.877 129.326l.485-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2083)"
+          stroke="url(#linearGradient7437)"
           strokeWidth="0.209"
           d="M79.343 130.168l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2085)"
+          stroke="url(#linearGradient7439)"
           strokeWidth="0.209"
           d="M80.81 129.305l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2087)"
+          stroke="url(#linearGradient7441)"
           strokeWidth="0.209"
           d="M82.283 130.17l.485-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2089)"
+          stroke="url(#linearGradient7443)"
           strokeWidth="0.209"
           d="M85.535 129.568l-.29.568m-1.498-.831l.255-.491"
         ></path>
@@ -1829,37 +2101,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2091)"
+          stroke="url(#linearGradient7445)"
           strokeWidth="0.209"
           d="M76.699 150.562l.29-.593.977-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2093)"
+          stroke="url(#linearGradient7447)"
           strokeWidth="0.209"
           d="M77.973 149.97l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2095)"
+          stroke="url(#linearGradient7449)"
           strokeWidth="0.209"
           d="M79.44 150.811l.485-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2097)"
+          stroke="url(#linearGradient7451)"
           strokeWidth="0.209"
           d="M80.907 149.948l.485-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2099)"
+          stroke="url(#linearGradient7453)"
           strokeWidth="0.209"
           d="M82.379 150.813l.485-.87.976-.002.321.589"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2101)"
+          stroke="url(#linearGradient7455)"
           strokeWidth="0.209"
           d="M83.846 149.948l.485-.87.976-.003.428.783"
         ></path>
@@ -1883,37 +2155,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2103)"
+          stroke="url(#linearGradient7457)"
           strokeWidth="0.209"
           d="M76.462 131.892l.485-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2105)"
+          stroke="url(#linearGradient7459)"
           strokeWidth="0.209"
           d="M77.93 131.022l.485-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2107)"
+          stroke="url(#linearGradient7461)"
           strokeWidth="0.209"
           d="M79.396 131.864l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2109)"
+          stroke="url(#linearGradient7463)"
           strokeWidth="0.209"
           d="M80.864 131.001l.485-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2111)"
+          stroke="url(#linearGradient7465)"
           strokeWidth="0.209"
           d="M82.335 131.866l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2113)"
+          stroke="url(#linearGradient7467)"
           strokeWidth="0.209"
           d="M83.803 131l.485-.869.976-.003.49.866-.485.87"
         ></path>
@@ -1925,37 +2197,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2115)"
+          stroke="url(#linearGradient7469)"
           strokeWidth="0.209"
           d="M76.45 137.037l.485-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2117)"
+          stroke="url(#linearGradient7471)"
           strokeWidth="0.209"
           d="M77.917 136.167l.485-.87.976-.002.491.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2119)"
+          stroke="url(#linearGradient7473)"
           strokeWidth="0.209"
           d="M79.384 137.01l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2121)"
+          stroke="url(#linearGradient7475)"
           strokeWidth="0.209"
           d="M80.851 136.146l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2123)"
+          stroke="url(#linearGradient7477)"
           strokeWidth="0.209"
           d="M82.323 137.011l.485-.87.976-.002.491.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2125)"
+          stroke="url(#linearGradient7479)"
           strokeWidth="0.209"
           d="M83.79 136.146l.485-.87.976-.003.491.867-.485.869"
         ></path>
@@ -1967,37 +2239,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2127)"
+          stroke="url(#linearGradient7481)"
           strokeWidth="0.209"
           d="M76.45 138.777l.485-.869.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2129)"
+          stroke="url(#linearGradient7483)"
           strokeWidth="0.209"
           d="M77.917 137.908l.485-.87.976-.003.491.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2131)"
+          stroke="url(#linearGradient7485)"
           strokeWidth="0.209"
           d="M79.384 138.75l.485-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2133)"
+          stroke="url(#linearGradient7487)"
           strokeWidth="0.209"
           d="M80.851 137.887l.486-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2135)"
+          stroke="url(#linearGradient7489)"
           strokeWidth="0.209"
           d="M82.323 138.752l.485-.87.976-.002.491.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2137)"
+          stroke="url(#linearGradient7491)"
           strokeWidth="0.209"
           d="M83.79 137.886l.485-.869.976-.003.491.866-.485.87"
         ></path>
@@ -2009,37 +2281,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2139)"
+          stroke="url(#linearGradient7493)"
           strokeWidth="0.209"
           d="M76.45 140.467l.485-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2141)"
+          stroke="url(#linearGradient7495)"
           strokeWidth="0.209"
           d="M77.917 139.597l.485-.87.976-.002.491.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2143)"
+          stroke="url(#linearGradient7497)"
           strokeWidth="0.209"
           d="M79.384 140.44l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2145)"
+          stroke="url(#linearGradient7499)"
           strokeWidth="0.209"
           d="M80.851 139.576l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2147)"
+          stroke="url(#linearGradient7501)"
           strokeWidth="0.209"
           d="M82.323 140.441l.485-.87.976-.002.491.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2149)"
+          stroke="url(#linearGradient7503)"
           strokeWidth="0.209"
           d="M83.79 139.576l.485-.87.976-.003.491.867-.485.869"
         ></path>
@@ -2051,37 +2323,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2151)"
+          stroke="url(#linearGradient7505)"
           strokeWidth="0.209"
           d="M76.462 142.208l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2153)"
+          stroke="url(#linearGradient7507)"
           strokeWidth="0.209"
           d="M77.93 141.338l.485-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2155)"
+          stroke="url(#linearGradient7509)"
           strokeWidth="0.209"
           d="M79.396 142.18l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2157)"
+          stroke="url(#linearGradient7511)"
           strokeWidth="0.209"
           d="M80.864 141.317l.485-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2159)"
+          stroke="url(#linearGradient7513)"
           strokeWidth="0.209"
           d="M82.335 142.182l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2161)"
+          stroke="url(#linearGradient7515)"
           strokeWidth="0.209"
           d="M83.803 141.316l.485-.869.976-.003.49.866-.485.87"
         ></path>
@@ -2093,37 +2365,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2163)"
+          stroke="url(#linearGradient7517)"
           strokeWidth="0.209"
           d="M76.487 145.676l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2165)"
+          stroke="url(#linearGradient7519)"
           strokeWidth="0.209"
           d="M77.955 144.807l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2167)"
+          stroke="url(#linearGradient7521)"
           strokeWidth="0.209"
           d="M79.422 145.649l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2169)"
+          stroke="url(#linearGradient7523)"
           strokeWidth="0.209"
           d="M80.89 144.786l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2171)"
+          stroke="url(#linearGradient7525)"
           strokeWidth="0.209"
           d="M82.36 145.65l.486-.869.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2173)"
+          stroke="url(#linearGradient7527)"
           strokeWidth="0.209"
           d="M83.828 144.785l.485-.87.976-.002.49.866-.484.87"
         ></path>
@@ -2135,37 +2407,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2175)"
+          stroke="url(#linearGradient7529)"
           strokeWidth="0.209"
           d="M76.487 147.404l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2177)"
+          stroke="url(#linearGradient7531)"
           strokeWidth="0.209"
           d="M77.955 146.535l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2179)"
+          stroke="url(#linearGradient7533)"
           strokeWidth="0.209"
           d="M79.422 147.377l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2181)"
+          stroke="url(#linearGradient7535)"
           strokeWidth="0.209"
           d="M80.89 146.514l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2183)"
+          stroke="url(#linearGradient7537)"
           strokeWidth="0.209"
           d="M82.36 147.379l.486-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2185)"
+          stroke="url(#linearGradient7539)"
           strokeWidth="0.209"
           d="M83.828 146.513l.485-.87.976-.002.49.866-.484.87"
         ></path>
@@ -2177,37 +2449,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2187)"
+          stroke="url(#linearGradient7541)"
           strokeWidth="0.209"
           d="M76.487 149.106l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2189)"
+          stroke="url(#linearGradient7543)"
           strokeWidth="0.209"
           d="M77.955 148.237l.485-.87.976-.003.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2191)"
+          stroke="url(#linearGradient7545)"
           strokeWidth="0.209"
           d="M79.422 149.079l.485-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2193)"
+          stroke="url(#linearGradient7547)"
           strokeWidth="0.209"
           d="M80.89 148.216l.485-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2195)"
+          stroke="url(#linearGradient7549)"
           strokeWidth="0.209"
           d="M82.36 149.08l.486-.869.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2197)"
+          stroke="url(#linearGradient7551)"
           strokeWidth="0.209"
           d="M83.828 148.215l.485-.87.976-.002.49.866-.484.87"
         ></path>
@@ -2219,13 +2491,13 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2199)"
+          stroke="url(#linearGradient7553)"
           strokeWidth="0.209"
           d="M78.194 128.097l.19.365"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2201)"
+          stroke="url(#linearGradient7555)"
           strokeWidth="0.209"
           d="M79.368 128.44l.485-.869.976-.003.491.866"
         ></path>
@@ -2237,37 +2509,37 @@ function Icon() {
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2203)"
+          stroke="url(#linearGradient7557)"
           strokeWidth="0.209"
           d="M76.463 143.96l.485-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2205)"
+          stroke="url(#linearGradient7559)"
           strokeWidth="0.209"
           d="M77.93 143.091l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2207)"
+          stroke="url(#linearGradient7561)"
           strokeWidth="0.209"
           d="M79.398 143.933l.486-.87.976-.003.49.867"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2209)"
+          stroke="url(#linearGradient7563)"
           strokeWidth="0.209"
           d="M80.866 143.07l.485-.87.976-.003.491.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2211)"
+          stroke="url(#linearGradient7565)"
           strokeWidth="0.209"
           d="M82.334 143.935l.486-.87.976-.002.49.866"
         ></path>
         <path
           fill="none"
-          stroke="url(#linearGradient2213)"
+          stroke="url(#linearGradient7567)"
           strokeWidth="0.209"
           d="M83.802 143.07l.486-.87.976-.003.49.866-.485.87"
         ></path>
@@ -2280,14 +2552,14 @@ function Icon() {
         <path
           fill="url(#linearGradient9004)"
           d="M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z"
-          filter="url(#S-3)"
+          filter="url(#S-2)"
           opacity="0.535"
           transform="translate(-1.562 144.231) scale(.05213)"
         ></path>
         <path
           fill="url(#linearGradient9006)"
           d="M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z"
-          filter="url(#U-2)"
+          filter="url(#U-0)"
           opacity="0.827"
           transform="translate(-1.562 144.231) scale(.05213)"
         ></path>

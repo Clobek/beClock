@@ -28285,28 +28285,7 @@ if ("development" === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"src/components/Header.js":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _reactDom = _interopRequireDefault(require("react-dom"));
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var _default = function _default(props) {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "app__header"
-  }, "Hello World");
-};
-
-exports.default = _default;
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js"}],"src/components/Default.js":[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":"node_modules/react-dom/cjs/react-dom.development.js"}],"src/components/Default.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28322,10 +28301,10 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "160",
-    height: "288",
+    width: "80",
+    height: "141",
     version: "1.1",
-    viewBox: "0 0 160 288"
+    viewBox: "0 0 160 287"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
     id: "aa",
     x1: "410.4",
@@ -30406,8 +30385,8 @@ function Icon() {
   return /*#__PURE__*/_react.default.createElement("svg", {
     xmlns: "http://www.w3.org/2000/svg",
     xmlnsXlink: "http://www.w3.org/1999/xlink",
-    width: "160",
-    height: "297",
+    width: "80",
+    height: "145",
     version: "1.1",
     viewBox: "0 0 160 297"
   }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
@@ -32525,6 +32504,23142 @@ function Icon() {
 
 var _default = Icon;
 exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Two.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "80",
+    height: "145",
+    version: "1.1",
+    viewBox: "0 0 160 297"
+  }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "k"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#081e1e",
+    stopOpacity: "0.441"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#7a8a8a"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "j"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#fefbfb"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.894",
+    stopColor: "#787878",
+    stopOpacity: "0.502"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#4d4d4d"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "i"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#647172"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#a0bcbd",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-944.78",
+    x2: "-776.19",
+    y1: "927.98",
+    y2: "1224.9",
+    gradientTransform: "translate(92.588 33.674) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "h"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.16",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#555151"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-1030.3",
+    x2: "-832.93",
+    y1: "500.09",
+    y2: "868.4",
+    gradientTransform: "translate(97.258 56.89) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-512.93",
+    x2: "-332",
+    y1: "522.7",
+    y2: "819.59",
+    gradientTransform: "translate(71.507 56.222) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-680.48",
+    x2: "-521.71",
+    y1: "930.52",
+    y2: "1219.7",
+    gradientTransform: "translate(79.112 33.54) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "a"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "b"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.422",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#656262"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "c"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.354",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "d"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#ccbea6"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#625133",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "e"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "f"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "g"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.8"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "l"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#931709"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.471",
+    stopColor: "#b82508",
+    stopOpacity: "0.961"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#dd3307",
+    stopOpacity: "0.925"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.755",
+    stopColor: "#e22c06",
+    stopOpacity: "0.851"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.953",
+    stopColor: "orange",
+    stopOpacity: "0.745"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ffad00",
+    stopOpacity: "0.992"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "772.26",
+    x2: "801.666",
+    y1: "540.527",
+    y2: "540.527",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "751.999",
+    x2: "781.406",
+    y1: "565.145",
+    y2: "565.145",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "731.752",
+    x2: "761.159",
+    y1: "541.124",
+    y2: "541.124",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "711.492",
+    x2: "740.898",
+    y1: "565.931",
+    y2: "565.931",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "792.575",
+    x2: "821.982",
+    y1: "565.203",
+    y2: "565.203",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "224.673",
+    x2: "253.475",
+    y1: "820.097",
+    y2: "820.097",
+    gradientTransform: "scale(1.45657 .68655)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16269-5",
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(62.18 113.565) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16271-4",
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 55.32 198.652)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16273-7",
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(62.18 113.565) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "q-8",
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16275-4",
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "s-6",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "u-9",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "v-6",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8766-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.877 131.754)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8772-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8782-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8800-8",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8816-7",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8834-1",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8850-7",
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8852-2",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8868-6",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8884-1",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8900-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8916-6",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8932-1",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8948-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8964-9",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8980-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.805 107.65)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8988-9",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9004-0",
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(1910.902 -23.064)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "S-7",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9006-1",
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(1204.028 -600.772)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "U-9",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9008-7",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 64.022 117.59)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9010-6",
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 99.015 114.147)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9012-3",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 63.933 93.67)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9014-1",
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 98.926 90.228)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6381",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.877 131.754)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6383",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.877 131.754)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6385",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6387",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6389",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6391",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6393",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6395",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6397",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6399",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6401",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6403",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6405",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6407",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6409",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6411",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6413",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6415",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6417",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6419",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6421",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6423",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6425",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6427",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6429",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6431",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6433",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6435",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6437",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6439",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6441",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6443",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6445",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6447",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6449",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6451",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6453",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6455",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6457",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6459",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6461",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6463",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6465",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6467",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6469",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6471",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6473",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6475",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6477",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6479",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6481",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6483",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6485",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6487",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6489",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6491",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6493",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6495",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6497",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6499",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6501",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6503",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6505",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6507",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6509",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6511",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6513",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6515",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6517",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6519",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6521",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6523",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6525",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6527",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6529",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6531",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6533",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6535",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6537",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6539",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6541",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.805 107.65)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6543",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.805 107.65)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6545",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6547",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6549",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6551",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6553",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient6555",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "matrix(9.07475 0 0 9.21425 -650.206 -1139.2)"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16269-5)",
+    strokeWidth: "0.265",
+    d: "M78.729 153.463l-.662-.076c-1.468-.166-2.774-.642-3.628-1.324-.619-.493-1.443-1.503-1.539-1.883-.015-.065-.021-4.95-.011-10.855l.017-10.737.12-.263c.276-.599.959-1.331 1.584-1.698 1.962-1.151 5.02-1.655 7.732-1.274 1.859.262 3.736.994 4.611 1.798.189.174.741.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.917 1.969-.827.53-2.056.867-3.65.998-.586.048-3.128.062-3.494.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16271-4)",
+    stroke: "#3a4d53",
+    strokeWidth: "0.156",
+    d: "M79.372 152.497l-5.754-2.712.015-20.633 5.77-2.584h1.98l5.749 2.56-.013 20.766c-1.652.827-4.219 1.91-5.914 2.642l-1.833-.039zm7.36-2.824l.04-20.127-5.412-2.615-1.911-.005-5.462 2.66.026 20.002 5.398 2.533 1.778.02 5.543-2.468z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16273-7)",
+    stroke: "#ebe5e5",
+    strokeOpacity: "0.297",
+    strokeWidth: "0.158",
+    d: "M78.975 154.048c-2.646-.145-4.278-.675-5.503-1.786-.431-.391-.907-.953-1.078-1.275l-.16-.3.013-11.344.014-11.342.184-.31c.273-.46 1.058-1.233 1.5-1.48 2.571-1.43 6.32-1.876 9.717-1.154 1.317.28 2.751.83 3.528 1.355.422.284.973.912 1.229 1.4l.193.367v11.209l-.001 11.209-.132.283c-.16.345-.358.608-.81 1.077-1.149 1.192-2.537 1.767-4.85 2.009-.905.094-2.856.136-3.844.082zm3.634-.608c2.086-.23 3.21-.703 4.318-1.814.585-.587.882-.994 1.03-1.41.059-.164.071-2.066.073-10.822.003-11.904.043-10.736-.392-11.415-.478-.745-1.054-1.223-2.001-1.66-2.34-1.077-5.292-1.364-8.05-.782-1.222.257-2.503.748-3.255 1.248-.548.364-1.262 1.22-1.441 1.726-.067.19-.077 1.653-.077 10.921v10.703l.181.362c.1.2.368.576.596.837 1.265 1.449 2.9 2.062 5.884 2.206.656.032 2.458-.026 3.134-.1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-8)",
+    transform: "matrix(.03143 0 0 .05233 69.887 112.67)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#140b0b",
+    stroke: "#383838",
+    strokeWidth: "0.052",
+    d: "M81.174 152.021l5.453-2.41.027-19.997-5.323-2.577-1.85-.003-5.387 2.613.02 19.873 5.443 2.475 1.616.026z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16275-4)",
+    d: "M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z",
+    filter: "url(#s-6)",
+    opacity: "0.85",
+    transform: "matrix(.05456 0 0 .05476 61.334 112.127)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-8)",
+    transform: "matrix(.03143 0 0 .05233 83.77 112.614)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M75.93 134.81c-.519.027 0 .058-.67.066-.14-3.792 3.014-5.056 5.364-5.049 2.35.008 5.076.734 5.044 4.843-.032 4.109-3.481 4.762-4.866 5.367-1.637.728-2.688 1.644-3.791 2.969-1.104 1.325-1.291 4.99-1.291 4.99l10.011.079-.023.568s-8.11.05-10.718-.046c.102-2.986.27-3.304.677-4.467.505-1.52 2.148-3.613 4.885-4.754 1.387-.579 4.411-1.552 4.423-4.681.012-3.13-2.236-4.187-4.351-4.129-2.115.059-4.747 1.624-4.694 4.243z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M80.266 149.42c0-.205.094-.149.1-.625 4.139-.188 4.729-5.922 4.737-9.01.008-3.088-1.3-8.672-4.715-8.593-3.416.078-4.723 5.731-4.765 8.774-.042 3.043 1.105 8.81 4.646 8.852.006.314.023-.104.039.66-3.166-.13-5.25-3.553-5.261-9.508-.013-5.956 2.565-9.385 5.365-9.483 2.799-.097 5.238 3.775 5.308 9.269.069 5.493-1.853 9.726-5.454 9.664z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M83.2 149.106h-.656v-17.813l-6.576 13.79 10.243-.025v.67l-11.261-.025 7.506-16.03h.77l-.026 19.433z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M85.097 130.627l-9.052-.055-.826 9.33c1.767-.269 3.414-.574 5.328-.65 2.61-.002 4.747 1.995 4.764 4.686.017 2.69-2.08 5.11-4.806 5.202-2.177-.12-4.874-1.459-4.394-5.311-.465 0-.324-.133-.717-.13-.765 3.845 1.983 6.024 5.067 6.05 3.085.024 5.511-2.402 5.524-5.778.014-3.376-2.824-5.415-5.388-5.378-2.565.037-4.62.43-4.62.43l.675-7.77 8.394.104.087-.59-.035-.14z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M75.537 130.403l-.003.714h8.927l-4.251 7.675s4.582.362 4.808 4.41c-.132 2.651-.928 5.028-4.351 5.29-4.216.38-4.759-2.895-4.3-4.705-.156-.03-.703-.32-.86-.27-.419 1.795.177 5.905 5.175 5.793 4.761-.567 5.154-4.774 5.132-6.051-.222-4.27-4.503-5.124-4.503-5.124l3.628-6.579.02-1.075-9.422-.079z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.203 130.161c-1.888.061-5.739 4.185-6.353 8.819-.256 1.913-1.118 10.252 4.92 10.245 3.775-.166 5.786-2.531 5.963-5.954.125-3.684-3.106-5.483-5.452-5.465-2.346.018-4.809 1.85-4.809 1.85l-.047.812s2.719-2.162 4.905-1.932c2.186.23 4.683 1.273 4.803 4.75-.142 3.793-2.739 5.354-5.369 5.379-5.345-.164-4.48-7.532-4.29-9.505.436-4.002 4.254-8.188 5.55-8.266.062-.366.083-.22.18-.733z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M75.252 130.667h10.51v.927l-5.92 17.346-.616-.127 5.963-17.458-9.919.035-.018-.723z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M80.4 149.217c.018-.504.023-.107.032-.768-2.802.067-4.575-2.334-4.65-4.604-.072-2.22 1.684-3.8 4.368-4.481.85-.288 5.004-.798 5.116-4.468.03-2.367-1.389-4.841-4.586-4.753-3.197.088-4.755 2.357-4.664 4.854.122 3.016 2.686 3.647 4.564 4.259 1.05.62 4.51.525 4.688 4.396-.005 2.81-2.687 4.948-4.768 4.814.005.64-.035.01.008.747 2.481.057 5.456-2.04 5.459-5.586.027-4.63-5.92-5.249-5.92-5.249s-3.12-.647-3.198-3.447c-.062-1.67.963-3.975 3.902-3.989 3.016.071 3.722 2.365 3.706 3.98-.35 2.735-3.195 3.35-3.885 3.538-1.357.492-5.351 1.115-5.529 5.306.255 3.537 2.565 5.392 5.357 5.45z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M79.986 129.357v19.673h.854v-19.673z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fe72dc",
+    stroke: "#fe72dc",
+    strokeWidth: "6",
+    d: "M703.2 403.13c-10.498.508-6.381.59-24.173.73-2.332-84.432 65.743-106.03 113.3-105.88 47.552.147 109.61 17.26 108.96 96.079-.65 78.819-74.152 98.27-102.16 109.88-33.137 13.966-51.203 29.923-73.524 55.345-22.321 25.423-25.587 86.165-25.587 86.165l202.01-.63-1.541 20.48s-173.66 1.472-226.41-.36c2.069-57.273 3.885-67.095 12.107-89.397 10.213-29.163 48.244-74.618 103.62-96.512 28.072-11.1 84.46-24.447 84.708-84.48.249-60.033-38.858-72.864-81.65-71.743-42.792 1.12-90.723 30.076-89.654 80.328z",
+    filter: "url(#u-9)",
+    transform: "matrix(.04943 0 0 .05213 41.453 114.089)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fbea46",
+    stroke: "#ffa300",
+    strokeWidth: "6",
+    d: "M697.88 396.92c-10.498.508 0 1.121-13.537 1.262-2.864-72.732 60.956-96.988 108.51-96.84 47.552.147 102.7 14.069 102.05 92.888-.65 78.819-70.429 91.357-98.437 102.96-33.137 13.966-54.394 31.518-76.715 56.94-22.321 25.423-26.119 95.738-26.119 95.738l202.55 1.498-.477 10.908s-164.08.939-216.84-.892c2.069-57.274 5.48-63.373 13.702-85.675 10.213-29.163 43.458-69.3 98.83-91.193 28.072-11.099 89.246-29.765 89.495-89.798.249-60.033-45.24-80.31-88.031-79.189-42.792 1.12-96.041 31.14-94.972 81.392z",
+    filter: "url(#v-6)",
+    transform: "matrix(.04943 0 0 .05213 41.475 114.052)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6381)",
+    strokeWidth: "0.209",
+    d: "M78.262 151.257l.197-.424.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6383)",
+    strokeWidth: "0.209",
+    d: "M79.927 151.675l.976-.003"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8766-4)",
+    strokeWidth: "0.209",
+    d: "M80.91 151.681l.485-.869.976-.003.233.44"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6385)",
+    strokeWidth: "0.209",
+    d: "M86.345 130.984h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6387)",
+    strokeWidth: "0.209",
+    d: "M86.336 132.712h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6389)",
+    strokeWidth: "0.209",
+    d: "M86.358 134.454h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.318 136.136h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M74.99 139.62h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.004 137.924h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6391)",
+    strokeWidth: "0.209",
+    d: "M75 136.168h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6393)",
+    strokeWidth: "0.209",
+    d: "M75.026 134.504h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6395)",
+    strokeWidth: "0.209",
+    d: "M76.475 135.36l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6397)",
+    strokeWidth: "0.209",
+    d: "M77.942 134.49l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6399)",
+    strokeWidth: "0.209",
+    d: "M79.409 135.333l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6401)",
+    strokeWidth: "0.209",
+    d: "M80.877 134.47l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6403)",
+    strokeWidth: "0.209",
+    d: "M82.348 135.335l.485-.87.976-.003.491.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6405)",
+    strokeWidth: "0.209",
+    d: "M83.815 134.47l.486-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8782-4)",
+    strokeWidth: "0.209",
+    d: "M75.495 135.374l-.49-.866.485-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.336 137.883h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6407)",
+    strokeWidth: "0.209",
+    d: "M75 132.771h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6409)",
+    strokeWidth: "0.209",
+    d: "M76.462 133.62l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6411)",
+    strokeWidth: "0.209",
+    d: "M77.93 132.75l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6413)",
+    strokeWidth: "0.209",
+    d: "M79.396 133.592l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6415)",
+    strokeWidth: "0.209",
+    d: "M80.864 132.73l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6417)",
+    strokeWidth: "0.209",
+    d: "M82.335 133.594l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6419)",
+    strokeWidth: "0.209",
+    d: "M83.803 132.729l.485-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8800-8)",
+    strokeWidth: "0.209",
+    d: "M75.482 133.633l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.327 141.32h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#26121c",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.336 143.07h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.345 144.785h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.345 146.504h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.332 139.57h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6421)",
+    strokeWidth: "0.209",
+    d: "M76.409 130.196l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6423)",
+    strokeWidth: "0.209",
+    d: "M77.877 129.326l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6425)",
+    strokeWidth: "0.209",
+    d: "M79.343 130.168l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6427)",
+    strokeWidth: "0.209",
+    d: "M80.81 129.305l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6429)",
+    strokeWidth: "0.209",
+    d: "M82.283 130.17l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6431)",
+    strokeWidth: "0.209",
+    d: "M85.535 129.568l-.29.568m-1.498-.831l.255-.491"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8816-7)",
+    strokeWidth: "0.209",
+    d: "M76.638 128.88l.255.457m-1.43.859l-.33-.557"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8772-0)",
+    strokeWidth: "0.209",
+    d: "M74.995 131.048H74.4"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#c3bec4",
+    fillOpacity: "0.871",
+    stroke: "#d2cfcf",
+    strokeWidth: "0.208",
+    d: "M75.031 148.264h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.019 146.55h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.031 144.828h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75 143.126h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.013 141.352h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6433)",
+    strokeWidth: "0.209",
+    d: "M76.699 150.562l.29-.593.977-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6435)",
+    strokeWidth: "0.209",
+    d: "M77.973 149.97l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6437)",
+    strokeWidth: "0.209",
+    d: "M79.44 150.811l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6439)",
+    strokeWidth: "0.209",
+    d: "M80.907 149.948l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6441)",
+    strokeWidth: "0.209",
+    d: "M82.379 150.813l.485-.87.976-.002.321.589"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6443)",
+    strokeWidth: "0.209",
+    d: "M83.846 149.948l.485-.87.976-.003.428.783"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8834-1)",
+    strokeWidth: "0.209",
+    d: "M75.098 149.85l.422-.733.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.363 148.193h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8850-7)",
+    strokeWidth: "0.269",
+    d: "M86.361 149.548l-.01-19.57-5.078-2.523-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6445)",
+    strokeWidth: "0.209",
+    d: "M76.462 131.892l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6447)",
+    strokeWidth: "0.209",
+    d: "M77.93 131.022l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6449)",
+    strokeWidth: "0.209",
+    d: "M79.396 131.864l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6451)",
+    strokeWidth: "0.209",
+    d: "M80.864 131.001l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6453)",
+    strokeWidth: "0.209",
+    d: "M82.335 131.866l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6455)",
+    strokeWidth: "0.209",
+    d: "M83.803 131l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8852-2)",
+    strokeWidth: "0.209",
+    d: "M75.482 131.905l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6457)",
+    strokeWidth: "0.209",
+    d: "M76.45 137.037l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6459)",
+    strokeWidth: "0.209",
+    d: "M77.917 136.167l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6461)",
+    strokeWidth: "0.209",
+    d: "M79.384 137.01l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6463)",
+    strokeWidth: "0.209",
+    d: "M80.851 136.146l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6465)",
+    strokeWidth: "0.209",
+    d: "M82.323 137.011l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6467)",
+    strokeWidth: "0.209",
+    d: "M83.79 136.146l.485-.87.976-.003.491.867-.485.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8868-6)",
+    strokeWidth: "0.209",
+    d: "M75.47 137.05l-.49-.866.484-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6469)",
+    strokeWidth: "0.209",
+    d: "M76.45 138.777l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6471)",
+    strokeWidth: "0.209",
+    d: "M77.917 137.908l.485-.87.976-.003.491.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6473)",
+    strokeWidth: "0.209",
+    d: "M79.384 138.75l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6475)",
+    strokeWidth: "0.209",
+    d: "M80.851 137.887l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6477)",
+    strokeWidth: "0.209",
+    d: "M82.323 138.752l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6479)",
+    strokeWidth: "0.209",
+    d: "M83.79 137.886l.485-.869.976-.003.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8884-1)",
+    strokeWidth: "0.209",
+    d: "M75.47 138.791l-.49-.866.484-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6481)",
+    strokeWidth: "0.209",
+    d: "M76.45 140.467l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6483)",
+    strokeWidth: "0.209",
+    d: "M77.917 139.597l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6485)",
+    strokeWidth: "0.209",
+    d: "M79.384 140.44l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6487)",
+    strokeWidth: "0.209",
+    d: "M80.851 139.576l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6489)",
+    strokeWidth: "0.209",
+    d: "M82.323 140.441l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6491)",
+    strokeWidth: "0.209",
+    d: "M83.79 139.576l.485-.87.976-.003.491.867-.485.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8900-0)",
+    strokeWidth: "0.209",
+    d: "M75.47 140.48l-.49-.866.484-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6493)",
+    strokeWidth: "0.209",
+    d: "M76.462 142.208l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6495)",
+    strokeWidth: "0.209",
+    d: "M77.93 141.338l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6497)",
+    strokeWidth: "0.209",
+    d: "M79.396 142.18l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6499)",
+    strokeWidth: "0.209",
+    d: "M80.864 141.317l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6501)",
+    strokeWidth: "0.209",
+    d: "M82.335 142.182l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6503)",
+    strokeWidth: "0.209",
+    d: "M83.803 141.316l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8916-6)",
+    strokeWidth: "0.209",
+    d: "M75.482 142.221l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6505)",
+    strokeWidth: "0.209",
+    d: "M76.487 145.676l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6507)",
+    strokeWidth: "0.209",
+    d: "M77.955 144.807l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6509)",
+    strokeWidth: "0.209",
+    d: "M79.422 145.649l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6511)",
+    strokeWidth: "0.209",
+    d: "M80.89 144.786l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6513)",
+    strokeWidth: "0.209",
+    d: "M82.36 145.65l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6515)",
+    strokeWidth: "0.209",
+    d: "M83.828 144.785l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8932-1)",
+    strokeWidth: "0.209",
+    d: "M75.508 145.69l-.491-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6517)",
+    strokeWidth: "0.209",
+    d: "M76.487 147.404l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6519)",
+    strokeWidth: "0.209",
+    d: "M77.955 146.535l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6521)",
+    strokeWidth: "0.209",
+    d: "M79.422 147.377l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6523)",
+    strokeWidth: "0.209",
+    d: "M80.89 146.514l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6525)",
+    strokeWidth: "0.209",
+    d: "M82.36 147.379l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6527)",
+    strokeWidth: "0.209",
+    d: "M83.828 146.513l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8948-5)",
+    strokeWidth: "0.209",
+    d: "M75.508 147.418l-.491-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6529)",
+    strokeWidth: "0.209",
+    d: "M76.487 149.106l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6531)",
+    strokeWidth: "0.209",
+    d: "M77.955 148.237l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6533)",
+    strokeWidth: "0.209",
+    d: "M79.422 149.079l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6535)",
+    strokeWidth: "0.209",
+    d: "M80.89 148.216l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6537)",
+    strokeWidth: "0.209",
+    d: "M82.36 149.08l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6539)",
+    strokeWidth: "0.209",
+    d: "M83.828 148.215l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8964-9)",
+    strokeWidth: "0.209",
+    d: "M75.508 149.12l-.491-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6541)",
+    strokeWidth: "0.209",
+    d: "M78.194 128.097l.19.365"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6543)",
+    strokeWidth: "0.209",
+    d: "M79.368 128.44l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8980-4)",
+    strokeWidth: "0.209",
+    d: "M82.307 128.442l.193-.358"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6545)",
+    strokeWidth: "0.209",
+    d: "M76.463 143.96l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6547)",
+    strokeWidth: "0.209",
+    d: "M77.93 143.091l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6549)",
+    strokeWidth: "0.209",
+    d: "M79.398 143.933l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6551)",
+    strokeWidth: "0.209",
+    d: "M80.866 143.07l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6553)",
+    strokeWidth: "0.209",
+    d: "M82.334 143.935l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient6555)",
+    strokeWidth: "0.209",
+    d: "M83.802 143.07l.486-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8988-9)",
+    strokeWidth: "0.209",
+    d: "M75.485 143.974l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9004-0)",
+    d: "M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z",
+    filter: "url(#S-7)",
+    opacity: "0.535",
+    transform: "translate(-1.562 144.231) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9006-1)",
+    d: "M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z",
+    filter: "url(#U-9)",
+    opacity: "0.827",
+    transform: "translate(-1.562 144.231) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9008-7)",
+    strokeWidth: "0.187",
+    d: "M81.35 151.513a.98.98 0 11-1.962 0 .98.98 0 011.961 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9010-6)",
+    strokeWidth: "0.104",
+    d: "M80.867 151.056l.185.21-1.074.773-.185-.21z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9012-3)",
+    strokeWidth: "0.187",
+    d: "M81.26 127.594a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9014-1)",
+    strokeWidth: "0.104",
+    d: "M80.779 127.137l.184.21-1.074.773-.185-.21z"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Three.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "80",
+    height: "145",
+    version: "1.1",
+    viewBox: "0 0 160 297"
+  }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "k"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#081e1e",
+    stopOpacity: "0.441"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#7a8a8a"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "j"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#fefbfb"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.894",
+    stopColor: "#787878",
+    stopOpacity: "0.502"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#4d4d4d"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "i"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#647172"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#a0bcbd",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-944.78",
+    x2: "-776.19",
+    y1: "927.98",
+    y2: "1224.9",
+    gradientTransform: "translate(92.588 33.674) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "h"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.16",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#555151"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-1030.3",
+    x2: "-832.93",
+    y1: "500.09",
+    y2: "868.4",
+    gradientTransform: "translate(97.258 56.89) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-512.93",
+    x2: "-332",
+    y1: "522.7",
+    y2: "819.59",
+    gradientTransform: "translate(71.507 56.222) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-680.48",
+    x2: "-521.71",
+    y1: "930.52",
+    y2: "1219.7",
+    gradientTransform: "translate(79.112 33.54) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "a"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "b"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.422",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#656262"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "c"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.354",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "d"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#ccbea6"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#625133",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "e"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "f"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "g"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.8"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "l"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#931709"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.471",
+    stopColor: "#b82508",
+    stopOpacity: "0.961"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#dd3307",
+    stopOpacity: "0.925"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.755",
+    stopColor: "#e22c06",
+    stopOpacity: "0.851"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.953",
+    stopColor: "orange",
+    stopOpacity: "0.745"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ffad00",
+    stopOpacity: "0.992"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "772.26",
+    x2: "801.666",
+    y1: "540.527",
+    y2: "540.527",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "751.999",
+    x2: "781.406",
+    y1: "565.145",
+    y2: "565.145",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "731.752",
+    x2: "761.159",
+    y1: "541.124",
+    y2: "541.124",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "711.492",
+    x2: "740.898",
+    y1: "565.931",
+    y2: "565.931",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "792.575",
+    x2: "821.982",
+    y1: "565.203",
+    y2: "565.203",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "224.673",
+    x2: "253.475",
+    y1: "820.097",
+    y2: "820.097",
+    gradientTransform: "scale(1.45657 .68655)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16269",
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(62.18 113.565) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16271",
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 55.32 198.652)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16273",
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(62.18 113.565) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "q-3",
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16275",
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "s-0",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "u-4",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "v-2",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8766",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.877 131.754)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8772",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8782",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8800",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8816",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8834",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8850",
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8852",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8868",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8884",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8900",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8916",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8932",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8948",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8964",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8980",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.805 107.65)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8988",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9004",
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(1910.902 -23.064)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "S-2",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9006",
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(1204.028 -600.772)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "U-0",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9008",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 64.022 117.59)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9010",
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 99.015 114.147)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9012",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 63.933 93.67)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9014",
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 98.926 90.228)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7393",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.877 131.754)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7395",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.877 131.754)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7397",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7399",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7401",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7403",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7405",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7407",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7409",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7411",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7413",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7415",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7417",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.846 114.542)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7419",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.849 114.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7421",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7423",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7425",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7427",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7429",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7431",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 112.801)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7433",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7435",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7437",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7439",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7441",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7443",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.78 109.377)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7445",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7447",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7449",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7451",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7453",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7455",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.876 130.02)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7457",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7459",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7461",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7463",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7465",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7467",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 111.073)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7469",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7471",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7473",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7475",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7477",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7479",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 116.218)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7481",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7483",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7485",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7487",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7489",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7491",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 117.959)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7493",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7495",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7497",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7499",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7501",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7503",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.82 119.648)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7505",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7507",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7509",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7511",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7513",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7515",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.833 121.39)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7517",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7519",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7521",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7523",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7525",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7527",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 124.858)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7529",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7531",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7533",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7535",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7537",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7539",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 126.586)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7541",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7543",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7545",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7547",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7549",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7551",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.859 128.288)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7553",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.805 107.65)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7555",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.805 107.65)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7557",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7559",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7561",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7563",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7565",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient7567",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 24.834 123.143)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "matrix(9.07148 0 0 9.18935 -649.972 -1135.347)"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16269)",
+    strokeWidth: "0.265",
+    d: "M78.729 153.463l-.662-.076c-1.468-.166-2.774-.642-3.628-1.324-.619-.493-1.443-1.503-1.539-1.883-.015-.065-.021-4.95-.011-10.855l.017-10.737.12-.263c.276-.599.959-1.331 1.584-1.698 1.962-1.151 5.02-1.655 7.732-1.274 1.859.262 3.736.994 4.611 1.798.189.174.741.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.917 1.969-.827.53-2.056.867-3.65.998-.586.048-3.128.062-3.494.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16271)",
+    stroke: "#3a4d53",
+    strokeWidth: "0.156",
+    d: "M79.372 152.497l-5.754-2.712.015-20.633 5.77-2.584h1.98l5.749 2.56-.013 20.766c-1.652.827-4.219 1.91-5.914 2.642l-1.833-.039zm7.36-2.824l.04-20.127-5.412-2.615-1.911-.005-5.462 2.66.026 20.002 5.398 2.533 1.778.02 5.543-2.468z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16273)",
+    stroke: "#ebe5e5",
+    strokeOpacity: "0.297",
+    strokeWidth: "0.158",
+    d: "M78.975 154.048c-2.646-.145-4.278-.675-5.503-1.786-.431-.391-.907-.953-1.078-1.275l-.16-.3.013-11.344.014-11.342.184-.31c.273-.46 1.058-1.233 1.5-1.48 2.571-1.43 6.32-1.876 9.717-1.154 1.317.28 2.751.83 3.528 1.355.422.284.973.912 1.229 1.4l.193.367v11.209l-.001 11.209-.132.283c-.16.345-.358.608-.81 1.077-1.149 1.192-2.537 1.767-4.85 2.009-.905.094-2.856.136-3.844.082zm3.634-.608c2.086-.23 3.21-.703 4.318-1.814.585-.587.882-.994 1.03-1.41.059-.164.071-2.066.073-10.822.003-11.904.043-10.736-.392-11.415-.478-.745-1.054-1.223-2.001-1.66-2.34-1.077-5.292-1.364-8.05-.782-1.222.257-2.503.748-3.255 1.248-.548.364-1.262 1.22-1.441 1.726-.067.19-.077 1.653-.077 10.921v10.703l.181.362c.1.2.368.576.596.837 1.265 1.449 2.9 2.062 5.884 2.206.656.032 2.458-.026 3.134-.1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-3)",
+    transform: "matrix(.03143 0 0 .05233 69.887 112.67)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#140b0b",
+    stroke: "#383838",
+    strokeWidth: "0.052",
+    d: "M81.174 152.021l5.453-2.41.027-19.997-5.323-2.577-1.85-.003-5.387 2.613.02 19.873 5.443 2.475 1.616.026z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16275)",
+    d: "M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z",
+    filter: "url(#s-0)",
+    opacity: "0.85",
+    transform: "matrix(.05456 0 0 .05476 61.334 112.127)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-3)",
+    transform: "matrix(.03143 0 0 .05233 83.77 112.614)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M75.93 134.81c-.519.027 0 .058-.67.066-.14-3.792 3.014-5.056 5.364-5.049 2.35.008 5.076.734 5.044 4.843-.032 4.109-3.481 4.762-4.866 5.367-1.637.728-2.688 1.644-3.791 2.969-1.104 1.325-1.291 4.99-1.291 4.99l10.011.079-.023.568s-8.11.05-10.718-.046c.102-2.986.27-3.304.677-4.467.505-1.52 2.148-3.613 4.885-4.754 1.387-.579 4.411-1.552 4.423-4.681.012-3.13-2.236-4.187-4.351-4.129-2.115.059-4.747 1.624-4.694 4.243z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M80.266 149.42c0-.205.094-.149.1-.625 4.139-.188 4.729-5.922 4.737-9.01.008-3.088-1.3-8.672-4.715-8.593-3.416.078-4.723 5.731-4.765 8.774-.042 3.043 1.105 8.81 4.646 8.852.006.314.023-.104.039.66-3.166-.13-5.25-3.553-5.261-9.508-.013-5.956 2.565-9.385 5.365-9.483 2.799-.097 5.238 3.775 5.308 9.269.069 5.493-1.853 9.726-5.454 9.664z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M83.2 149.106h-.656v-17.813l-6.576 13.79 10.243-.025v.67l-11.261-.025 7.506-16.03h.77l-.026 19.433z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M85.097 130.627l-9.052-.055-.826 9.33c1.767-.269 3.414-.574 5.328-.65 2.61-.002 4.747 1.995 4.764 4.686.017 2.69-2.08 5.11-4.806 5.202-2.177-.12-4.874-1.459-4.394-5.311-.465 0-.324-.133-.717-.13-.765 3.845 1.983 6.024 5.067 6.05 3.085.024 5.511-2.402 5.524-5.778.014-3.376-2.824-5.415-5.388-5.378-2.565.037-4.62.43-4.62.43l.675-7.77 8.394.104.087-.59-.035-.14z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M75.537 130.403l-.003.714h8.927l-4.251 7.675s4.582.362 4.808 4.41c-.132 2.651-.928 5.028-4.351 5.29-4.216.38-4.759-2.895-4.3-4.705-.156-.03-.703-.32-.86-.27-.419 1.795.177 5.905 5.175 5.793 4.761-.567 5.154-4.774 5.132-6.051-.222-4.27-4.503-5.124-4.503-5.124l3.628-6.579.02-1.075-9.422-.079z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.203 130.161c-1.888.061-5.739 4.185-6.353 8.819-.256 1.913-1.118 10.252 4.92 10.245 3.775-.166 5.786-2.531 5.963-5.954.125-3.684-3.106-5.483-5.452-5.465-2.346.018-4.809 1.85-4.809 1.85l-.047.812s2.719-2.162 4.905-1.932c2.186.23 4.683 1.273 4.803 4.75-.142 3.793-2.739 5.354-5.369 5.379-5.345-.164-4.48-7.532-4.29-9.505.436-4.002 4.254-8.188 5.55-8.266.062-.366.083-.22.18-.733z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M75.252 130.667h10.51v.927l-5.92 17.346-.616-.127 5.963-17.458-9.919.035-.018-.723z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M80.4 149.217c.018-.504.023-.107.032-.768-2.802.067-4.575-2.334-4.65-4.604-.072-2.22 1.684-3.8 4.368-4.481.85-.288 5.004-.798 5.116-4.468.03-2.367-1.389-4.841-4.586-4.753-3.197.088-4.755 2.357-4.664 4.854.122 3.016 2.686 3.647 4.564 4.259 1.05.62 4.51.525 4.688 4.396-.005 2.81-2.687 4.948-4.768 4.814.005.64-.035.01.008.747 2.481.057 5.456-2.04 5.459-5.586.027-4.63-5.92-5.249-5.92-5.249s-3.12-.647-3.198-3.447c-.062-1.67.963-3.975 3.902-3.989 3.016.071 3.722 2.365 3.706 3.98-.35 2.735-3.195 3.35-3.885 3.538-1.357.492-5.351 1.115-5.529 5.306.255 3.537 2.565 5.392 5.357 5.45z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M79.986 129.357v19.673h.854v-19.673z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fe72dc",
+    stroke: "#fe72dc",
+    strokeWidth: "5.896",
+    d: "M612.63 362.01l172.9-1.615-82.879 143.71s89.342 2.938 93.674 77.926c-2.531 49.086-15.354 86.297-79.519 92.94-80.882 7.01-83.486-49.545-77.036-80.485-2.989-.545-18.97-8.915-22.969-9.927-11.06 38.102 4.711 115.83 100.6 113.75 86.639-4.68 103.21-78.374 103.8-113.04-2.264-80.714-83.049-100.39-83.049-100.39l66.595-117.97.05-23.777-192.11-1.138-.051 20.012z",
+    filter: "url(#u-4)",
+    transform: "matrix(.05213 0 0 .054 43.187 111.943)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fbea46",
+    stroke: "#ffa300",
+    strokeWidth: "5.896",
+    d: "M622.72 345.87l-.051 13.231h171.23l-81.541 142.16s87.89 6.702 92.22 81.69c-2.53 49.085-17.798 93.11-83.45 97.973-80.882 7.009-91.282-53.633-82.492-87.157-2.989-.544-13.481-5.93-16.476-5.004-8.05 33.259 3.373 109.38 99.262 107.3 91.32-10.493 98.866-88.421 98.444-112.07-4.27-79.1-86.393-94.9-86.393-94.9l69.605-121.85.384-19.902-180.74-1.461z",
+    filter: "url(#v-2)",
+    transform: "matrix(.05213 0 0 .054 43.09 111.878)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7393)",
+    strokeWidth: "0.209",
+    d: "M78.262 151.257l.197-.424.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7395)",
+    strokeWidth: "0.209",
+    d: "M79.927 151.675l.976-.003"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8766)",
+    strokeWidth: "0.209",
+    d: "M80.91 151.681l.485-.869.976-.003.233.44"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7397)",
+    strokeWidth: "0.209",
+    d: "M86.345 130.984h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7399)",
+    strokeWidth: "0.209",
+    d: "M86.336 132.712h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7401)",
+    strokeWidth: "0.209",
+    d: "M86.358 134.454h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.318 136.136h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M74.99 139.62h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.004 137.924h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7403)",
+    strokeWidth: "0.209",
+    d: "M75 136.168h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7405)",
+    strokeWidth: "0.209",
+    d: "M75.026 134.504h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7407)",
+    strokeWidth: "0.209",
+    d: "M76.475 135.36l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7409)",
+    strokeWidth: "0.209",
+    d: "M77.942 134.49l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7411)",
+    strokeWidth: "0.209",
+    d: "M79.409 135.333l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7413)",
+    strokeWidth: "0.209",
+    d: "M80.877 134.47l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7415)",
+    strokeWidth: "0.209",
+    d: "M82.348 135.335l.485-.87.976-.003.491.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7417)",
+    strokeWidth: "0.209",
+    d: "M83.815 134.47l.486-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8782)",
+    strokeWidth: "0.209",
+    d: "M75.495 135.374l-.49-.866.485-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.336 137.883h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7419)",
+    strokeWidth: "0.209",
+    d: "M75 132.771h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7421)",
+    strokeWidth: "0.209",
+    d: "M76.462 133.62l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7423)",
+    strokeWidth: "0.209",
+    d: "M77.93 132.75l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7425)",
+    strokeWidth: "0.209",
+    d: "M79.396 133.592l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7427)",
+    strokeWidth: "0.209",
+    d: "M80.864 132.73l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7429)",
+    strokeWidth: "0.209",
+    d: "M82.335 133.594l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7431)",
+    strokeWidth: "0.209",
+    d: "M83.803 132.729l.485-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8800)",
+    strokeWidth: "0.209",
+    d: "M75.482 133.633l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.327 141.32h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#26121c",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.336 143.07h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.345 144.785h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.345 146.504h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.332 139.57h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7433)",
+    strokeWidth: "0.209",
+    d: "M76.409 130.196l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7435)",
+    strokeWidth: "0.209",
+    d: "M77.877 129.326l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7437)",
+    strokeWidth: "0.209",
+    d: "M79.343 130.168l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7439)",
+    strokeWidth: "0.209",
+    d: "M80.81 129.305l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7441)",
+    strokeWidth: "0.209",
+    d: "M82.283 130.17l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7443)",
+    strokeWidth: "0.209",
+    d: "M85.535 129.568l-.29.568m-1.498-.831l.255-.491"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8816)",
+    strokeWidth: "0.209",
+    d: "M76.638 128.88l.255.457m-1.43.859l-.33-.557"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8772)",
+    strokeWidth: "0.209",
+    d: "M74.995 131.048H74.4"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#c3bec4",
+    fillOpacity: "0.871",
+    stroke: "#d2cfcf",
+    strokeWidth: "0.208",
+    d: "M75.031 148.264h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.019 146.55h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.031 144.828h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75 143.126h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.013 141.352h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7445)",
+    strokeWidth: "0.209",
+    d: "M76.699 150.562l.29-.593.977-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7447)",
+    strokeWidth: "0.209",
+    d: "M77.973 149.97l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7449)",
+    strokeWidth: "0.209",
+    d: "M79.44 150.811l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7451)",
+    strokeWidth: "0.209",
+    d: "M80.907 149.948l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7453)",
+    strokeWidth: "0.209",
+    d: "M82.379 150.813l.485-.87.976-.002.321.589"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7455)",
+    strokeWidth: "0.209",
+    d: "M83.846 149.948l.485-.87.976-.003.428.783"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8834)",
+    strokeWidth: "0.209",
+    d: "M75.098 149.85l.422-.733.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.363 148.193h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8850)",
+    strokeWidth: "0.269",
+    d: "M86.361 149.548l-.01-19.57-5.078-2.523-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7457)",
+    strokeWidth: "0.209",
+    d: "M76.462 131.892l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7459)",
+    strokeWidth: "0.209",
+    d: "M77.93 131.022l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7461)",
+    strokeWidth: "0.209",
+    d: "M79.396 131.864l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7463)",
+    strokeWidth: "0.209",
+    d: "M80.864 131.001l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7465)",
+    strokeWidth: "0.209",
+    d: "M82.335 131.866l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7467)",
+    strokeWidth: "0.209",
+    d: "M83.803 131l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8852)",
+    strokeWidth: "0.209",
+    d: "M75.482 131.905l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7469)",
+    strokeWidth: "0.209",
+    d: "M76.45 137.037l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7471)",
+    strokeWidth: "0.209",
+    d: "M77.917 136.167l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7473)",
+    strokeWidth: "0.209",
+    d: "M79.384 137.01l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7475)",
+    strokeWidth: "0.209",
+    d: "M80.851 136.146l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7477)",
+    strokeWidth: "0.209",
+    d: "M82.323 137.011l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7479)",
+    strokeWidth: "0.209",
+    d: "M83.79 136.146l.485-.87.976-.003.491.867-.485.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8868)",
+    strokeWidth: "0.209",
+    d: "M75.47 137.05l-.49-.866.484-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7481)",
+    strokeWidth: "0.209",
+    d: "M76.45 138.777l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7483)",
+    strokeWidth: "0.209",
+    d: "M77.917 137.908l.485-.87.976-.003.491.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7485)",
+    strokeWidth: "0.209",
+    d: "M79.384 138.75l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7487)",
+    strokeWidth: "0.209",
+    d: "M80.851 137.887l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7489)",
+    strokeWidth: "0.209",
+    d: "M82.323 138.752l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7491)",
+    strokeWidth: "0.209",
+    d: "M83.79 137.886l.485-.869.976-.003.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8884)",
+    strokeWidth: "0.209",
+    d: "M75.47 138.791l-.49-.866.484-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7493)",
+    strokeWidth: "0.209",
+    d: "M76.45 140.467l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7495)",
+    strokeWidth: "0.209",
+    d: "M77.917 139.597l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7497)",
+    strokeWidth: "0.209",
+    d: "M79.384 140.44l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7499)",
+    strokeWidth: "0.209",
+    d: "M80.851 139.576l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7501)",
+    strokeWidth: "0.209",
+    d: "M82.323 140.441l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7503)",
+    strokeWidth: "0.209",
+    d: "M83.79 139.576l.485-.87.976-.003.491.867-.485.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8900)",
+    strokeWidth: "0.209",
+    d: "M75.47 140.48l-.49-.866.484-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7505)",
+    strokeWidth: "0.209",
+    d: "M76.462 142.208l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7507)",
+    strokeWidth: "0.209",
+    d: "M77.93 141.338l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7509)",
+    strokeWidth: "0.209",
+    d: "M79.396 142.18l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7511)",
+    strokeWidth: "0.209",
+    d: "M80.864 141.317l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7513)",
+    strokeWidth: "0.209",
+    d: "M82.335 142.182l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7515)",
+    strokeWidth: "0.209",
+    d: "M83.803 141.316l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8916)",
+    strokeWidth: "0.209",
+    d: "M75.482 142.221l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7517)",
+    strokeWidth: "0.209",
+    d: "M76.487 145.676l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7519)",
+    strokeWidth: "0.209",
+    d: "M77.955 144.807l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7521)",
+    strokeWidth: "0.209",
+    d: "M79.422 145.649l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7523)",
+    strokeWidth: "0.209",
+    d: "M80.89 144.786l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7525)",
+    strokeWidth: "0.209",
+    d: "M82.36 145.65l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7527)",
+    strokeWidth: "0.209",
+    d: "M83.828 144.785l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8932)",
+    strokeWidth: "0.209",
+    d: "M75.508 145.69l-.491-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7529)",
+    strokeWidth: "0.209",
+    d: "M76.487 147.404l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7531)",
+    strokeWidth: "0.209",
+    d: "M77.955 146.535l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7533)",
+    strokeWidth: "0.209",
+    d: "M79.422 147.377l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7535)",
+    strokeWidth: "0.209",
+    d: "M80.89 146.514l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7537)",
+    strokeWidth: "0.209",
+    d: "M82.36 147.379l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7539)",
+    strokeWidth: "0.209",
+    d: "M83.828 146.513l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8948)",
+    strokeWidth: "0.209",
+    d: "M75.508 147.418l-.491-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7541)",
+    strokeWidth: "0.209",
+    d: "M76.487 149.106l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7543)",
+    strokeWidth: "0.209",
+    d: "M77.955 148.237l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7545)",
+    strokeWidth: "0.209",
+    d: "M79.422 149.079l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7547)",
+    strokeWidth: "0.209",
+    d: "M80.89 148.216l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7549)",
+    strokeWidth: "0.209",
+    d: "M82.36 149.08l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7551)",
+    strokeWidth: "0.209",
+    d: "M83.828 148.215l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8964)",
+    strokeWidth: "0.209",
+    d: "M75.508 149.12l-.491-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7553)",
+    strokeWidth: "0.209",
+    d: "M78.194 128.097l.19.365"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7555)",
+    strokeWidth: "0.209",
+    d: "M79.368 128.44l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8980)",
+    strokeWidth: "0.209",
+    d: "M82.307 128.442l.193-.358"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7557)",
+    strokeWidth: "0.209",
+    d: "M76.463 143.96l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7559)",
+    strokeWidth: "0.209",
+    d: "M77.93 143.091l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7561)",
+    strokeWidth: "0.209",
+    d: "M79.398 143.933l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7563)",
+    strokeWidth: "0.209",
+    d: "M80.866 143.07l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7565)",
+    strokeWidth: "0.209",
+    d: "M82.334 143.935l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient7567)",
+    strokeWidth: "0.209",
+    d: "M83.802 143.07l.486-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8988)",
+    strokeWidth: "0.209",
+    d: "M75.485 143.974l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9004)",
+    d: "M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z",
+    filter: "url(#S-2)",
+    opacity: "0.535",
+    transform: "translate(-1.562 144.231) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9006)",
+    d: "M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z",
+    filter: "url(#U-0)",
+    opacity: "0.827",
+    transform: "translate(-1.562 144.231) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9008)",
+    strokeWidth: "0.187",
+    d: "M81.35 151.513a.98.98 0 11-1.962 0 .98.98 0 011.961 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9010)",
+    strokeWidth: "0.104",
+    d: "M80.867 151.056l.185.21-1.074.773-.185-.21z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9012)",
+    strokeWidth: "0.187",
+    d: "M81.26 127.594a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9014)",
+    strokeWidth: "0.104",
+    d: "M80.779 127.137l.184.21-1.074.773-.185-.21z"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Four.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "80",
+    height: "145",
+    version: "1.1",
+    viewBox: "0 0 160 297"
+  }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "k"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#081e1e",
+    stopOpacity: "0.441"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#7a8a8a"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "j"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#fefbfb"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.894",
+    stopColor: "#787878",
+    stopOpacity: "0.502"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#4d4d4d"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "i"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#647172"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#a0bcbd",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-944.78",
+    x2: "-776.19",
+    y1: "927.98",
+    y2: "1224.9",
+    gradientTransform: "translate(92.588 33.674) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "h"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.16",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#555151"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-1030.3",
+    x2: "-832.93",
+    y1: "500.09",
+    y2: "868.4",
+    gradientTransform: "translate(97.258 56.89) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-512.93",
+    x2: "-332",
+    y1: "522.7",
+    y2: "819.59",
+    gradientTransform: "translate(71.507 56.222) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-680.48",
+    x2: "-521.71",
+    y1: "930.52",
+    y2: "1219.7",
+    gradientTransform: "translate(79.112 33.54) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "a"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "b"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.422",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#656262"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "c"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.354",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "d"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#ccbea6"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#625133",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "e"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "f"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "g"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.8"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "l"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#931709"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.471",
+    stopColor: "#b82508",
+    stopOpacity: "0.961"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#dd3307",
+    stopOpacity: "0.925"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.755",
+    stopColor: "#e22c06",
+    stopOpacity: "0.851"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.953",
+    stopColor: "orange",
+    stopOpacity: "0.745"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ffad00",
+    stopOpacity: "0.992"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "772.26",
+    x2: "801.666",
+    y1: "540.527",
+    y2: "540.527",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "751.999",
+    x2: "781.406",
+    y1: "565.145",
+    y2: "565.145",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "731.752",
+    x2: "761.159",
+    y1: "541.124",
+    y2: "541.124",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "711.492",
+    x2: "740.898",
+    y1: "565.931",
+    y2: "565.931",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "792.575",
+    x2: "821.982",
+    y1: "565.203",
+    y2: "565.203",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "224.673",
+    x2: "253.475",
+    y1: "820.097",
+    y2: "820.097",
+    gradientTransform: "scale(1.45657 .68655)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16269-9",
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(62.531 113.46) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16271-9",
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 55.671 198.547)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16273-5",
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(62.531 113.46) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "q-0",
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16275-8",
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "s-04",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "u-2",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "v-5",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8766-2",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.228 131.649)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8772-2",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8782-8",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8800-3",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8816-8",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8834-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8850-4",
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8852-9",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8868-6",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8884-2",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8900-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8916-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8932-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8948-9",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8964-9",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8980-3",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.156 107.544)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8988-6",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9004-0",
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(1910.902 -23.064)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "S-29",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9006-3",
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(1204.028 -600.772)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "U-7",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9008-3",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 64.373 117.484)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9010-9",
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 99.365 114.042)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9012-2",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 64.284 93.564)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9014-2",
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 99.277 90.122)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8405",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.228 131.649)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8407",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.228 131.649)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8409",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8411",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8413",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8415",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8417",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8419",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8421",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8423",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8425",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8427",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8429",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8431",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8433",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8435",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8437",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8439",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8441",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8443",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8445",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8447",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8449",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8451",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8453",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8455",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8457",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8459",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8461",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8463",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8465",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8467",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8469",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8471",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8473",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8475",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8477",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8479",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8481",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8483",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8485",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8487",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8489",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8491",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8493",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8495",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8497",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8499",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8501",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8503",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8505",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8507",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8509",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8511",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8513",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8515",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8517",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8519",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8521",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8523",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8525",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8527",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8529",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8531",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8533",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8535",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8537",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8539",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8541",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8543",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8545",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8547",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8549",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8551",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8553",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8555",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8557",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8559",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8561",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8563",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8565",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.156 107.544)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8567",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.156 107.544)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8569",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8571",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8573",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8575",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8577",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8579",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "matrix(9.07379 0 0 9.18926 -653.32 -1134.367)"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16269-9)",
+    strokeWidth: "0.265",
+    d: "M79.08 153.358l-.662-.076c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.883-.016-.065-.021-4.95-.012-10.855l.017-10.737.121-.263c.276-.6.959-1.332 1.583-1.698 1.963-1.151 5.02-1.655 7.732-1.274 1.86.261 3.737.993 4.612 1.798.189.173.74.877.85 1.081.149.282.166 1.624.152 11.683l-.015 10.266-.15.296c-.284.563-1.212 1.515-1.918 1.968-.827.532-2.055.868-3.65.999-.585.048-3.127.062-3.494.019z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16271-9)",
+    stroke: "#3a4d53",
+    strokeWidth: "0.156",
+    d: "M79.723 152.392l-5.755-2.712.016-20.633 5.77-2.584h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.91-5.914 2.642l-1.833-.039zm7.36-2.824l.04-20.127-5.412-2.615-1.911-.005-5.463 2.66.027 20.001 5.398 2.534 1.778.02 5.543-2.468z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16273-5)",
+    stroke: "#ebe5e5",
+    strokeOpacity: "0.297",
+    strokeWidth: "0.158",
+    d: "M79.326 153.943c-2.646-.145-4.278-.675-5.503-1.786-.432-.391-.907-.954-1.078-1.275l-.16-.301.013-11.343.013-11.342.185-.31c.273-.46 1.057-1.233 1.5-1.48 2.571-1.43 6.32-1.876 9.716-1.154 1.318.28 2.752.83 3.529 1.354.421.285.972.913 1.229 1.401l.192.367v22.418l-.132.282c-.161.346-.359.608-.811 1.078-1.148 1.192-2.536 1.767-4.85 2.008-.904.095-2.855.137-3.843.083zm3.633-.609c2.087-.23 3.211-.702 4.319-1.813.584-.587.881-.994 1.03-1.41.058-.164.071-2.066.073-10.822.003-11.904.043-10.736-.392-11.415-.478-.745-1.054-1.223-2.001-1.66-2.34-1.077-5.292-1.365-8.05-.783-1.222.258-2.503.75-3.255 1.249-.549.364-1.262 1.219-1.441 1.726-.067.19-.078 1.653-.078 10.921v10.703l.182.362c.1.2.368.576.596.837 1.265 1.448 2.9 2.061 5.884 2.206.656.032 2.457-.026 3.133-.1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-0)",
+    transform: "matrix(.03143 0 0 .05233 70.237 112.565)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#140b0b",
+    stroke: "#383838",
+    strokeWidth: "0.052",
+    d: "M81.524 151.916l5.454-2.41.027-19.997-5.323-2.577-1.85-.003-5.388 2.613.02 19.873 5.444 2.475 1.616.026z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16275-8)",
+    d: "M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z",
+    filter: "url(#s-04)",
+    opacity: "0.85",
+    transform: "matrix(.05456 0 0 .05476 61.685 112.022)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-0)",
+    transform: "matrix(.03143 0 0 .05233 84.122 112.509)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M76.28 134.705c-.518.026 0 .058-.668.066-.142-3.792 3.013-5.056 5.363-5.049 2.35.008 5.076.734 5.044 4.843-.032 4.109-3.481 4.762-4.866 5.367-1.638.728-2.688 1.643-3.791 2.969-1.104 1.325-1.292 4.99-1.292 4.99l10.012.078-.024.569s-8.11.049-10.718-.047c.102-2.985.271-3.303.678-4.466.505-1.52 2.148-3.613 4.884-4.754 1.388-.579 4.412-1.552 4.424-4.682.012-3.13-2.236-4.186-4.351-4.128-2.115.059-4.747 1.624-4.695 4.243z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M80.617 149.315c0-.206.094-.149.1-.625 4.138-.188 4.728-5.923 4.737-9.01.008-3.088-1.3-8.672-4.715-8.594-3.416.079-4.723 5.732-4.765 8.775-.042 3.043 1.105 8.81 4.645 8.852.006.313.024-.105.04.66-3.166-.13-5.25-3.553-5.262-9.508-.012-5.956 2.566-9.385 5.365-9.483 2.8-.097 5.24 3.775 5.309 9.268.069 5.494-1.853 9.726-5.454 9.665z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M83.551 149h-.657v-17.813l-6.575 13.79 10.242-.024v.67l-11.26-.025 7.506-16.031h.77L83.55 149z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M85.448 130.522l-9.052-.055-.826 9.33c1.767-.27 3.413-.574 5.327-.65 2.61-.003 4.747 1.995 4.765 4.686.017 2.69-2.08 5.11-4.806 5.201-2.178-.12-4.874-1.458-4.394-5.31-.465 0-.324-.133-.717-.13-.765 3.845 1.982 6.024 5.067 6.049 3.085.025 5.51-2.401 5.524-5.777.013-3.377-2.824-5.415-5.389-5.378-2.564.037-4.619.43-4.619.43l.675-7.77 8.394.104.086-.59-.034-.14z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M75.887 130.297l-.002.715h8.926l-4.25 7.675s4.581.362 4.807 4.41c-.131 2.651-.928 5.028-4.35 5.29-4.217.379-4.759-2.895-4.3-4.705-.156-.03-.703-.32-.86-.27-.42 1.795.176 5.905 5.175 5.793 4.76-.567 5.154-4.774 5.132-6.051-.222-4.271-4.503-5.124-4.503-5.124l3.628-6.58.02-1.074-9.422-.079z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.554 130.056c-1.888.061-5.74 4.184-6.353 8.818-.256 1.914-1.118 10.252 4.92 10.245 3.775-.165 5.786-2.53 5.963-5.953.125-3.684-3.106-5.483-5.452-5.465-2.346.018-4.809 1.85-4.809 1.85l-.047.812s2.719-2.162 4.905-1.932c2.186.23 4.683 1.272 4.803 4.75-.142 3.793-2.74 5.354-5.369 5.379-5.345-.164-4.48-7.532-4.29-9.505.435-4.003 4.254-8.188 5.55-8.266.062-.367.083-.22.18-.733z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M75.603 130.561h10.51v.928l-5.92 17.346-.616-.128 5.963-17.457-9.919.035-.018-.724z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M80.75 149.111c.019-.503.024-.106.033-.767-2.802.067-4.575-2.334-4.65-4.604-.072-2.22 1.683-3.8 4.368-4.481.85-.288 5.004-.799 5.116-4.468.03-2.367-1.39-4.841-4.586-4.753-3.197.088-4.755 2.357-4.664 4.854.122 3.015 2.686 3.647 4.564 4.259 1.05.62 4.51.525 4.687 4.396-.005 2.81-2.686 4.947-4.767 4.814.005.64-.035.01.008.747 2.48.057 5.456-2.04 5.458-5.586.028-4.63-5.918-5.25-5.918-5.25s-3.12-.646-3.2-3.446c-.061-1.67.964-3.975 3.903-3.989 3.016.071 3.722 2.365 3.706 3.98-.35 2.735-3.196 3.349-3.886 3.538-1.356.492-5.35 1.115-5.528 5.305.255 3.537 2.565 5.393 5.357 5.451z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M80.336 129.252v19.672h.854v-19.672z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fe72dc",
+    stroke: "#fe72dc",
+    strokeWidth: "1.182",
+    d: "M478.053 363.062l-5.064.004 1.134-67.07-23.019 49.704 39.568-.478.143 5.22-46.826-.36 29.533-62.417 4.36-.127.171 75.523z",
+    filter: "url(#u-2)",
+    transform: "matrix(.26458 0 0 .26458 -42.95 53.295)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fbea46",
+    stroke: "#ffa300",
+    strokeWidth: "1.182",
+    d: "M476.95 361.718h-2.482v-67.324l-24.854 52.12 38.713-.092v2.53l-42.56-.093 28.37-60.59h2.91z",
+    filter: "url(#v-5)",
+    transform: "matrix(.26458 0 0 .26458 -42.839 53.373)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8405)",
+    strokeWidth: "0.209",
+    d: "M78.613 151.152l.197-.424.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8407)",
+    strokeWidth: "0.209",
+    d: "M80.277 151.57l.976-.003"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8766-2)",
+    strokeWidth: "0.209",
+    d: "M81.26 151.576l.485-.87.976-.002.234.44"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8409)",
+    strokeWidth: "0.209",
+    d: "M86.696 130.88h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8411)",
+    strokeWidth: "0.209",
+    d: "M86.687 132.607h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8413)",
+    strokeWidth: "0.209",
+    d: "M86.71 134.348h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.67 136.031h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.341 139.514h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.355 137.819h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8415)",
+    strokeWidth: "0.209",
+    d: "M75.35 136.063h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8417)",
+    strokeWidth: "0.209",
+    d: "M75.377 134.399h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8419)",
+    strokeWidth: "0.209",
+    d: "M76.825 135.255l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8421)",
+    strokeWidth: "0.209",
+    d: "M78.293 134.385l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8423)",
+    strokeWidth: "0.209",
+    d: "M79.76 135.228l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8425)",
+    strokeWidth: "0.209",
+    d: "M81.227 134.365l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8427)",
+    strokeWidth: "0.209",
+    d: "M82.699 135.23l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8429)",
+    strokeWidth: "0.209",
+    d: "M84.166 134.364l.485-.87.976-.002.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8782-8)",
+    strokeWidth: "0.209",
+    d: "M75.846 135.269l-.491-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.687 137.777h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8431)",
+    strokeWidth: "0.209",
+    d: "M75.35 132.666h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8433)",
+    strokeWidth: "0.209",
+    d: "M76.813 133.514l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8435)",
+    strokeWidth: "0.209",
+    d: "M78.28 132.645l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8437)",
+    strokeWidth: "0.209",
+    d: "M79.747 133.487l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8439)",
+    strokeWidth: "0.209",
+    d: "M81.215 132.624l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8441)",
+    strokeWidth: "0.209",
+    d: "M82.686 133.489l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8443)",
+    strokeWidth: "0.209",
+    d: "M84.153 132.623l.486-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8800-3)",
+    strokeWidth: "0.209",
+    d: "M75.833 133.528l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.678 141.215h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#26121c",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.687 142.966h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.696 144.68h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.696 146.398h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.683 139.465h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8445)",
+    strokeWidth: "0.209",
+    d: "M76.76 130.09l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8447)",
+    strokeWidth: "0.209",
+    d: "M78.227 129.22l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8449)",
+    strokeWidth: "0.209",
+    d: "M79.694 130.063l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8451)",
+    strokeWidth: "0.209",
+    d: "M81.162 129.2l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8453)",
+    strokeWidth: "0.209",
+    d: "M82.633 130.065l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8455)",
+    strokeWidth: "0.209",
+    d: "M85.886 129.462l-.29.569m-1.498-.831l.255-.491"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8816-8)",
+    strokeWidth: "0.209",
+    d: "M76.989 128.776l.255.456m-1.43.858l-.331-.556"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8772-2)",
+    strokeWidth: "0.209",
+    d: "M75.346 130.943h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#c3bec4",
+    fillOpacity: "0.871",
+    stroke: "#d2cfcf",
+    strokeWidth: "0.208",
+    d: "M75.382 148.159h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.37 146.444h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.382 144.722h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.35 143.02h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.364 141.247h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8457)",
+    strokeWidth: "0.209",
+    d: "M77.05 150.456l.29-.592.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8459)",
+    strokeWidth: "0.209",
+    d: "M78.323 149.864l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8461)",
+    strokeWidth: "0.209",
+    d: "M79.79 150.706l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8463)",
+    strokeWidth: "0.209",
+    d: "M81.258 149.843l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8465)",
+    strokeWidth: "0.209",
+    d: "M82.73 150.708l.485-.87.976-.002.32.589"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8467)",
+    strokeWidth: "0.209",
+    d: "M84.197 149.843l.485-.87.976-.003.428.783"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8834-0)",
+    strokeWidth: "0.209",
+    d: "M75.448 149.745l.423-.733.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.714 148.088h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8850-4)",
+    strokeWidth: "0.269",
+    d: "M86.712 149.442l-.011-19.569-5.077-2.524-1.765-.003-5.14 2.56.019 19.465 5.246 2.35 1.498-.001 5.194-2.26.036-.018z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8469)",
+    strokeWidth: "0.209",
+    d: "M76.813 131.786l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8471)",
+    strokeWidth: "0.209",
+    d: "M78.28 130.917l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8473)",
+    strokeWidth: "0.209",
+    d: "M79.747 131.759l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8475)",
+    strokeWidth: "0.209",
+    d: "M81.215 130.896l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8477)",
+    strokeWidth: "0.209",
+    d: "M82.686 131.76l.486-.868.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8479)",
+    strokeWidth: "0.209",
+    d: "M84.153 130.895l.486-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8852-9)",
+    strokeWidth: "0.209",
+    d: "M75.833 131.8l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8481)",
+    strokeWidth: "0.209",
+    d: "M76.8 136.932l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8483)",
+    strokeWidth: "0.209",
+    d: "M78.268 136.062l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8485)",
+    strokeWidth: "0.209",
+    d: "M79.735 136.904l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8487)",
+    strokeWidth: "0.209",
+    d: "M81.202 136.04l.486-.868.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8489)",
+    strokeWidth: "0.209",
+    d: "M82.674 136.906l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8491)",
+    strokeWidth: "0.209",
+    d: "M84.14 136.04l.486-.869.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8868-6)",
+    strokeWidth: "0.209",
+    d: "M75.82 136.945l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8493)",
+    strokeWidth: "0.209",
+    d: "M76.8 138.672l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8495)",
+    strokeWidth: "0.209",
+    d: "M78.268 137.803l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8497)",
+    strokeWidth: "0.209",
+    d: "M79.735 138.645l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8499)",
+    strokeWidth: "0.209",
+    d: "M81.202 137.782l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8501)",
+    strokeWidth: "0.209",
+    d: "M82.674 138.647l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8503)",
+    strokeWidth: "0.209",
+    d: "M84.14 137.781l.486-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8884-2)",
+    strokeWidth: "0.209",
+    d: "M75.82 138.686l-.49-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8505)",
+    strokeWidth: "0.209",
+    d: "M76.8 140.362l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8507)",
+    strokeWidth: "0.209",
+    d: "M78.268 139.492l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8509)",
+    strokeWidth: "0.209",
+    d: "M79.735 140.334l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8511)",
+    strokeWidth: "0.209",
+    d: "M81.202 139.471l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8513)",
+    strokeWidth: "0.209",
+    d: "M82.674 140.336l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8515)",
+    strokeWidth: "0.209",
+    d: "M84.14 139.47l.486-.869.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8900-5)",
+    strokeWidth: "0.209",
+    d: "M75.82 140.375l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8517)",
+    strokeWidth: "0.209",
+    d: "M76.813 142.102l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8519)",
+    strokeWidth: "0.209",
+    d: "M78.28 141.233l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8521)",
+    strokeWidth: "0.209",
+    d: "M79.747 142.075l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8523)",
+    strokeWidth: "0.209",
+    d: "M81.215 141.212l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8525)",
+    strokeWidth: "0.209",
+    d: "M82.686 142.077l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8527)",
+    strokeWidth: "0.209",
+    d: "M84.153 141.211l.486-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8916-4)",
+    strokeWidth: "0.209",
+    d: "M75.833 142.116l-.49-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8529)",
+    strokeWidth: "0.209",
+    d: "M76.838 145.571l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8531)",
+    strokeWidth: "0.209",
+    d: "M78.306 144.701l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8533)",
+    strokeWidth: "0.209",
+    d: "M79.772 145.543l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8535)",
+    strokeWidth: "0.209",
+    d: "M81.24 144.68l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8537)",
+    strokeWidth: "0.209",
+    d: "M82.712 145.545l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8539)",
+    strokeWidth: "0.209",
+    d: "M84.179 144.68l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8932-4)",
+    strokeWidth: "0.209",
+    d: "M75.858 145.585l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8541)",
+    strokeWidth: "0.209",
+    d: "M76.838 147.299l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8543)",
+    strokeWidth: "0.209",
+    d: "M78.306 146.43l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8545)",
+    strokeWidth: "0.209",
+    d: "M79.772 147.271l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8547)",
+    strokeWidth: "0.209",
+    d: "M81.24 146.408l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8549)",
+    strokeWidth: "0.209",
+    d: "M82.712 147.273l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8551)",
+    strokeWidth: "0.209",
+    d: "M84.179 146.408l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8948-9)",
+    strokeWidth: "0.209",
+    d: "M75.858 147.313l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8553)",
+    strokeWidth: "0.209",
+    d: "M76.838 149.001l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8555)",
+    strokeWidth: "0.209",
+    d: "M78.306 148.131l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8557)",
+    strokeWidth: "0.209",
+    d: "M79.772 148.973l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8559)",
+    strokeWidth: "0.209",
+    d: "M81.24 148.11l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8561)",
+    strokeWidth: "0.209",
+    d: "M82.712 148.976l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8563)",
+    strokeWidth: "0.209",
+    d: "M84.179 148.11l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8964-9)",
+    strokeWidth: "0.209",
+    d: "M75.858 149.015l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8565)",
+    strokeWidth: "0.209",
+    d: "M78.545 127.992l.189.365"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8567)",
+    strokeWidth: "0.209",
+    d: "M79.719 128.335l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8980-3)",
+    strokeWidth: "0.209",
+    d: "M82.658 128.337l.192-.359"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8569)",
+    strokeWidth: "0.209",
+    d: "M76.813 143.855l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8571)",
+    strokeWidth: "0.209",
+    d: "M78.281 142.986l.485-.87.976-.003.491.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8573)",
+    strokeWidth: "0.209",
+    d: "M79.75 143.827l.485-.869.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8575)",
+    strokeWidth: "0.209",
+    d: "M81.217 142.964l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8577)",
+    strokeWidth: "0.209",
+    d: "M82.685 143.83l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8579)",
+    strokeWidth: "0.209",
+    d: "M84.153 142.964l.485-.87.976-.002.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8988-6)",
+    strokeWidth: "0.209",
+    d: "M75.836 143.87l-.49-.867.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9004-0)",
+    d: "M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z",
+    filter: "url(#S-29)",
+    opacity: "0.535",
+    transform: "translate(-1.212 144.126) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9006-3)",
+    d: "M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z",
+    filter: "url(#U-7)",
+    opacity: "0.827",
+    transform: "translate(-1.212 144.126) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9008-3)",
+    strokeWidth: "0.187",
+    d: "M81.7 151.408a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9010-9)",
+    strokeWidth: "0.104",
+    d: "M81.218 150.95l.185.211-1.075.773-.184-.21z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9012-2)",
+    strokeWidth: "0.187",
+    d: "M81.611 127.488a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9014-2)",
+    strokeWidth: "0.104",
+    d: "M81.13 127.031l.184.21-1.074.773-.185-.21z"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Five.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "80",
+    height: "145",
+    version: "1.1",
+    viewBox: "0 0 160 297"
+  }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "k"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#081e1e",
+    stopOpacity: "0.441"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#7a8a8a"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "j"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#fefbfb"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.894",
+    stopColor: "#787878",
+    stopOpacity: "0.502"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#4d4d4d"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "i"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#647172"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#a0bcbd",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-944.78",
+    x2: "-776.19",
+    y1: "927.98",
+    y2: "1224.9",
+    gradientTransform: "translate(92.588 33.674) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "h"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.16",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#555151"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-1030.3",
+    x2: "-832.93",
+    y1: "500.09",
+    y2: "868.4",
+    gradientTransform: "translate(97.258 56.89) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-512.93",
+    x2: "-332",
+    y1: "522.7",
+    y2: "819.59",
+    gradientTransform: "translate(71.507 56.222) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-680.48",
+    x2: "-521.71",
+    y1: "930.52",
+    y2: "1219.7",
+    gradientTransform: "translate(79.112 33.54) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "a"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "b"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.422",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#656262"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "c"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.354",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "d"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#ccbea6"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#625133",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "e"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "f"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "g"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.8"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "l"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#931709"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.471",
+    stopColor: "#b82508",
+    stopOpacity: "0.961"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#dd3307",
+    stopOpacity: "0.925"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.755",
+    stopColor: "#e22c06",
+    stopOpacity: "0.851"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.953",
+    stopColor: "orange",
+    stopOpacity: "0.745"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ffad00",
+    stopOpacity: "0.992"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "772.26",
+    x2: "801.666",
+    y1: "540.527",
+    y2: "540.527",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "751.999",
+    x2: "781.406",
+    y1: "565.145",
+    y2: "565.145",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "731.752",
+    x2: "761.159",
+    y1: "541.124",
+    y2: "541.124",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "711.492",
+    x2: "740.898",
+    y1: "565.931",
+    y2: "565.931",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "792.575",
+    x2: "821.982",
+    y1: "565.203",
+    y2: "565.203",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "224.673",
+    x2: "253.475",
+    y1: "820.097",
+    y2: "820.097",
+    gradientTransform: "scale(1.45657 .68655)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16269",
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(62.531 113.46) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16271",
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 55.671 198.547)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16273",
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(62.531 113.46) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "q-9",
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16275",
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "s-3",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "u-97",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "v-9",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8766",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.228 131.649)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8772",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8782",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8800",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8816",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8834",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8850",
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8852",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8868",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8884",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8900",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8916",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8932",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8948",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8964",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8980",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.156 107.544)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8988",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9004",
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(1910.902 -23.064)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "S-0",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9006",
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(1204.028 -600.772)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "U-1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9008",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 64.373 117.484)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9010",
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 99.365 114.042)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9012",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 64.284 93.564)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9014",
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 99.277 90.122)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10399",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.228 131.649)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10401",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.228 131.649)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10403",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10405",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10407",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10409",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10411",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10413",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10415",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10417",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10419",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10421",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10423",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.197 114.437)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10425",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.2 113.934)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10427",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10429",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10431",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10433",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10435",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10437",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 112.696)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10439",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10441",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10443",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10445",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10447",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10449",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.131 109.272)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10451",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10453",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10455",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10457",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10459",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10461",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.227 129.915)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10463",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10465",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10467",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10469",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10471",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10473",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 110.968)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10475",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10477",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10479",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10481",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10483",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10485",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 116.113)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10487",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10489",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10491",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10493",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10495",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10497",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 117.854)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10499",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10501",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10503",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10505",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10507",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10509",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.172 119.543)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10511",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10513",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10515",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10517",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10519",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10521",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.184 121.284)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10523",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10525",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10527",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10529",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10531",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10533",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 124.753)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10535",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10537",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10539",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10541",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10543",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10545",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 126.48)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10547",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10549",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10551",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10553",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10555",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10557",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.21 128.183)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10559",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.156 107.544)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10561",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.156 107.544)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10563",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10565",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10567",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10569",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10571",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient10573",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 25.185 123.037)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "matrix(9.0722 0 0 9.19353 -653.206 -1135.026)"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16269)",
+    strokeWidth: "0.265",
+    d: "M79.08 153.358l-.662-.076c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.883-.016-.065-.021-4.95-.012-10.855l.017-10.737.121-.263c.276-.6.959-1.332 1.583-1.698 1.963-1.151 5.02-1.655 7.732-1.274 1.86.261 3.737.993 4.612 1.798.189.173.74.877.85 1.081.149.282.166 1.624.152 11.683l-.015 10.266-.15.296c-.284.563-1.212 1.515-1.918 1.968-.827.532-2.055.868-3.65.999-.585.048-3.127.062-3.494.019z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16271)",
+    stroke: "#3a4d53",
+    strokeWidth: "0.156",
+    d: "M79.723 152.392l-5.755-2.712.016-20.633 5.77-2.584h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.91-5.914 2.642l-1.833-.039zm7.36-2.824l.04-20.127-5.412-2.615-1.911-.005-5.463 2.66.027 20.001 5.398 2.534 1.778.02 5.543-2.468z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16273)",
+    stroke: "#ebe5e5",
+    strokeOpacity: "0.297",
+    strokeWidth: "0.158",
+    d: "M79.326 153.943c-2.646-.145-4.278-.675-5.503-1.786-.432-.391-.907-.954-1.078-1.275l-.16-.301.013-11.343.013-11.342.185-.31c.273-.46 1.057-1.233 1.5-1.48 2.571-1.43 6.32-1.876 9.716-1.154 1.318.28 2.752.83 3.529 1.354.421.285.972.913 1.229 1.401l.192.367v22.418l-.132.282c-.161.346-.359.608-.811 1.078-1.148 1.192-2.536 1.767-4.85 2.008-.904.095-2.855.137-3.843.083zm3.633-.609c2.087-.23 3.211-.702 4.319-1.813.584-.587.881-.994 1.03-1.41.058-.164.071-2.066.073-10.822.003-11.904.043-10.736-.392-11.415-.478-.745-1.054-1.223-2.001-1.66-2.34-1.077-5.292-1.365-8.05-.783-1.222.258-2.503.75-3.255 1.249-.549.364-1.262 1.219-1.441 1.726-.067.19-.078 1.653-.078 10.921v10.703l.182.362c.1.2.368.576.596.837 1.265 1.448 2.9 2.061 5.884 2.206.656.032 2.457-.026 3.133-.1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-9)",
+    transform: "matrix(.03143 0 0 .05233 70.237 112.565)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#140b0b",
+    stroke: "#383838",
+    strokeWidth: "0.052",
+    d: "M81.524 151.916l5.454-2.41.027-19.997-5.323-2.577-1.85-.003-5.388 2.613.02 19.873 5.444 2.475 1.616.026z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16275)",
+    d: "M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z",
+    filter: "url(#s-3)",
+    opacity: "0.85",
+    transform: "matrix(.05456 0 0 .05476 61.685 112.022)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-9)",
+    transform: "matrix(.03143 0 0 .05233 84.122 112.509)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M76.28 134.705c-.518.026 0 .058-.668.066-.142-3.792 3.013-5.056 5.363-5.049 2.35.008 5.076.734 5.044 4.843-.032 4.109-3.481 4.762-4.866 5.367-1.638.728-2.688 1.643-3.791 2.969-1.104 1.325-1.292 4.99-1.292 4.99l10.012.078-.024.569s-8.11.049-10.718-.047c.102-2.985.271-3.303.678-4.466.505-1.52 2.148-3.613 4.884-4.754 1.388-.579 4.412-1.552 4.424-4.682.012-3.13-2.236-4.186-4.351-4.128-2.115.059-4.747 1.624-4.695 4.243z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M80.617 149.315c0-.206.094-.149.1-.625 4.138-.188 4.728-5.923 4.737-9.01.008-3.088-1.3-8.672-4.715-8.594-3.416.079-4.723 5.732-4.765 8.775-.042 3.043 1.105 8.81 4.645 8.852.006.313.024-.105.04.66-3.166-.13-5.25-3.553-5.262-9.508-.012-5.956 2.566-9.385 5.365-9.483 2.8-.097 5.24 3.775 5.309 9.268.069 5.494-1.853 9.726-5.454 9.665z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M83.551 149h-.657v-17.813l-6.575 13.79 10.242-.024v.67l-11.26-.025 7.506-16.031h.77L83.55 149z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M85.448 130.522l-9.052-.055-.826 9.33c1.767-.27 3.413-.574 5.327-.65 2.61-.003 4.747 1.995 4.765 4.686.017 2.69-2.08 5.11-4.806 5.201-2.178-.12-4.874-1.458-4.394-5.31-.465 0-.324-.133-.717-.13-.765 3.845 1.982 6.024 5.067 6.049 3.085.025 5.51-2.401 5.524-5.777.013-3.377-2.824-5.415-5.389-5.378-2.564.037-4.619.43-4.619.43l.675-7.77 8.394.104.086-.59-.034-.14z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M75.887 130.297l-.002.715h8.926l-4.25 7.675s4.581.362 4.807 4.41c-.131 2.651-.928 5.028-4.35 5.29-4.217.379-4.759-2.895-4.3-4.705-.156-.03-.703-.32-.86-.27-.42 1.795.176 5.905 5.175 5.793 4.76-.567 5.154-4.774 5.132-6.051-.222-4.271-4.503-5.124-4.503-5.124l3.628-6.58.02-1.074-9.422-.079z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.554 130.056c-1.888.061-5.74 4.184-6.353 8.818-.256 1.914-1.118 10.252 4.92 10.245 3.775-.165 5.786-2.53 5.963-5.953.125-3.684-3.106-5.483-5.452-5.465-2.346.018-4.809 1.85-4.809 1.85l-.047.812s2.719-2.162 4.905-1.932c2.186.23 4.683 1.272 4.803 4.75-.142 3.793-2.74 5.354-5.369 5.379-5.345-.164-4.48-7.532-4.29-9.505.435-4.003 4.254-8.188 5.55-8.266.062-.367.083-.22.18-.733z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M75.603 130.561h10.51v.928l-5.92 17.346-.616-.128 5.963-17.457-9.919.035-.018-.724z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M80.75 149.111c.019-.503.024-.106.033-.767-2.802.067-4.575-2.334-4.65-4.604-.072-2.22 1.683-3.8 4.368-4.481.85-.288 5.004-.799 5.116-4.468.03-2.367-1.39-4.841-4.586-4.753-3.197.088-4.755 2.357-4.664 4.854.122 3.015 2.686 3.647 4.564 4.259 1.05.62 4.51.525 4.687 4.396-.005 2.81-2.686 4.947-4.767 4.814.005.64-.035.01.008.747 2.48.057 5.456-2.04 5.458-5.586.028-4.63-5.918-5.25-5.918-5.25s-3.12-.646-3.2-3.446c-.061-1.67.964-3.975 3.903-3.989 3.016.071 3.722 2.365 3.706 3.98-.35 2.735-3.196 3.349-3.886 3.538-1.356.492-5.35 1.115-5.528 5.305.255 3.537 2.565 5.393 5.357 5.451z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M80.336 129.252v19.672h.854v-19.672z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fe72dc",
+    stroke: "#fe72dc",
+    strokeWidth: "1.182",
+    d: "M532.184 291.745l-3.123 36.945c6.678-1.015 12.902-2.492 20.137-2.78 9.866-.01 17.941 6.959 18.007 17.128.066 10.17-7.863 18.126-18.164 18.473-8.23-.453-16.17-5.18-14.355-19.74-1.757-.454-3.749-.838-5.234-1.018-2.892 14.528 7.76 24.954 19.42 25.05 11.659.095 22.871-8.844 22.727-22.639-.144-13.796-10.703-21.84-22.081-21.248-11.378.593-15.817 1.5-15.817 1.5l2.484-27.008 32.654.067.195-4.717-36.85-.012z",
+    filter: "url(#u-97)",
+    transform: "matrix(.26458 0 0 .26458 -64.702 53.156)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fbea46",
+    stroke: "#ffa300",
+    strokeWidth: "1.182",
+    d: "M567.335 292.6l-34.213-.208L530 327.654c6.678-1.014 12.902-2.168 20.137-2.456 9.866-.01 17.94 7.542 18.007 17.712.066 10.17-7.863 19.31-18.164 19.658-8.23-.453-18.422-5.51-16.607-20.071-1.757 0-1.224-.503-2.71-.489-2.892 14.529 7.493 22.765 19.152 22.862 11.659.095 20.828-9.076 20.877-21.835.05-12.76-10.674-20.466-20.367-20.326-9.693.139-17.458 1.626-17.458 1.626l2.549-29.37 31.726.396.326-2.233-.132-.528z",
+    filter: "url(#v-9)",
+    transform: "matrix(.26458 0 0 .26458 -64.776 53.175)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10399)",
+    strokeWidth: "0.209",
+    d: "M78.613 151.152l.197-.424.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10401)",
+    strokeWidth: "0.209",
+    d: "M80.277 151.57l.976-.003"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8766)",
+    strokeWidth: "0.209",
+    d: "M81.26 151.576l.485-.87.976-.002.234.44"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10403)",
+    strokeWidth: "0.209",
+    d: "M86.696 130.88h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10405)",
+    strokeWidth: "0.209",
+    d: "M86.687 132.607h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10407)",
+    strokeWidth: "0.209",
+    d: "M86.71 134.348h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.67 136.031h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.341 139.514h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.355 137.819h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10409)",
+    strokeWidth: "0.209",
+    d: "M75.35 136.063h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10411)",
+    strokeWidth: "0.209",
+    d: "M75.377 134.399h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10413)",
+    strokeWidth: "0.209",
+    d: "M76.825 135.255l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10415)",
+    strokeWidth: "0.209",
+    d: "M78.293 134.385l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10417)",
+    strokeWidth: "0.209",
+    d: "M79.76 135.228l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10419)",
+    strokeWidth: "0.209",
+    d: "M81.227 134.365l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10421)",
+    strokeWidth: "0.209",
+    d: "M82.699 135.23l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10423)",
+    strokeWidth: "0.209",
+    d: "M84.166 134.364l.485-.87.976-.002.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8782)",
+    strokeWidth: "0.209",
+    d: "M75.846 135.269l-.491-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.687 137.777h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10425)",
+    strokeWidth: "0.209",
+    d: "M75.35 132.666h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10427)",
+    strokeWidth: "0.209",
+    d: "M76.813 133.514l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10429)",
+    strokeWidth: "0.209",
+    d: "M78.28 132.645l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10431)",
+    strokeWidth: "0.209",
+    d: "M79.747 133.487l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10433)",
+    strokeWidth: "0.209",
+    d: "M81.215 132.624l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10435)",
+    strokeWidth: "0.209",
+    d: "M82.686 133.489l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10437)",
+    strokeWidth: "0.209",
+    d: "M84.153 132.623l.486-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8800)",
+    strokeWidth: "0.209",
+    d: "M75.833 133.528l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.678 141.215h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#26121c",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.687 142.966h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.696 144.68h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.696 146.398h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.683 139.465h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10439)",
+    strokeWidth: "0.209",
+    d: "M76.76 130.09l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10441)",
+    strokeWidth: "0.209",
+    d: "M78.227 129.22l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10443)",
+    strokeWidth: "0.209",
+    d: "M79.694 130.063l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10445)",
+    strokeWidth: "0.209",
+    d: "M81.162 129.2l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10447)",
+    strokeWidth: "0.209",
+    d: "M82.633 130.065l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10449)",
+    strokeWidth: "0.209",
+    d: "M85.886 129.462l-.29.569m-1.498-.831l.255-.491"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8816)",
+    strokeWidth: "0.209",
+    d: "M76.989 128.776l.255.456m-1.43.858l-.331-.556"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8772)",
+    strokeWidth: "0.209",
+    d: "M75.346 130.943h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#c3bec4",
+    fillOpacity: "0.871",
+    stroke: "#d2cfcf",
+    strokeWidth: "0.208",
+    d: "M75.382 148.159h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.37 146.444h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.382 144.722h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.35 143.02h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M75.364 141.247h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10451)",
+    strokeWidth: "0.209",
+    d: "M77.05 150.456l.29-.592.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10453)",
+    strokeWidth: "0.209",
+    d: "M78.323 149.864l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10455)",
+    strokeWidth: "0.209",
+    d: "M79.79 150.706l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10457)",
+    strokeWidth: "0.209",
+    d: "M81.258 149.843l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10459)",
+    strokeWidth: "0.209",
+    d: "M82.73 150.708l.485-.87.976-.002.32.589"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10461)",
+    strokeWidth: "0.209",
+    d: "M84.197 149.843l.485-.87.976-.003.428.783"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8834)",
+    strokeWidth: "0.209",
+    d: "M75.448 149.745l.423-.733.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M86.714 148.088h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8850)",
+    strokeWidth: "0.269",
+    d: "M86.712 149.442l-.011-19.569-5.077-2.524-1.765-.003-5.14 2.56.019 19.465 5.246 2.35 1.498-.001 5.194-2.26.036-.018z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10463)",
+    strokeWidth: "0.209",
+    d: "M76.813 131.786l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10465)",
+    strokeWidth: "0.209",
+    d: "M78.28 130.917l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10467)",
+    strokeWidth: "0.209",
+    d: "M79.747 131.759l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10469)",
+    strokeWidth: "0.209",
+    d: "M81.215 130.896l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10471)",
+    strokeWidth: "0.209",
+    d: "M82.686 131.76l.486-.868.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10473)",
+    strokeWidth: "0.209",
+    d: "M84.153 130.895l.486-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8852)",
+    strokeWidth: "0.209",
+    d: "M75.833 131.8l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10475)",
+    strokeWidth: "0.209",
+    d: "M76.8 136.932l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10477)",
+    strokeWidth: "0.209",
+    d: "M78.268 136.062l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10479)",
+    strokeWidth: "0.209",
+    d: "M79.735 136.904l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10481)",
+    strokeWidth: "0.209",
+    d: "M81.202 136.04l.486-.868.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10483)",
+    strokeWidth: "0.209",
+    d: "M82.674 136.906l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10485)",
+    strokeWidth: "0.209",
+    d: "M84.14 136.04l.486-.869.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8868)",
+    strokeWidth: "0.209",
+    d: "M75.82 136.945l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10487)",
+    strokeWidth: "0.209",
+    d: "M76.8 138.672l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10489)",
+    strokeWidth: "0.209",
+    d: "M78.268 137.803l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10491)",
+    strokeWidth: "0.209",
+    d: "M79.735 138.645l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10493)",
+    strokeWidth: "0.209",
+    d: "M81.202 137.782l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10495)",
+    strokeWidth: "0.209",
+    d: "M82.674 138.647l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10497)",
+    strokeWidth: "0.209",
+    d: "M84.14 137.781l.486-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8884)",
+    strokeWidth: "0.209",
+    d: "M75.82 138.686l-.49-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10499)",
+    strokeWidth: "0.209",
+    d: "M76.8 140.362l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10501)",
+    strokeWidth: "0.209",
+    d: "M78.268 139.492l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10503)",
+    strokeWidth: "0.209",
+    d: "M79.735 140.334l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10505)",
+    strokeWidth: "0.209",
+    d: "M81.202 139.471l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10507)",
+    strokeWidth: "0.209",
+    d: "M82.674 140.336l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10509)",
+    strokeWidth: "0.209",
+    d: "M84.14 139.47l.486-.869.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8900)",
+    strokeWidth: "0.209",
+    d: "M75.82 140.375l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10511)",
+    strokeWidth: "0.209",
+    d: "M76.813 142.102l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10513)",
+    strokeWidth: "0.209",
+    d: "M78.28 141.233l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10515)",
+    strokeWidth: "0.209",
+    d: "M79.747 142.075l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10517)",
+    strokeWidth: "0.209",
+    d: "M81.215 141.212l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10519)",
+    strokeWidth: "0.209",
+    d: "M82.686 142.077l.486-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10521)",
+    strokeWidth: "0.209",
+    d: "M84.153 141.211l.486-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8916)",
+    strokeWidth: "0.209",
+    d: "M75.833 142.116l-.49-.866.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10523)",
+    strokeWidth: "0.209",
+    d: "M76.838 145.571l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10525)",
+    strokeWidth: "0.209",
+    d: "M78.306 144.701l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10527)",
+    strokeWidth: "0.209",
+    d: "M79.772 145.543l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10529)",
+    strokeWidth: "0.209",
+    d: "M81.24 144.68l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10531)",
+    strokeWidth: "0.209",
+    d: "M82.712 145.545l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10533)",
+    strokeWidth: "0.209",
+    d: "M84.179 144.68l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8932)",
+    strokeWidth: "0.209",
+    d: "M75.858 145.585l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10535)",
+    strokeWidth: "0.209",
+    d: "M76.838 147.299l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10537)",
+    strokeWidth: "0.209",
+    d: "M78.306 146.43l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10539)",
+    strokeWidth: "0.209",
+    d: "M79.772 147.271l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10541)",
+    strokeWidth: "0.209",
+    d: "M81.24 146.408l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10543)",
+    strokeWidth: "0.209",
+    d: "M82.712 147.273l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10545)",
+    strokeWidth: "0.209",
+    d: "M84.179 146.408l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8948)",
+    strokeWidth: "0.209",
+    d: "M75.858 147.313l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10547)",
+    strokeWidth: "0.209",
+    d: "M76.838 149.001l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10549)",
+    strokeWidth: "0.209",
+    d: "M78.306 148.131l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10551)",
+    strokeWidth: "0.209",
+    d: "M79.772 148.973l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10553)",
+    strokeWidth: "0.209",
+    d: "M81.24 148.11l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10555)",
+    strokeWidth: "0.209",
+    d: "M82.712 148.976l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10557)",
+    strokeWidth: "0.209",
+    d: "M84.179 148.11l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8964)",
+    strokeWidth: "0.209",
+    d: "M75.858 149.015l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10559)",
+    strokeWidth: "0.209",
+    d: "M78.545 127.992l.189.365"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10561)",
+    strokeWidth: "0.209",
+    d: "M79.719 128.335l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8980)",
+    strokeWidth: "0.209",
+    d: "M82.658 128.337l.192-.359"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10563)",
+    strokeWidth: "0.209",
+    d: "M76.813 143.855l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10565)",
+    strokeWidth: "0.209",
+    d: "M78.281 142.986l.485-.87.976-.003.491.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10567)",
+    strokeWidth: "0.209",
+    d: "M79.75 143.827l.485-.869.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10569)",
+    strokeWidth: "0.209",
+    d: "M81.217 142.964l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10571)",
+    strokeWidth: "0.209",
+    d: "M82.685 143.83l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient10573)",
+    strokeWidth: "0.209",
+    d: "M84.153 142.964l.485-.87.976-.002.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8988)",
+    strokeWidth: "0.209",
+    d: "M75.836 143.87l-.49-.867.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9004)",
+    d: "M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z",
+    filter: "url(#S-0)",
+    opacity: "0.535",
+    transform: "translate(-1.212 144.126) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9006)",
+    d: "M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z",
+    filter: "url(#U-1)",
+    opacity: "0.827",
+    transform: "translate(-1.212 144.126) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9008)",
+    strokeWidth: "0.187",
+    d: "M81.7 151.408a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9010)",
+    strokeWidth: "0.104",
+    d: "M81.218 150.95l.185.211-1.075.773-.184-.21z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9012)",
+    strokeWidth: "0.187",
+    d: "M81.611 127.488a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9014)",
+    strokeWidth: "0.104",
+    d: "M81.13 127.031l.184.21-1.074.773-.185-.21z"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Six.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "80",
+    height: "145",
+    version: "1.1",
+    viewBox: "0 0 160 297"
+  }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "k"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#081e1e",
+    stopOpacity: "0.441"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#7a8a8a"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "j"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#fefbfb"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.894",
+    stopColor: "#787878",
+    stopOpacity: "0.502"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#4d4d4d"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "i"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#647172"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#a0bcbd",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-944.78",
+    x2: "-776.19",
+    y1: "927.98",
+    y2: "1224.9",
+    gradientTransform: "translate(92.588 33.674) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "h"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.16",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#555151"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-1030.3",
+    x2: "-832.93",
+    y1: "500.09",
+    y2: "868.4",
+    gradientTransform: "translate(97.258 56.89) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-512.93",
+    x2: "-332",
+    y1: "522.7",
+    y2: "819.59",
+    gradientTransform: "translate(71.507 56.222) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-680.48",
+    x2: "-521.71",
+    y1: "930.52",
+    y2: "1219.7",
+    gradientTransform: "translate(79.112 33.54) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "a"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "b"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.422",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#656262"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "c"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.354",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "d"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#ccbea6"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#625133",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "e"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "f"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "g"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.8"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "l"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#931709"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.471",
+    stopColor: "#b82508",
+    stopOpacity: "0.961"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#dd3307",
+    stopOpacity: "0.925"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.755",
+    stopColor: "#e22c06",
+    stopOpacity: "0.851"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.953",
+    stopColor: "orange",
+    stopOpacity: "0.745"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ffad00",
+    stopOpacity: "0.992"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "772.26",
+    x2: "801.666",
+    y1: "540.527",
+    y2: "540.527",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "751.999",
+    x2: "781.406",
+    y1: "565.145",
+    y2: "565.145",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "731.752",
+    x2: "761.159",
+    y1: "541.124",
+    y2: "541.124",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "711.492",
+    x2: "740.898",
+    y1: "565.931",
+    y2: "565.931",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "792.575",
+    x2: "821.982",
+    y1: "565.203",
+    y2: "565.203",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "224.673",
+    x2: "253.475",
+    y1: "820.097",
+    y2: "820.097",
+    gradientTransform: "scale(1.45657 .68655)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16269-0",
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(63.887 113.228) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16271-1",
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 57.027 198.315)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16273-1",
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(63.887 113.228) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "q-4",
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16275-8",
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "s-5",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "u-46",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "v-7",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8766-7",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8772-1",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8782-7",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8800-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8816-6",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8834-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8850-8",
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8852-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8868-1",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8884-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8900-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8916-1",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8932-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8948-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8964-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8980-9",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8988-8",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9004-3",
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(1910.902 -23.064)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "S-22",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9006-0",
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(1204.028 -600.772)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "U-63",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9008-3",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 65.729 117.252)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9010-9",
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 100.721 113.81)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9012-5",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 65.64 93.333)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9014-2",
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 100.633 89.89)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11411",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11413",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11415",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11417",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11419",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11421",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11423",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11425",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11427",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11429",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11431",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11433",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11435",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11437",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11439",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11441",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11443",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11445",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11447",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11449",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11451",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11453",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11455",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11457",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11459",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11461",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11463",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11465",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11467",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11469",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11471",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11473",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11475",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11477",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11479",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11481",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11483",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11485",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11487",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11489",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11491",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11493",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11495",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11497",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11499",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11501",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11503",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11505",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11507",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11509",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11511",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11513",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11515",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11517",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11519",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11521",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11523",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11525",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11527",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11529",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11531",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11533",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11535",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11537",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11539",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11541",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11543",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11545",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11547",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11549",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11551",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11553",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11555",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11557",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11559",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11561",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11563",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11565",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11567",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11569",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11571",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11573",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11575",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11577",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11579",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11581",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11583",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient11585",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "matrix(9.07379 0 0 9.18926 -665.624 -1132.24)"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16269-0)",
+    strokeWidth: "0.265",
+    d: "M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16271-1)",
+    stroke: "#3a4d53",
+    strokeWidth: "0.156",
+    d: "M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16273-1)",
+    stroke: "#ebe5e5",
+    strokeOpacity: "0.297",
+    strokeWidth: "0.158",
+    d: "M80.682 153.711c-2.646-.145-4.278-.674-5.503-1.786-.432-.39-.907-.953-1.078-1.275l-.16-.3.013-11.343.013-11.342.185-.31c.273-.46 1.057-1.234 1.5-1.48 2.571-1.431 6.32-1.877 9.716-1.155 1.318.28 2.752.831 3.529 1.355.421.285.972.912 1.229 1.4l.192.367v22.418l-.132.283c-.161.345-.359.608-.811 1.078-1.148 1.192-2.536 1.766-4.85 2.008-.904.095-2.855.136-3.844.082zm3.633-.608c2.087-.23 3.211-.703 4.319-1.814.584-.587.881-.993 1.03-1.41.058-.163.071-2.065.073-10.822.003-11.904.043-10.735-.392-11.414-.478-.746-1.054-1.224-2.001-1.66-2.34-1.078-5.292-1.365-8.05-.783-1.222.257-2.503.749-3.255 1.249-.549.364-1.262 1.218-1.441 1.725-.067.19-.078 1.653-.078 10.922v10.702l.182.363c.1.2.368.576.596.836 1.265 1.449 2.9 2.062 5.884 2.207.656.031 2.457-.027 3.133-.1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-4)",
+    transform: "matrix(.03143 0 0 .05233 71.593 112.334)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#140b0b",
+    stroke: "#383838",
+    strokeWidth: "0.052",
+    d: "M82.88 151.684l5.454-2.409.027-19.998-5.323-2.577-1.85-.003-5.388 2.613.02 19.873 5.444 2.475 1.616.027z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16275-8)",
+    d: "M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z",
+    filter: "url(#s-5)",
+    opacity: "0.85",
+    transform: "matrix(.05456 0 0 .05476 63.041 111.79)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-4)",
+    transform: "matrix(.03143 0 0 .05233 85.478 112.277)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M77.636 134.473c-.518.027 0 .059-.668.066-.142-3.792 3.013-5.056 5.363-5.048 2.35.008 5.076.733 5.044 4.842-.032 4.11-3.481 4.763-4.866 5.368-1.638.728-2.688 1.643-3.791 2.968-1.104 1.325-1.292 4.99-1.292 4.99l10.012.079-.024.568s-8.11.05-10.718-.046c.102-2.986.271-3.304.678-4.466.505-1.521 2.148-3.613 4.884-4.755 1.388-.578 4.412-1.551 4.424-4.681.012-3.13-2.236-4.187-4.351-4.128-2.115.058-4.748 1.623-4.695 4.243z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.973 149.084c0-.206.094-.15.1-.626 4.138-.188 4.728-5.922 4.737-9.01.008-3.087-1.3-8.671-4.715-8.593-3.416.078-4.723 5.732-4.765 8.774-.042 3.043 1.105 8.81 4.645 8.853.006.313.024-.105.04.66-3.166-.13-5.25-3.553-5.262-9.509-.012-5.955 2.566-9.385 5.365-9.482 2.8-.098 5.24 3.774 5.308 9.268.07 5.494-1.852 9.726-5.453 9.664z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M84.907 148.769h-.657v-17.813l-6.575 13.79 10.242-.024v.67l-11.26-.026 7.506-16.03h.77l-.026 19.433z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M86.804 130.29l-9.052-.055-.826 9.33c1.767-.269 3.413-.574 5.327-.65 2.61-.002 4.747 1.995 4.765 4.686.017 2.691-2.08 5.11-4.806 5.202-2.178-.12-4.874-1.458-4.394-5.31-.465 0-.324-.134-.717-.13-.765 3.844 1.982 6.023 5.067 6.048 3.085.026 5.51-2.4 5.524-5.777.013-3.376-2.824-5.415-5.389-5.378-2.564.037-4.619.43-4.619.43l.675-7.77 8.394.105.086-.591-.034-.14z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M77.243 130.066l-.002.714h8.926l-4.25 7.676s4.581.362 4.807 4.41c-.131 2.65-.928 5.028-4.35 5.29-4.217.378-4.759-2.896-4.3-4.706-.156-.03-.704-.32-.86-.27-.42 1.796.176 5.905 5.175 5.793 4.76-.566 5.154-4.774 5.132-6.05-.222-4.272-4.504-5.125-4.504-5.125l3.629-6.579.02-1.075-9.422-.078z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M82.91 129.825c-1.889.06-5.74 4.184-6.353 8.818-.256 1.913-1.118 10.252 4.92 10.245 3.775-.165 5.786-2.53 5.963-5.953.125-3.684-3.106-5.483-5.452-5.465-2.346.018-4.809 1.85-4.809 1.85l-.047.811s2.719-2.162 4.905-1.932c2.186.23 4.683 1.273 4.803 4.751-.142 3.792-2.74 5.354-5.369 5.378-5.345-.164-4.48-7.532-4.29-9.504.435-4.003 4.254-8.189 5.55-8.267.062-.366.083-.22.18-.732z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M76.96 130.33h10.51l-.002.927-5.92 17.346-.615-.127 5.963-17.457-9.919.035-.018-.724z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M82.107 148.88c.018-.503.023-.107.032-.768-2.802.067-4.575-2.333-4.65-4.604-.072-2.22 1.683-3.8 4.368-4.48.85-.288 5.004-.8 5.116-4.469.03-2.367-1.39-4.84-4.586-4.752-3.197.088-4.755 2.357-4.664 4.853.122 3.016 2.686 3.647 4.564 4.26 1.05.62 4.51.524 4.687 4.395-.005 2.81-2.686 4.948-4.767 4.815.005.639-.035.01.008.746 2.48.058 5.455-2.04 5.458-5.585.028-4.63-5.918-5.25-5.918-5.25s-3.12-.647-3.2-3.447c-.061-1.67.964-3.974 3.903-3.988 3.016.07 3.722 2.364 3.706 3.98-.35 2.734-3.196 3.348-3.886 3.538-1.356.491-5.35 1.114-5.528 5.305.255 3.537 2.565 5.392 5.357 5.45z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.692 129.02v19.673h.854V129.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fe72dc",
+    stroke: "#fe72dc",
+    strokeWidth: "1.182",
+    d: "M228.412 419.743c-10.629-.45-24.113 17.025-26.434 34.54-.967 7.232-3.648 39.49 19.173 39.462 14.267-.624 23.03-10.244 23.7-23.18.472-16.154-12.807-21.789-21.673-21.722-8.866.068-17.317 6.105-17.317 6.105l-.185 5.694s9.133-7.874 17.59-7.004c8.457.87 16.695 3.187 17.147 16.333-.537 14.333-9.25 18.994-19.19 19.087-18.95-.555-15.926-25.97-15.006-35.007 1.446-15.984 15.366-29.137 21.418-30.207.236-1.386.413-2.16.776-4.1z",
+    filter: "url(#u-46)",
+    transform: "matrix(.26458 0 0 .26458 23.16 18.746)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fbea46",
+    stroke: "#ffa300",
+    strokeWidth: "1.182",
+    d: "M226.757 420.545c-7.137.23-21.69 15.816-24.01 33.33-.968 7.232-4.227 38.749 18.594 38.721 14.267-.624 21.868-9.565 22.536-22.501.472-13.924-11.74-20.724-20.605-20.655-8.866.068-18.174 6.993-18.174 6.993l-.181 3.067s10.277-8.172 18.54-7.302c8.262.87 17.7 4.809 18.151 17.955-.537 14.333-10.352 20.235-20.29 20.328-20.204-.62-16.935-28.467-16.212-35.923 1.643-15.128 16.075-30.948 20.972-31.241.236-1.387.316-.83.68-2.77z",
+    filter: "url(#v-7)",
+    transform: "matrix(.26458 0 0 .26458 23.186 18.769)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11411)",
+    strokeWidth: "0.209",
+    d: "M79.969 150.92l.197-.424.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11413)",
+    strokeWidth: "0.209",
+    d: "M81.633 151.338l.976-.003"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8766-7)",
+    strokeWidth: "0.209",
+    d: "M82.616 151.345l.485-.87.976-.003.234.44"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11415)",
+    strokeWidth: "0.209",
+    d: "M88.052 130.648h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11417)",
+    strokeWidth: "0.209",
+    d: "M88.043 132.376h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11419)",
+    strokeWidth: "0.209",
+    d: "M88.065 134.117h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.025 135.8h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.697 139.283h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.71 137.587h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11421)",
+    strokeWidth: "0.209",
+    d: "M76.706 135.831h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11423)",
+    strokeWidth: "0.209",
+    d: "M76.733 134.167h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11425)",
+    strokeWidth: "0.209",
+    d: "M78.181 135.024l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11427)",
+    strokeWidth: "0.209",
+    d: "M79.649 134.154l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11429)",
+    strokeWidth: "0.209",
+    d: "M81.116 134.996l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11431)",
+    strokeWidth: "0.209",
+    d: "M82.583 134.133l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11433)",
+    strokeWidth: "0.209",
+    d: "M84.055 134.998l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11435)",
+    strokeWidth: "0.209",
+    d: "M85.522 134.133l.485-.87.976-.003.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8782-7)",
+    strokeWidth: "0.209",
+    d: "M77.202 135.037l-.491-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.043 137.546h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11437)",
+    strokeWidth: "0.209",
+    d: "M76.706 132.435h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11439)",
+    strokeWidth: "0.209",
+    d: "M78.169 133.283l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11441)",
+    strokeWidth: "0.209",
+    d: "M79.636 132.413l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11443)",
+    strokeWidth: "0.209",
+    d: "M81.103 133.255l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11445)",
+    strokeWidth: "0.209",
+    d: "M82.57 132.392l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11447)",
+    strokeWidth: "0.209",
+    d: "M84.042 133.257l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11449)",
+    strokeWidth: "0.209",
+    d: "M85.51 132.392l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8800-0)",
+    strokeWidth: "0.209",
+    d: "M77.189 133.297l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.034 140.983h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#26121c",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.043 142.734h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.052 144.448h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.052 146.167h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.039 139.233h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11451)",
+    strokeWidth: "0.209",
+    d: "M78.116 129.859l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11453)",
+    strokeWidth: "0.209",
+    d: "M79.583 128.99l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11455)",
+    strokeWidth: "0.209",
+    d: "M81.05 129.831l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11457)",
+    strokeWidth: "0.209",
+    d: "M82.518 128.968l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11459)",
+    strokeWidth: "0.209",
+    d: "M83.99 129.833l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11461)",
+    strokeWidth: "0.209",
+    d: "M87.242 129.23l-.29.57m-1.498-.832l.255-.49"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8816-6)",
+    strokeWidth: "0.209",
+    d: "M78.345 128.544l.255.456m-1.43.859l-.331-.556"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8772-1)",
+    strokeWidth: "0.209",
+    d: "M76.702 130.712h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#c3bec4",
+    fillOpacity: "0.871",
+    stroke: "#d2cfcf",
+    strokeWidth: "0.208",
+    d: "M76.738 147.927h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.725 146.212h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.738 144.491h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.706 142.789h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.72 141.015h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11463)",
+    strokeWidth: "0.209",
+    d: "M78.406 150.225l.29-.592.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11465)",
+    strokeWidth: "0.209",
+    d: "M79.68 149.632l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11467)",
+    strokeWidth: "0.209",
+    d: "M81.146 150.474l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11469)",
+    strokeWidth: "0.209",
+    d: "M82.614 149.611l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11471)",
+    strokeWidth: "0.209",
+    d: "M84.085 150.476l.486-.869.976-.003.32.59"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11473)",
+    strokeWidth: "0.209",
+    d: "M85.552 149.611l.486-.87.976-.002.428.782"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8834-0)",
+    strokeWidth: "0.209",
+    d: "M76.804 149.514l.423-.734.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.07 147.856h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8850-8)",
+    strokeWidth: "0.269",
+    d: "M88.068 149.21l-.011-19.568-5.077-2.524-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11475)",
+    strokeWidth: "0.209",
+    d: "M78.169 131.555l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11477)",
+    strokeWidth: "0.209",
+    d: "M79.636 130.685l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11479)",
+    strokeWidth: "0.209",
+    d: "M81.103 131.527l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11481)",
+    strokeWidth: "0.209",
+    d: "M82.57 130.664l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11483)",
+    strokeWidth: "0.209",
+    d: "M84.042 131.53l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11485)",
+    strokeWidth: "0.209",
+    d: "M85.51 130.664l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8852-4)",
+    strokeWidth: "0.209",
+    d: "M77.189 131.569l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11487)",
+    strokeWidth: "0.209",
+    d: "M78.156 136.7l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11489)",
+    strokeWidth: "0.209",
+    d: "M79.624 135.83l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11491)",
+    strokeWidth: "0.209",
+    d: "M81.09 136.672l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11493)",
+    strokeWidth: "0.209",
+    d: "M82.558 135.81l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11495)",
+    strokeWidth: "0.209",
+    d: "M84.03 136.674l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11497)",
+    strokeWidth: "0.209",
+    d: "M85.497 135.809l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8868-1)",
+    strokeWidth: "0.209",
+    d: "M77.176 136.714l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11499)",
+    strokeWidth: "0.209",
+    d: "M78.156 138.44l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11501)",
+    strokeWidth: "0.209",
+    d: "M79.624 137.571l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11503)",
+    strokeWidth: "0.209",
+    d: "M81.09 138.413l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11505)",
+    strokeWidth: "0.209",
+    d: "M82.558 137.55l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11507)",
+    strokeWidth: "0.209",
+    d: "M84.03 138.415l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11509)",
+    strokeWidth: "0.209",
+    d: "M85.497 137.55l.485-.87.976-.003.49.867-.484.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8884-5)",
+    strokeWidth: "0.209",
+    d: "M77.176 138.455l-.49-.867.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11511)",
+    strokeWidth: "0.209",
+    d: "M78.156 140.13l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11513)",
+    strokeWidth: "0.209",
+    d: "M79.624 139.26l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11515)",
+    strokeWidth: "0.209",
+    d: "M81.09 140.103l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11517)",
+    strokeWidth: "0.209",
+    d: "M82.558 139.24l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11519)",
+    strokeWidth: "0.209",
+    d: "M84.03 140.105l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11521)",
+    strokeWidth: "0.209",
+    d: "M85.497 139.24l.485-.87.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8900-4)",
+    strokeWidth: "0.209",
+    d: "M77.176 140.144l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11523)",
+    strokeWidth: "0.209",
+    d: "M78.169 141.87l.485-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11525)",
+    strokeWidth: "0.209",
+    d: "M79.636 141.001l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11527)",
+    strokeWidth: "0.209",
+    d: "M81.103 141.843l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11529)",
+    strokeWidth: "0.209",
+    d: "M82.57 140.98l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11531)",
+    strokeWidth: "0.209",
+    d: "M84.042 141.845l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11533)",
+    strokeWidth: "0.209",
+    d: "M85.51 140.98l.485-.87.976-.003.49.867-.485.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8916-1)",
+    strokeWidth: "0.209",
+    d: "M77.189 141.885l-.49-.867.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11535)",
+    strokeWidth: "0.209",
+    d: "M78.194 145.34l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11537)",
+    strokeWidth: "0.209",
+    d: "M79.662 144.47l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11539)",
+    strokeWidth: "0.209",
+    d: "M81.128 145.312l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11541)",
+    strokeWidth: "0.209",
+    d: "M82.596 144.449l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11543)",
+    strokeWidth: "0.209",
+    d: "M84.068 145.314l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11545)",
+    strokeWidth: "0.209",
+    d: "M85.535 144.448l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8932-5)",
+    strokeWidth: "0.209",
+    d: "M77.214 145.353l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11547)",
+    strokeWidth: "0.209",
+    d: "M78.194 147.067l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11549)",
+    strokeWidth: "0.209",
+    d: "M79.662 146.198l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11551)",
+    strokeWidth: "0.209",
+    d: "M81.128 147.04l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11553)",
+    strokeWidth: "0.209",
+    d: "M82.596 146.177l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11555)",
+    strokeWidth: "0.209",
+    d: "M84.068 147.042l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11557)",
+    strokeWidth: "0.209",
+    d: "M85.535 146.176l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8948-5)",
+    strokeWidth: "0.209",
+    d: "M77.214 147.081l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11559)",
+    strokeWidth: "0.209",
+    d: "M78.194 148.77l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11561)",
+    strokeWidth: "0.209",
+    d: "M79.662 147.9l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11563)",
+    strokeWidth: "0.209",
+    d: "M81.128 148.742l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11565)",
+    strokeWidth: "0.209",
+    d: "M82.596 147.879l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11567)",
+    strokeWidth: "0.209",
+    d: "M84.068 148.744l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11569)",
+    strokeWidth: "0.209",
+    d: "M85.535 147.879l.485-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8964-4)",
+    strokeWidth: "0.209",
+    d: "M77.214 148.783l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11571)",
+    strokeWidth: "0.209",
+    d: "M79.901 127.76l.189.365"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11573)",
+    strokeWidth: "0.209",
+    d: "M81.075 128.104l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8980-9)",
+    strokeWidth: "0.209",
+    d: "M84.014 128.106l.192-.36"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11575)",
+    strokeWidth: "0.209",
+    d: "M78.17 143.624l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11577)",
+    strokeWidth: "0.209",
+    d: "M79.637 142.754l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11579)",
+    strokeWidth: "0.209",
+    d: "M81.105 143.596l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11581)",
+    strokeWidth: "0.209",
+    d: "M82.573 142.733l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11583)",
+    strokeWidth: "0.209",
+    d: "M84.041 143.599l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient11585)",
+    strokeWidth: "0.209",
+    d: "M85.509 142.733l.485-.87.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8988-8)",
+    strokeWidth: "0.209",
+    d: "M77.192 143.638l-.49-.867.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9004-3)",
+    d: "M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z",
+    filter: "url(#S-22)",
+    opacity: "0.535",
+    transform: "translate(.144 143.895) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9006-0)",
+    d: "M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z",
+    filter: "url(#U-63)",
+    opacity: "0.827",
+    transform: "translate(.144 143.895) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9008-3)",
+    strokeWidth: "0.187",
+    d: "M83.056 151.176a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9010-9)",
+    strokeWidth: "0.104",
+    d: "M82.574 150.72l.185.21-1.075.772-.184-.21z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9012-5)",
+    strokeWidth: "0.187",
+    d: "M82.967 127.257a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9014-2)",
+    strokeWidth: "0.104",
+    d: "M82.486 126.8l.184.21-1.074.773-.185-.21z"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Seven.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "80",
+    height: "145",
+    version: "1.1",
+    viewBox: "0 0 160 297"
+  }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "k"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#081e1e",
+    stopOpacity: "0.441"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#7a8a8a"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "j"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#fefbfb"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.894",
+    stopColor: "#787878",
+    stopOpacity: "0.502"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#4d4d4d"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "i"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#647172"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#a0bcbd",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-944.78",
+    x2: "-776.19",
+    y1: "927.98",
+    y2: "1224.9",
+    gradientTransform: "translate(92.588 33.674) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "h"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.16",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#555151"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-1030.3",
+    x2: "-832.93",
+    y1: "500.09",
+    y2: "868.4",
+    gradientTransform: "translate(97.258 56.89) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-512.93",
+    x2: "-332",
+    y1: "522.7",
+    y2: "819.59",
+    gradientTransform: "translate(71.507 56.222) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-680.48",
+    x2: "-521.71",
+    y1: "930.52",
+    y2: "1219.7",
+    gradientTransform: "translate(79.112 33.54) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "a"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "b"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.422",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#656262"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "c"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.354",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "d"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#ccbea6"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#625133",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "e"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "f"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "g"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.8"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "l"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#931709"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.471",
+    stopColor: "#b82508",
+    stopOpacity: "0.961"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#dd3307",
+    stopOpacity: "0.925"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.755",
+    stopColor: "#e22c06",
+    stopOpacity: "0.851"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.953",
+    stopColor: "orange",
+    stopOpacity: "0.745"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ffad00",
+    stopOpacity: "0.992"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "772.26",
+    x2: "801.666",
+    y1: "540.527",
+    y2: "540.527",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "751.999",
+    x2: "781.406",
+    y1: "565.145",
+    y2: "565.145",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "731.752",
+    x2: "761.159",
+    y1: "541.124",
+    y2: "541.124",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "711.492",
+    x2: "740.898",
+    y1: "565.931",
+    y2: "565.931",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "792.575",
+    x2: "821.982",
+    y1: "565.203",
+    y2: "565.203",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "224.673",
+    x2: "253.475",
+    y1: "820.097",
+    y2: "820.097",
+    gradientTransform: "scale(1.45657 .68655)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16269",
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(63.887 113.228) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16271",
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 57.027 198.315)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16273",
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(63.887 113.228) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "q-1",
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16275",
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "s-4",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "u-3",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "v-4",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8766",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8772",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8782",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8800",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8816",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8834",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8850",
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8852",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8868",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8884",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8900",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8916",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8932",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8948",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8964",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8980",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8988",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9004",
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(1910.902 -23.064)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "S-56",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9006",
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(1204.028 -600.772)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "U-21",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9008",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 65.729 117.252)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9010",
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 100.721 113.81)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9012",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 65.64 93.333)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9014",
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 100.633 89.89)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12423",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12425",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12427",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12429",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12431",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12433",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12435",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12437",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12439",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12441",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12443",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12445",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12447",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12449",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12451",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12453",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12455",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12457",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12459",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12461",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12463",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12465",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12467",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12469",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12471",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12473",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12475",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12477",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12479",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12481",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12483",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12485",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12487",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12489",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12491",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12493",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12495",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12497",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12499",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12501",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12503",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12505",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12507",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12509",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12511",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12513",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12515",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12517",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12519",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12521",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12523",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12525",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12527",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12529",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12531",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12533",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12535",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12537",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12539",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12541",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12543",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12545",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12547",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12549",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12551",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12553",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12555",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12557",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12559",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12561",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12563",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12565",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12567",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12569",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12571",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12573",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12575",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12577",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12579",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12581",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12583",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12585",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12587",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12589",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12591",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12593",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12595",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient12597",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "matrix(9.07379 0 0 9.18926 -665.624 -1132.24)"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16269)",
+    strokeWidth: "0.265",
+    d: "M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16271)",
+    stroke: "#3a4d53",
+    strokeWidth: "0.156",
+    d: "M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16273)",
+    stroke: "#ebe5e5",
+    strokeOpacity: "0.297",
+    strokeWidth: "0.158",
+    d: "M80.682 153.711c-2.646-.145-4.278-.674-5.503-1.786-.432-.39-.907-.953-1.078-1.275l-.16-.3.013-11.343.013-11.342.185-.31c.273-.46 1.057-1.234 1.5-1.48 2.571-1.431 6.32-1.877 9.716-1.155 1.318.28 2.752.831 3.529 1.355.421.285.972.912 1.229 1.4l.192.367v22.418l-.132.283c-.161.345-.359.608-.811 1.078-1.148 1.192-2.536 1.766-4.85 2.008-.904.095-2.855.136-3.844.082zm3.633-.608c2.087-.23 3.211-.703 4.319-1.814.584-.587.881-.993 1.03-1.41.058-.163.071-2.065.073-10.822.003-11.904.043-10.735-.392-11.414-.478-.746-1.054-1.224-2.001-1.66-2.34-1.078-5.292-1.365-8.05-.783-1.222.257-2.503.749-3.255 1.249-.549.364-1.262 1.218-1.441 1.725-.067.19-.078 1.653-.078 10.922v10.702l.182.363c.1.2.368.576.596.836 1.265 1.449 2.9 2.062 5.884 2.207.656.031 2.457-.027 3.133-.1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-1)",
+    transform: "matrix(.03143 0 0 .05233 71.593 112.334)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#140b0b",
+    stroke: "#383838",
+    strokeWidth: "0.052",
+    d: "M82.88 151.684l5.454-2.409.027-19.998-5.323-2.577-1.85-.003-5.388 2.613.02 19.873 5.444 2.475 1.616.027z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16275)",
+    d: "M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z",
+    filter: "url(#s-4)",
+    opacity: "0.85",
+    transform: "matrix(.05456 0 0 .05476 63.041 111.79)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-1)",
+    transform: "matrix(.03143 0 0 .05233 85.478 112.277)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M77.636 134.473c-.518.027 0 .059-.668.066-.142-3.792 3.013-5.056 5.363-5.048 2.35.008 5.076.733 5.044 4.842-.032 4.11-3.481 4.763-4.866 5.368-1.638.728-2.688 1.643-3.791 2.968-1.104 1.325-1.292 4.99-1.292 4.99l10.012.079-.024.568s-8.11.05-10.718-.046c.102-2.986.271-3.304.678-4.466.505-1.521 2.148-3.613 4.884-4.755 1.388-.578 4.412-1.551 4.424-4.681.012-3.13-2.236-4.187-4.351-4.128-2.115.058-4.748 1.623-4.695 4.243z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.973 149.084c0-.206.094-.15.1-.626 4.138-.188 4.728-5.922 4.737-9.01.008-3.087-1.3-8.671-4.715-8.593-3.416.078-4.723 5.732-4.765 8.774-.042 3.043 1.105 8.81 4.645 8.853.006.313.024-.105.04.66-3.166-.13-5.25-3.553-5.262-9.509-.012-5.955 2.566-9.385 5.365-9.482 2.8-.098 5.24 3.774 5.308 9.268.07 5.494-1.852 9.726-5.453 9.664z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M84.907 148.769h-.657v-17.813l-6.575 13.79 10.242-.024v.67l-11.26-.026 7.506-16.03h.77l-.026 19.433z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M86.804 130.29l-9.052-.055-.826 9.33c1.767-.269 3.413-.574 5.327-.65 2.61-.002 4.747 1.995 4.765 4.686.017 2.691-2.08 5.11-4.806 5.202-2.178-.12-4.874-1.458-4.394-5.31-.465 0-.324-.134-.717-.13-.765 3.844 1.982 6.023 5.067 6.048 3.085.026 5.51-2.4 5.524-5.777.013-3.376-2.824-5.415-5.389-5.378-2.564.037-4.619.43-4.619.43l.675-7.77 8.394.105.086-.591-.034-.14z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M77.243 130.066l-.002.714h8.926l-4.25 7.676s4.581.362 4.807 4.41c-.131 2.65-.928 5.028-4.35 5.29-4.217.378-4.759-2.896-4.3-4.706-.156-.03-.704-.32-.86-.27-.42 1.796.176 5.905 5.175 5.793 4.76-.566 5.154-4.774 5.132-6.05-.222-4.272-4.504-5.125-4.504-5.125l3.629-6.579.02-1.075-9.422-.078z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M82.91 129.825c-1.889.06-5.74 4.184-6.353 8.818-.256 1.913-1.118 10.252 4.92 10.245 3.775-.165 5.786-2.53 5.963-5.953.125-3.684-3.106-5.483-5.452-5.465-2.346.018-4.809 1.85-4.809 1.85l-.047.811s2.719-2.162 4.905-1.932c2.186.23 4.683 1.273 4.803 4.751-.142 3.792-2.74 5.354-5.369 5.378-5.345-.164-4.48-7.532-4.29-9.504.435-4.003 4.254-8.189 5.55-8.267.062-.366.083-.22.18-.732z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M76.96 130.33h10.51l-.002.927-5.92 17.346-.615-.127 5.963-17.457-9.919.035-.018-.724z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M82.107 148.88c.018-.503.023-.107.032-.768-2.802.067-4.575-2.333-4.65-4.604-.072-2.22 1.683-3.8 4.368-4.48.85-.288 5.004-.8 5.116-4.469.03-2.367-1.39-4.84-4.586-4.752-3.197.088-4.755 2.357-4.664 4.853.122 3.016 2.686 3.647 4.564 4.26 1.05.62 4.51.524 4.687 4.395-.005 2.81-2.686 4.948-4.767 4.815.005.639-.035.01.008.746 2.48.058 5.455-2.04 5.458-5.585.028-4.63-5.918-5.25-5.918-5.25s-3.12-.647-3.2-3.447c-.061-1.67.964-3.974 3.903-3.988 3.016.07 3.722 2.364 3.706 3.98-.35 2.734-3.196 3.348-3.886 3.538-1.356.491-5.35 1.114-5.528 5.305.255 3.537 2.565 5.392 5.357 5.45z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.692 129.02v19.673h.854V129.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fe72dc",
+    stroke: "#fe72dc",
+    strokeWidth: "1.182",
+    d: "M285.749 422.984h44.336l-.662 3.768-23.43 68.459-5.227-.35 24.383-68.485-39.068.791 2.435-3.92-2.767-.264z",
+    filter: "url(#u-3)",
+    transform: "matrix(.26458 0 0 .26458 .435 18.603)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fbea46",
+    stroke: "#ffa300",
+    strokeWidth: "1.182",
+    d: "M288.27 423.116h39.724l-.003 3.505-22.373 65.56-2.328-.482 22.537-65.98-37.488.132z",
+    filter: "url(#v-4)",
+    transform: "matrix(.26458 0 0 .26458 .507 18.773)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12423)",
+    strokeWidth: "0.209",
+    d: "M79.969 150.92l.197-.424.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12425)",
+    strokeWidth: "0.209",
+    d: "M81.633 151.338l.976-.003"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8766)",
+    strokeWidth: "0.209",
+    d: "M82.616 151.345l.485-.87.976-.003.234.44"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12427)",
+    strokeWidth: "0.209",
+    d: "M88.052 130.648h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12429)",
+    strokeWidth: "0.209",
+    d: "M88.043 132.376h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12431)",
+    strokeWidth: "0.209",
+    d: "M88.065 134.117h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.025 135.8h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.697 139.283h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.71 137.587h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12433)",
+    strokeWidth: "0.209",
+    d: "M76.706 135.831h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12435)",
+    strokeWidth: "0.209",
+    d: "M76.733 134.167h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12437)",
+    strokeWidth: "0.209",
+    d: "M78.181 135.024l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12439)",
+    strokeWidth: "0.209",
+    d: "M79.649 134.154l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12441)",
+    strokeWidth: "0.209",
+    d: "M81.116 134.996l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12443)",
+    strokeWidth: "0.209",
+    d: "M82.583 134.133l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12445)",
+    strokeWidth: "0.209",
+    d: "M84.055 134.998l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12447)",
+    strokeWidth: "0.209",
+    d: "M85.522 134.133l.485-.87.976-.003.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8782)",
+    strokeWidth: "0.209",
+    d: "M77.202 135.037l-.491-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.043 137.546h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12449)",
+    strokeWidth: "0.209",
+    d: "M76.706 132.435h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12451)",
+    strokeWidth: "0.209",
+    d: "M78.169 133.283l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12453)",
+    strokeWidth: "0.209",
+    d: "M79.636 132.413l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12455)",
+    strokeWidth: "0.209",
+    d: "M81.103 133.255l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12457)",
+    strokeWidth: "0.209",
+    d: "M82.57 132.392l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12459)",
+    strokeWidth: "0.209",
+    d: "M84.042 133.257l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12461)",
+    strokeWidth: "0.209",
+    d: "M85.51 132.392l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8800)",
+    strokeWidth: "0.209",
+    d: "M77.189 133.297l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.034 140.983h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#26121c",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.043 142.734h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.052 144.448h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.052 146.167h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.039 139.233h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12463)",
+    strokeWidth: "0.209",
+    d: "M78.116 129.859l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12465)",
+    strokeWidth: "0.209",
+    d: "M79.583 128.99l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12467)",
+    strokeWidth: "0.209",
+    d: "M81.05 129.831l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12469)",
+    strokeWidth: "0.209",
+    d: "M82.518 128.968l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12471)",
+    strokeWidth: "0.209",
+    d: "M83.99 129.833l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12473)",
+    strokeWidth: "0.209",
+    d: "M87.242 129.23l-.29.57m-1.498-.832l.255-.49"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8816)",
+    strokeWidth: "0.209",
+    d: "M78.345 128.544l.255.456m-1.43.859l-.331-.556"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8772)",
+    strokeWidth: "0.209",
+    d: "M76.702 130.712h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#c3bec4",
+    fillOpacity: "0.871",
+    stroke: "#d2cfcf",
+    strokeWidth: "0.208",
+    d: "M76.738 147.927h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.725 146.212h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.738 144.491h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.706 142.789h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.72 141.015h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12475)",
+    strokeWidth: "0.209",
+    d: "M78.406 150.225l.29-.592.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12477)",
+    strokeWidth: "0.209",
+    d: "M79.68 149.632l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12479)",
+    strokeWidth: "0.209",
+    d: "M81.146 150.474l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12481)",
+    strokeWidth: "0.209",
+    d: "M82.614 149.611l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12483)",
+    strokeWidth: "0.209",
+    d: "M84.085 150.476l.486-.869.976-.003.32.59"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12485)",
+    strokeWidth: "0.209",
+    d: "M85.552 149.611l.486-.87.976-.002.428.782"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8834)",
+    strokeWidth: "0.209",
+    d: "M76.804 149.514l.423-.734.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.07 147.856h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8850)",
+    strokeWidth: "0.269",
+    d: "M88.068 149.21l-.011-19.568-5.077-2.524-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12487)",
+    strokeWidth: "0.209",
+    d: "M78.169 131.555l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12489)",
+    strokeWidth: "0.209",
+    d: "M79.636 130.685l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12491)",
+    strokeWidth: "0.209",
+    d: "M81.103 131.527l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12493)",
+    strokeWidth: "0.209",
+    d: "M82.57 130.664l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12495)",
+    strokeWidth: "0.209",
+    d: "M84.042 131.53l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12497)",
+    strokeWidth: "0.209",
+    d: "M85.51 130.664l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8852)",
+    strokeWidth: "0.209",
+    d: "M77.189 131.569l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12499)",
+    strokeWidth: "0.209",
+    d: "M78.156 136.7l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12501)",
+    strokeWidth: "0.209",
+    d: "M79.624 135.83l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12503)",
+    strokeWidth: "0.209",
+    d: "M81.09 136.672l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12505)",
+    strokeWidth: "0.209",
+    d: "M82.558 135.81l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12507)",
+    strokeWidth: "0.209",
+    d: "M84.03 136.674l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12509)",
+    strokeWidth: "0.209",
+    d: "M85.497 135.809l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8868)",
+    strokeWidth: "0.209",
+    d: "M77.176 136.714l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12511)",
+    strokeWidth: "0.209",
+    d: "M78.156 138.44l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12513)",
+    strokeWidth: "0.209",
+    d: "M79.624 137.571l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12515)",
+    strokeWidth: "0.209",
+    d: "M81.09 138.413l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12517)",
+    strokeWidth: "0.209",
+    d: "M82.558 137.55l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12519)",
+    strokeWidth: "0.209",
+    d: "M84.03 138.415l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12521)",
+    strokeWidth: "0.209",
+    d: "M85.497 137.55l.485-.87.976-.003.49.867-.484.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8884)",
+    strokeWidth: "0.209",
+    d: "M77.176 138.455l-.49-.867.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12523)",
+    strokeWidth: "0.209",
+    d: "M78.156 140.13l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12525)",
+    strokeWidth: "0.209",
+    d: "M79.624 139.26l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12527)",
+    strokeWidth: "0.209",
+    d: "M81.09 140.103l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12529)",
+    strokeWidth: "0.209",
+    d: "M82.558 139.24l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12531)",
+    strokeWidth: "0.209",
+    d: "M84.03 140.105l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12533)",
+    strokeWidth: "0.209",
+    d: "M85.497 139.24l.485-.87.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8900)",
+    strokeWidth: "0.209",
+    d: "M77.176 140.144l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12535)",
+    strokeWidth: "0.209",
+    d: "M78.169 141.87l.485-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12537)",
+    strokeWidth: "0.209",
+    d: "M79.636 141.001l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12539)",
+    strokeWidth: "0.209",
+    d: "M81.103 141.843l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12541)",
+    strokeWidth: "0.209",
+    d: "M82.57 140.98l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12543)",
+    strokeWidth: "0.209",
+    d: "M84.042 141.845l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12545)",
+    strokeWidth: "0.209",
+    d: "M85.51 140.98l.485-.87.976-.003.49.867-.485.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8916)",
+    strokeWidth: "0.209",
+    d: "M77.189 141.885l-.49-.867.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12547)",
+    strokeWidth: "0.209",
+    d: "M78.194 145.34l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12549)",
+    strokeWidth: "0.209",
+    d: "M79.662 144.47l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12551)",
+    strokeWidth: "0.209",
+    d: "M81.128 145.312l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12553)",
+    strokeWidth: "0.209",
+    d: "M82.596 144.449l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12555)",
+    strokeWidth: "0.209",
+    d: "M84.068 145.314l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12557)",
+    strokeWidth: "0.209",
+    d: "M85.535 144.448l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8932)",
+    strokeWidth: "0.209",
+    d: "M77.214 145.353l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12559)",
+    strokeWidth: "0.209",
+    d: "M78.194 147.067l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12561)",
+    strokeWidth: "0.209",
+    d: "M79.662 146.198l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12563)",
+    strokeWidth: "0.209",
+    d: "M81.128 147.04l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12565)",
+    strokeWidth: "0.209",
+    d: "M82.596 146.177l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12567)",
+    strokeWidth: "0.209",
+    d: "M84.068 147.042l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12569)",
+    strokeWidth: "0.209",
+    d: "M85.535 146.176l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8948)",
+    strokeWidth: "0.209",
+    d: "M77.214 147.081l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12571)",
+    strokeWidth: "0.209",
+    d: "M78.194 148.77l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12573)",
+    strokeWidth: "0.209",
+    d: "M79.662 147.9l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12575)",
+    strokeWidth: "0.209",
+    d: "M81.128 148.742l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12577)",
+    strokeWidth: "0.209",
+    d: "M82.596 147.879l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12579)",
+    strokeWidth: "0.209",
+    d: "M84.068 148.744l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12581)",
+    strokeWidth: "0.209",
+    d: "M85.535 147.879l.485-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8964)",
+    strokeWidth: "0.209",
+    d: "M77.214 148.783l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12583)",
+    strokeWidth: "0.209",
+    d: "M79.901 127.76l.189.365"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12585)",
+    strokeWidth: "0.209",
+    d: "M81.075 128.104l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8980)",
+    strokeWidth: "0.209",
+    d: "M84.014 128.106l.192-.36"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12587)",
+    strokeWidth: "0.209",
+    d: "M78.17 143.624l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12589)",
+    strokeWidth: "0.209",
+    d: "M79.637 142.754l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12591)",
+    strokeWidth: "0.209",
+    d: "M81.105 143.596l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12593)",
+    strokeWidth: "0.209",
+    d: "M82.573 142.733l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12595)",
+    strokeWidth: "0.209",
+    d: "M84.041 143.599l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient12597)",
+    strokeWidth: "0.209",
+    d: "M85.509 142.733l.485-.87.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8988)",
+    strokeWidth: "0.209",
+    d: "M77.192 143.638l-.49-.867.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9004)",
+    d: "M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z",
+    filter: "url(#S-56)",
+    opacity: "0.535",
+    transform: "translate(.144 143.895) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9006)",
+    d: "M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z",
+    filter: "url(#U-21)",
+    opacity: "0.827",
+    transform: "translate(.144 143.895) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9008)",
+    strokeWidth: "0.187",
+    d: "M83.056 151.176a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9010)",
+    strokeWidth: "0.104",
+    d: "M82.574 150.72l.185.21-1.075.772-.184-.21z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9012)",
+    strokeWidth: "0.187",
+    d: "M82.967 127.257a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9014)",
+    strokeWidth: "0.104",
+    d: "M82.486 126.8l.184.21-1.074.773-.185-.21z"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Eight.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "80",
+    height: "145",
+    version: "1.1",
+    viewBox: "0 0 160 297"
+  }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "k"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#081e1e",
+    stopOpacity: "0.441"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#7a8a8a"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "j"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#fefbfb"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.894",
+    stopColor: "#787878",
+    stopOpacity: "0.502"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#4d4d4d"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "i"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#647172"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#a0bcbd",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-944.78",
+    x2: "-776.19",
+    y1: "927.98",
+    y2: "1224.9",
+    gradientTransform: "translate(92.588 33.674) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "h"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.16",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#555151"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-1030.3",
+    x2: "-832.93",
+    y1: "500.09",
+    y2: "868.4",
+    gradientTransform: "translate(97.258 56.89) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-512.93",
+    x2: "-332",
+    y1: "522.7",
+    y2: "819.59",
+    gradientTransform: "translate(71.507 56.222) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-680.48",
+    x2: "-521.71",
+    y1: "930.52",
+    y2: "1219.7",
+    gradientTransform: "translate(79.112 33.54) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "a"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "b"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.422",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#656262"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "c"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.354",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "d"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#ccbea6"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#625133",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "e"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "f"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "g"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.8"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "l"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#931709"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.471",
+    stopColor: "#b82508",
+    stopOpacity: "0.961"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#dd3307",
+    stopOpacity: "0.925"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.755",
+    stopColor: "#e22c06",
+    stopOpacity: "0.851"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.953",
+    stopColor: "orange",
+    stopOpacity: "0.745"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ffad00",
+    stopOpacity: "0.992"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "772.26",
+    x2: "801.666",
+    y1: "540.527",
+    y2: "540.527",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "751.999",
+    x2: "781.406",
+    y1: "565.145",
+    y2: "565.145",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "731.752",
+    x2: "761.159",
+    y1: "541.124",
+    y2: "541.124",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "711.492",
+    x2: "740.898",
+    y1: "565.931",
+    y2: "565.931",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "792.575",
+    x2: "821.982",
+    y1: "565.203",
+    y2: "565.203",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "224.673",
+    x2: "253.475",
+    y1: "820.097",
+    y2: "820.097",
+    gradientTransform: "scale(1.45657 .68655)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16269-2",
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(63.887 113.228) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16271-6",
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 57.027 198.315)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16273-7",
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(63.887 113.228) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "q-16",
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16275-2",
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "s-34",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "u-0",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "v-8",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8766-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8772-8",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8782-3",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8800-7",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8816-8",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8834-2",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8850-1",
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8852-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8868-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8884-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8900-7",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8916-3",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8932-8",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8948-2",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8964-3",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8980-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8988-7",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9004-7",
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(1910.902 -23.064)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "S-91",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9006-9",
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(1204.028 -600.772)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "U-98",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9008-0",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 65.729 117.252)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9010-6",
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 100.721 113.81)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9012-1",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 65.64 93.333)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9014-7",
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 100.633 89.89)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13435",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13437",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13439",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13441",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13443",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13445",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13447",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13449",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13451",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13453",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13455",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13457",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13459",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13461",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13463",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13465",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13467",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13469",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13471",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13473",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13475",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13477",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13479",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13481",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13483",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13485",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13487",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13489",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13491",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13493",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13495",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13497",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13499",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13501",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13503",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13505",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13507",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13509",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13511",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13513",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13515",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13517",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13519",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13521",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13523",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13525",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13527",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13529",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13531",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13533",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13535",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13537",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13539",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13541",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13543",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13545",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13547",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13549",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13551",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13553",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13555",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13557",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13559",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13561",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13563",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13565",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13567",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13569",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13571",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13573",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13575",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13577",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13579",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13581",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13583",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13585",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13587",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13589",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13591",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13593",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13595",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13597",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13599",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13601",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13603",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13605",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13607",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient13609",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "matrix(9.07379 0 0 9.18926 -665.624 -1132.24)"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16269-2)",
+    strokeWidth: "0.265",
+    d: "M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16271-6)",
+    stroke: "#3a4d53",
+    strokeWidth: "0.156",
+    d: "M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16273-7)",
+    stroke: "#ebe5e5",
+    strokeOpacity: "0.297",
+    strokeWidth: "0.158",
+    d: "M80.682 153.711c-2.646-.145-4.278-.674-5.503-1.786-.432-.39-.907-.953-1.078-1.275l-.16-.3.013-11.343.013-11.342.185-.31c.273-.46 1.057-1.234 1.5-1.48 2.571-1.431 6.32-1.877 9.716-1.155 1.318.28 2.752.831 3.529 1.355.421.285.972.912 1.229 1.4l.192.367v22.418l-.132.283c-.161.345-.359.608-.811 1.078-1.148 1.192-2.536 1.766-4.85 2.008-.904.095-2.855.136-3.844.082zm3.633-.608c2.087-.23 3.211-.703 4.319-1.814.584-.587.881-.993 1.03-1.41.058-.163.071-2.065.073-10.822.003-11.904.043-10.735-.392-11.414-.478-.746-1.054-1.224-2.001-1.66-2.34-1.078-5.292-1.365-8.05-.783-1.222.257-2.503.749-3.255 1.249-.549.364-1.262 1.218-1.441 1.725-.067.19-.078 1.653-.078 10.922v10.702l.182.363c.1.2.368.576.596.836 1.265 1.449 2.9 2.062 5.884 2.207.656.031 2.457-.027 3.133-.1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-16)",
+    transform: "matrix(.03143 0 0 .05233 71.593 112.334)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#140b0b",
+    stroke: "#383838",
+    strokeWidth: "0.052",
+    d: "M82.88 151.684l5.454-2.409.027-19.998-5.323-2.577-1.85-.003-5.388 2.613.02 19.873 5.444 2.475 1.616.027z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16275-2)",
+    d: "M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z",
+    filter: "url(#s-34)",
+    opacity: "0.85",
+    transform: "matrix(.05456 0 0 .05476 63.041 111.79)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-16)",
+    transform: "matrix(.03143 0 0 .05233 85.478 112.277)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M77.636 134.473c-.518.027 0 .059-.668.066-.142-3.792 3.013-5.056 5.363-5.048 2.35.008 5.076.733 5.044 4.842-.032 4.11-3.481 4.763-4.866 5.368-1.638.728-2.688 1.643-3.791 2.968-1.104 1.325-1.292 4.99-1.292 4.99l10.012.079-.024.568s-8.11.05-10.718-.046c.102-2.986.271-3.304.678-4.466.505-1.521 2.148-3.613 4.884-4.755 1.388-.578 4.412-1.551 4.424-4.681.012-3.13-2.236-4.187-4.351-4.128-2.115.058-4.748 1.623-4.695 4.243z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.973 149.084c0-.206.094-.15.1-.626 4.138-.188 4.728-5.922 4.737-9.01.008-3.087-1.3-8.671-4.715-8.593-3.416.078-4.723 5.732-4.765 8.774-.042 3.043 1.105 8.81 4.645 8.853.006.313.024-.105.04.66-3.166-.13-5.25-3.553-5.262-9.509-.012-5.955 2.566-9.385 5.365-9.482 2.8-.098 5.24 3.774 5.308 9.268.07 5.494-1.852 9.726-5.453 9.664z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M84.907 148.769h-.657v-17.813l-6.575 13.79 10.242-.024v.67l-11.26-.026 7.506-16.03h.77l-.026 19.433z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M86.804 130.29l-9.052-.055-.826 9.33c1.767-.269 3.413-.574 5.327-.65 2.61-.002 4.747 1.995 4.765 4.686.017 2.691-2.08 5.11-4.806 5.202-2.178-.12-4.874-1.458-4.394-5.31-.465 0-.324-.134-.717-.13-.765 3.844 1.982 6.023 5.067 6.048 3.085.026 5.51-2.4 5.524-5.777.013-3.376-2.824-5.415-5.389-5.378-2.564.037-4.619.43-4.619.43l.675-7.77 8.394.105.086-.591-.034-.14z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M77.243 130.066l-.002.714h8.926l-4.25 7.676s4.581.362 4.807 4.41c-.131 2.65-.928 5.028-4.35 5.29-4.217.378-4.759-2.896-4.3-4.706-.156-.03-.704-.32-.86-.27-.42 1.796.176 5.905 5.175 5.793 4.76-.566 5.154-4.774 5.132-6.05-.222-4.272-4.504-5.125-4.504-5.125l3.629-6.579.02-1.075-9.422-.078z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M82.91 129.825c-1.889.06-5.74 4.184-6.353 8.818-.256 1.913-1.118 10.252 4.92 10.245 3.775-.165 5.786-2.53 5.963-5.953.125-3.684-3.106-5.483-5.452-5.465-2.346.018-4.809 1.85-4.809 1.85l-.047.811s2.719-2.162 4.905-1.932c2.186.23 4.683 1.273 4.803 4.751-.142 3.792-2.74 5.354-5.369 5.378-5.345-.164-4.48-7.532-4.29-9.504.435-4.003 4.254-8.189 5.55-8.267.062-.366.083-.22.18-.732z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M76.96 130.33h10.51l-.002.927-5.92 17.346-.615-.127 5.963-17.457-9.919.035-.018-.724z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M82.107 148.88c.018-.503.023-.107.032-.768-2.802.067-4.575-2.333-4.65-4.604-.072-2.22 1.683-3.8 4.368-4.48.85-.288 5.004-.8 5.116-4.469.03-2.367-1.39-4.84-4.586-4.752-3.197.088-4.755 2.357-4.664 4.853.122 3.016 2.686 3.647 4.564 4.26 1.05.62 4.51.524 4.687 4.395-.005 2.81-2.686 4.948-4.767 4.815.005.639-.035.01.008.746 2.48.058 5.455-2.04 5.458-5.585.028-4.63-5.918-5.25-5.918-5.25s-3.12-.647-3.2-3.447c-.061-1.67.964-3.974 3.903-3.988 3.016.07 3.722 2.364 3.706 3.98-.35 2.734-3.196 3.348-3.886 3.538-1.356.491-5.35 1.114-5.528 5.305.255 3.537 2.565 5.392 5.357 5.45z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.692 129.02v19.673h.854V129.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fe72dc",
+    stroke: "#fe72dc",
+    strokeWidth: "1.182",
+    d: "M387.81 490.62c.069-1.901.089-1.708.123-4.207-10.592.254-15.987-8.26-16.268-16.84-.275-8.393 5.615-13.614 15.76-16.192 3.214-1.085 19.193-3.855 19.617-17.724.113-8.947-6.09-18.856-18.173-18.523-12.083.334-18.623 9.467-18.28 18.903.461 11.398 9.873 14.53 16.968 16.843 3.97 2.348 17.046 1.147 17.718 15.778-.02 10.622-9.222 18.233-17.086 17.729.018 2.418-.132 2.462.032 4.314 9.376.216 21.644-8.552 21.655-21.952.104-17.499-22.928-20.306-22.928-20.306s-11.14-2.072-11.439-12.656c-.232-6.31 2.521-13.717 13.63-13.77 11.4.268 13.508 7.54 13.448 13.645-1.32 10.334-11.612 12.469-14.22 13.185-5.126 1.857-20.688 4.866-21.36 20.702.312 13.647 10.255 20.848 20.804 21.069z",
+    filter: "url(#u-0)",
+    transform: "matrix(.26458 0 0 .26458 -20.681 19.58)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fbea46",
+    stroke: "#ffa300",
+    strokeWidth: "1.182",
+    d: "M387.988 490.155c.068-1.901.088-.403.123-2.902-10.592.254-17.292-8.819-17.574-17.4-.275-8.392 6.36-14.36 16.506-16.936 3.214-1.086 18.914-3.018 19.337-16.886.114-8.947-5.25-18.297-17.334-17.964-12.083.334-17.97 8.908-17.628 18.344.462 11.398 10.153 13.784 17.248 16.097 3.97 2.348 17.046 1.985 17.718 16.617-.02 10.622-10.154 18.7-18.018 18.195.018 2.417-.132.039.032 2.822 9.377.217 20.62-7.712 20.63-21.112.103-17.499-22.37-19.839-22.37-19.839s-11.792-2.445-12.09-13.028c-.233-6.31 3.639-15.023 14.747-15.076 11.4.27 14.067 8.938 14.007 15.044-1.319 10.334-12.077 12.655-14.685 13.371-5.127 1.857-20.224 4.213-20.895 20.05.964 13.368 9.695 20.381 20.247 20.602z",
+    filter: "url(#v-8)",
+    transform: "matrix(.26458 0 0 .26458 -20.753 19.407)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13435)",
+    strokeWidth: "0.209",
+    d: "M79.969 150.92l.197-.424.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13437)",
+    strokeWidth: "0.209",
+    d: "M81.633 151.338l.976-.003"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8766-0)",
+    strokeWidth: "0.209",
+    d: "M82.616 151.345l.485-.87.976-.003.234.44"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13439)",
+    strokeWidth: "0.209",
+    d: "M88.052 130.648h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13441)",
+    strokeWidth: "0.209",
+    d: "M88.043 132.376h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13443)",
+    strokeWidth: "0.209",
+    d: "M88.065 134.117h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.025 135.8h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.697 139.283h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.71 137.587h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13445)",
+    strokeWidth: "0.209",
+    d: "M76.706 135.831h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13447)",
+    strokeWidth: "0.209",
+    d: "M76.733 134.167h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13449)",
+    strokeWidth: "0.209",
+    d: "M78.181 135.024l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13451)",
+    strokeWidth: "0.209",
+    d: "M79.649 134.154l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13453)",
+    strokeWidth: "0.209",
+    d: "M81.116 134.996l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13455)",
+    strokeWidth: "0.209",
+    d: "M82.583 134.133l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13457)",
+    strokeWidth: "0.209",
+    d: "M84.055 134.998l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13459)",
+    strokeWidth: "0.209",
+    d: "M85.522 134.133l.485-.87.976-.003.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8782-3)",
+    strokeWidth: "0.209",
+    d: "M77.202 135.037l-.491-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.043 137.546h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13461)",
+    strokeWidth: "0.209",
+    d: "M76.706 132.435h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13463)",
+    strokeWidth: "0.209",
+    d: "M78.169 133.283l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13465)",
+    strokeWidth: "0.209",
+    d: "M79.636 132.413l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13467)",
+    strokeWidth: "0.209",
+    d: "M81.103 133.255l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13469)",
+    strokeWidth: "0.209",
+    d: "M82.57 132.392l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13471)",
+    strokeWidth: "0.209",
+    d: "M84.042 133.257l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13473)",
+    strokeWidth: "0.209",
+    d: "M85.51 132.392l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8800-7)",
+    strokeWidth: "0.209",
+    d: "M77.189 133.297l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.034 140.983h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#26121c",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.043 142.734h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.052 144.448h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.052 146.167h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.039 139.233h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13475)",
+    strokeWidth: "0.209",
+    d: "M78.116 129.859l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13477)",
+    strokeWidth: "0.209",
+    d: "M79.583 128.99l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13479)",
+    strokeWidth: "0.209",
+    d: "M81.05 129.831l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13481)",
+    strokeWidth: "0.209",
+    d: "M82.518 128.968l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13483)",
+    strokeWidth: "0.209",
+    d: "M83.99 129.833l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13485)",
+    strokeWidth: "0.209",
+    d: "M87.242 129.23l-.29.57m-1.498-.832l.255-.49"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8816-8)",
+    strokeWidth: "0.209",
+    d: "M78.345 128.544l.255.456m-1.43.859l-.331-.556"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8772-8)",
+    strokeWidth: "0.209",
+    d: "M76.702 130.712h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#c3bec4",
+    fillOpacity: "0.871",
+    stroke: "#d2cfcf",
+    strokeWidth: "0.208",
+    d: "M76.738 147.927h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.725 146.212h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.738 144.491h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.706 142.789h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.72 141.015h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13487)",
+    strokeWidth: "0.209",
+    d: "M78.406 150.225l.29-.592.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13489)",
+    strokeWidth: "0.209",
+    d: "M79.68 149.632l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13491)",
+    strokeWidth: "0.209",
+    d: "M81.146 150.474l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13493)",
+    strokeWidth: "0.209",
+    d: "M82.614 149.611l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13495)",
+    strokeWidth: "0.209",
+    d: "M84.085 150.476l.486-.869.976-.003.32.59"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13497)",
+    strokeWidth: "0.209",
+    d: "M85.552 149.611l.486-.87.976-.002.428.782"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8834-2)",
+    strokeWidth: "0.209",
+    d: "M76.804 149.514l.423-.734.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.07 147.856h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8850-1)",
+    strokeWidth: "0.269",
+    d: "M88.068 149.21l-.011-19.568-5.077-2.524-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13499)",
+    strokeWidth: "0.209",
+    d: "M78.169 131.555l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13501)",
+    strokeWidth: "0.209",
+    d: "M79.636 130.685l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13503)",
+    strokeWidth: "0.209",
+    d: "M81.103 131.527l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13505)",
+    strokeWidth: "0.209",
+    d: "M82.57 130.664l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13507)",
+    strokeWidth: "0.209",
+    d: "M84.042 131.53l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13509)",
+    strokeWidth: "0.209",
+    d: "M85.51 130.664l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8852-5)",
+    strokeWidth: "0.209",
+    d: "M77.189 131.569l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13511)",
+    strokeWidth: "0.209",
+    d: "M78.156 136.7l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13513)",
+    strokeWidth: "0.209",
+    d: "M79.624 135.83l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13515)",
+    strokeWidth: "0.209",
+    d: "M81.09 136.672l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13517)",
+    strokeWidth: "0.209",
+    d: "M82.558 135.81l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13519)",
+    strokeWidth: "0.209",
+    d: "M84.03 136.674l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13521)",
+    strokeWidth: "0.209",
+    d: "M85.497 135.809l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8868-5)",
+    strokeWidth: "0.209",
+    d: "M77.176 136.714l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13523)",
+    strokeWidth: "0.209",
+    d: "M78.156 138.44l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13525)",
+    strokeWidth: "0.209",
+    d: "M79.624 137.571l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13527)",
+    strokeWidth: "0.209",
+    d: "M81.09 138.413l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13529)",
+    strokeWidth: "0.209",
+    d: "M82.558 137.55l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13531)",
+    strokeWidth: "0.209",
+    d: "M84.03 138.415l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13533)",
+    strokeWidth: "0.209",
+    d: "M85.497 137.55l.485-.87.976-.003.49.867-.484.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8884-0)",
+    strokeWidth: "0.209",
+    d: "M77.176 138.455l-.49-.867.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13535)",
+    strokeWidth: "0.209",
+    d: "M78.156 140.13l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13537)",
+    strokeWidth: "0.209",
+    d: "M79.624 139.26l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13539)",
+    strokeWidth: "0.209",
+    d: "M81.09 140.103l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13541)",
+    strokeWidth: "0.209",
+    d: "M82.558 139.24l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13543)",
+    strokeWidth: "0.209",
+    d: "M84.03 140.105l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13545)",
+    strokeWidth: "0.209",
+    d: "M85.497 139.24l.485-.87.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8900-7)",
+    strokeWidth: "0.209",
+    d: "M77.176 140.144l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13547)",
+    strokeWidth: "0.209",
+    d: "M78.169 141.87l.485-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13549)",
+    strokeWidth: "0.209",
+    d: "M79.636 141.001l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13551)",
+    strokeWidth: "0.209",
+    d: "M81.103 141.843l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13553)",
+    strokeWidth: "0.209",
+    d: "M82.57 140.98l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13555)",
+    strokeWidth: "0.209",
+    d: "M84.042 141.845l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13557)",
+    strokeWidth: "0.209",
+    d: "M85.51 140.98l.485-.87.976-.003.49.867-.485.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8916-3)",
+    strokeWidth: "0.209",
+    d: "M77.189 141.885l-.49-.867.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13559)",
+    strokeWidth: "0.209",
+    d: "M78.194 145.34l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13561)",
+    strokeWidth: "0.209",
+    d: "M79.662 144.47l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13563)",
+    strokeWidth: "0.209",
+    d: "M81.128 145.312l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13565)",
+    strokeWidth: "0.209",
+    d: "M82.596 144.449l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13567)",
+    strokeWidth: "0.209",
+    d: "M84.068 145.314l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13569)",
+    strokeWidth: "0.209",
+    d: "M85.535 144.448l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8932-8)",
+    strokeWidth: "0.209",
+    d: "M77.214 145.353l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13571)",
+    strokeWidth: "0.209",
+    d: "M78.194 147.067l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13573)",
+    strokeWidth: "0.209",
+    d: "M79.662 146.198l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13575)",
+    strokeWidth: "0.209",
+    d: "M81.128 147.04l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13577)",
+    strokeWidth: "0.209",
+    d: "M82.596 146.177l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13579)",
+    strokeWidth: "0.209",
+    d: "M84.068 147.042l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13581)",
+    strokeWidth: "0.209",
+    d: "M85.535 146.176l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8948-2)",
+    strokeWidth: "0.209",
+    d: "M77.214 147.081l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13583)",
+    strokeWidth: "0.209",
+    d: "M78.194 148.77l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13585)",
+    strokeWidth: "0.209",
+    d: "M79.662 147.9l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13587)",
+    strokeWidth: "0.209",
+    d: "M81.128 148.742l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13589)",
+    strokeWidth: "0.209",
+    d: "M82.596 147.879l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13591)",
+    strokeWidth: "0.209",
+    d: "M84.068 148.744l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13593)",
+    strokeWidth: "0.209",
+    d: "M85.535 147.879l.485-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8964-3)",
+    strokeWidth: "0.209",
+    d: "M77.214 148.783l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13595)",
+    strokeWidth: "0.209",
+    d: "M79.901 127.76l.189.365"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13597)",
+    strokeWidth: "0.209",
+    d: "M81.075 128.104l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8980-0)",
+    strokeWidth: "0.209",
+    d: "M84.014 128.106l.192-.36"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13599)",
+    strokeWidth: "0.209",
+    d: "M78.17 143.624l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13601)",
+    strokeWidth: "0.209",
+    d: "M79.637 142.754l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13603)",
+    strokeWidth: "0.209",
+    d: "M81.105 143.596l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13605)",
+    strokeWidth: "0.209",
+    d: "M82.573 142.733l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13607)",
+    strokeWidth: "0.209",
+    d: "M84.041 143.599l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient13609)",
+    strokeWidth: "0.209",
+    d: "M85.509 142.733l.485-.87.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8988-7)",
+    strokeWidth: "0.209",
+    d: "M77.192 143.638l-.49-.867.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9004-7)",
+    d: "M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z",
+    filter: "url(#S-91)",
+    opacity: "0.535",
+    transform: "translate(.144 143.895) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9006-9)",
+    d: "M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z",
+    filter: "url(#U-98)",
+    opacity: "0.827",
+    transform: "translate(.144 143.895) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9008-0)",
+    strokeWidth: "0.187",
+    d: "M83.056 151.176a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9010-6)",
+    strokeWidth: "0.104",
+    d: "M82.574 150.72l.185.21-1.075.772-.184-.21z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9012-1)",
+    strokeWidth: "0.187",
+    d: "M82.967 127.257a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9014-7)",
+    strokeWidth: "0.104",
+    d: "M82.486 126.8l.184.21-1.074.773-.185-.21z"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Nine.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "80",
+    height: "145",
+    version: "1.1",
+    viewBox: "0 0 160 297"
+  }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "k"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#081e1e",
+    stopOpacity: "0.441"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#7a8a8a"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "j"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#fefbfb"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.894",
+    stopColor: "#787878",
+    stopOpacity: "0.502"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#4d4d4d"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "i"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#647172"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#a0bcbd",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-944.78",
+    x2: "-776.19",
+    y1: "927.98",
+    y2: "1224.9",
+    gradientTransform: "translate(92.588 33.674) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "h"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.16",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#555151"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-1030.3",
+    x2: "-832.93",
+    y1: "500.09",
+    y2: "868.4",
+    gradientTransform: "translate(97.258 56.89) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-512.93",
+    x2: "-332",
+    y1: "522.7",
+    y2: "819.59",
+    gradientTransform: "translate(71.507 56.222) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-680.48",
+    x2: "-521.71",
+    y1: "930.52",
+    y2: "1219.7",
+    gradientTransform: "translate(79.112 33.54) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "a"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "b"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.422",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#656262"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "c"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.354",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "d"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#ccbea6"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#625133",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "e"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "f"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "g"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.8"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "l"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#931709"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.471",
+    stopColor: "#b82508",
+    stopOpacity: "0.961"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#dd3307",
+    stopOpacity: "0.925"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.755",
+    stopColor: "#e22c06",
+    stopOpacity: "0.851"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.953",
+    stopColor: "orange",
+    stopOpacity: "0.745"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ffad00",
+    stopOpacity: "0.992"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "772.26",
+    x2: "801.666",
+    y1: "540.527",
+    y2: "540.527",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "751.999",
+    x2: "781.406",
+    y1: "565.145",
+    y2: "565.145",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "731.752",
+    x2: "761.159",
+    y1: "541.124",
+    y2: "541.124",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "711.492",
+    x2: "740.898",
+    y1: "565.931",
+    y2: "565.931",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "792.575",
+    x2: "821.982",
+    y1: "565.203",
+    y2: "565.203",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "224.673",
+    x2: "253.475",
+    y1: "820.097",
+    y2: "820.097",
+    gradientTransform: "scale(1.45657 .68655)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16269",
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(63.887 113.228) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16271",
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 57.027 198.315)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16273",
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(63.887 113.228) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "q-5",
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16275",
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "s-8",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "u-6",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "v-3",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8766",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8772",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8782",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8800",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8816",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8834",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8850",
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8852",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8868",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8884",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8900",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8916",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8932",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8948",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8964",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8980",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8988",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9004",
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(1910.902 -23.064)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "S-292",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9006",
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(1204.028 -600.772)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "U-4",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9008",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 65.729 117.252)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9010",
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 100.721 113.81)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9012",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 65.64 93.333)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9014",
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 100.633 89.89)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15396",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15398",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15400",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15402",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15404",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15406",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15408",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15410",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15412",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15414",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15416",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15418",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15420",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15422",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15424",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15426",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15428",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15430",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15432",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15434",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15436",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15438",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15440",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15442",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15444",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15446",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15448",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15450",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15452",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15454",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15456",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15458",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15460",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15462",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15464",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15466",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15468",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15470",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15472",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15474",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15476",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15478",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15480",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15482",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15484",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15486",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15488",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15490",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15492",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15494",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15496",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15498",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15500",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15502",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15504",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15506",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15508",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15510",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15512",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15514",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15516",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15518",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15520",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15522",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15524",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15526",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15528",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15530",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15532",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15534",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15536",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15538",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15540",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15542",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15544",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15546",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15548",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15550",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15552",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15554",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15556",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15558",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15560",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15562",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15564",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15566",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15568",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient15570",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "matrix(9.07379 0 0 9.18926 -665.624 -1132.24)"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16269)",
+    strokeWidth: "0.265",
+    d: "M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16271)",
+    stroke: "#3a4d53",
+    strokeWidth: "0.156",
+    d: "M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16273)",
+    stroke: "#ebe5e5",
+    strokeOpacity: "0.297",
+    strokeWidth: "0.158",
+    d: "M80.682 153.711c-2.646-.145-4.278-.674-5.503-1.786-.432-.39-.907-.953-1.078-1.275l-.16-.3.013-11.343.013-11.342.185-.31c.273-.46 1.057-1.234 1.5-1.48 2.571-1.431 6.32-1.877 9.716-1.155 1.318.28 2.752.831 3.529 1.355.421.285.972.912 1.229 1.4l.192.367v22.418l-.132.283c-.161.345-.359.608-.811 1.078-1.148 1.192-2.536 1.766-4.85 2.008-.904.095-2.855.136-3.844.082zm3.633-.608c2.087-.23 3.211-.703 4.319-1.814.584-.587.881-.993 1.03-1.41.058-.163.071-2.065.073-10.822.003-11.904.043-10.735-.392-11.414-.478-.746-1.054-1.224-2.001-1.66-2.34-1.078-5.292-1.365-8.05-.783-1.222.257-2.503.749-3.255 1.249-.549.364-1.262 1.218-1.441 1.725-.067.19-.078 1.653-.078 10.922v10.702l.182.363c.1.2.368.576.596.836 1.265 1.449 2.9 2.062 5.884 2.207.656.031 2.457-.027 3.133-.1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-5)",
+    transform: "matrix(.03143 0 0 .05233 71.593 112.334)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#140b0b",
+    stroke: "#383838",
+    strokeWidth: "0.052",
+    d: "M82.88 151.684l5.454-2.409.027-19.998-5.323-2.577-1.85-.003-5.388 2.613.02 19.873 5.444 2.475 1.616.027z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16275)",
+    d: "M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z",
+    filter: "url(#s-8)",
+    opacity: "0.85",
+    transform: "matrix(.05456 0 0 .05476 63.041 111.79)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-5)",
+    transform: "matrix(.03143 0 0 .05233 85.478 112.277)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M77.636 134.473c-.518.027 0 .059-.668.066-.142-3.792 3.013-5.056 5.363-5.048 2.35.008 5.076.733 5.044 4.842-.032 4.11-3.481 4.763-4.866 5.368-1.638.728-2.688 1.643-3.791 2.968-1.104 1.325-1.292 4.99-1.292 4.99l10.012.079-.024.568s-8.11.05-10.718-.046c.102-2.986.271-3.304.678-4.466.505-1.521 2.148-3.613 4.884-4.755 1.388-.578 4.412-1.551 4.424-4.681.012-3.13-2.236-4.187-4.351-4.128-2.115.058-4.748 1.623-4.695 4.243z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.973 149.084c0-.206.094-.15.1-.626 4.138-.188 4.728-5.922 4.737-9.01.008-3.087-1.3-8.671-4.715-8.593-3.416.078-4.723 5.732-4.765 8.774-.042 3.043 1.105 8.81 4.645 8.853.006.313.024-.105.04.66-3.166-.13-5.25-3.553-5.262-9.509-.012-5.955 2.566-9.385 5.365-9.482 2.8-.098 5.24 3.774 5.308 9.268.07 5.494-1.852 9.726-5.453 9.664z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M84.907 148.769h-.657v-17.813l-6.575 13.79 10.242-.024v.67l-11.26-.026 7.506-16.03h.77l-.026 19.433z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M86.804 130.29l-9.052-.055-.826 9.33c1.767-.269 3.413-.574 5.327-.65 2.61-.002 4.747 1.995 4.765 4.686.017 2.691-2.08 5.11-4.806 5.202-2.178-.12-4.874-1.458-4.394-5.31-.465 0-.324-.134-.717-.13-.765 3.844 1.982 6.023 5.067 6.048 3.085.026 5.51-2.4 5.524-5.777.013-3.376-2.824-5.415-5.389-5.378-2.564.037-4.619.43-4.619.43l.675-7.77 8.394.105.086-.591-.034-.14z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M77.243 130.066l-.002.714h8.926l-4.25 7.676s4.581.362 4.807 4.41c-.131 2.65-.928 5.028-4.35 5.29-4.217.378-4.759-2.896-4.3-4.706-.156-.03-.704-.32-.86-.27-.42 1.796.176 5.905 5.175 5.793 4.76-.566 5.154-4.774 5.132-6.05-.222-4.272-4.504-5.125-4.504-5.125l3.629-6.579.02-1.075-9.422-.078z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M82.91 129.825c-1.889.06-5.74 4.184-6.353 8.818-.256 1.913-1.118 10.252 4.92 10.245 3.775-.165 5.786-2.53 5.963-5.953.125-3.684-3.106-5.483-5.452-5.465-2.346.018-4.809 1.85-4.809 1.85l-.047.811s2.719-2.162 4.905-1.932c2.186.23 4.683 1.273 4.803 4.751-.142 3.792-2.74 5.354-5.369 5.378-5.345-.164-4.48-7.532-4.29-9.504.435-4.003 4.254-8.189 5.55-8.267.062-.366.083-.22.18-.732z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M76.96 130.33h10.51l-.002.927-5.92 17.346-.615-.127 5.963-17.457-9.919.035-.018-.724z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M82.107 148.88c.018-.503.023-.107.032-.768-2.802.067-4.575-2.333-4.65-4.604-.072-2.22 1.683-3.8 4.368-4.48.85-.288 5.004-.8 5.116-4.469.03-2.367-1.39-4.84-4.586-4.752-3.197.088-4.755 2.357-4.664 4.853.122 3.016 2.686 3.647 4.564 4.26 1.05.62 4.51.524 4.687 4.395-.005 2.81-2.686 4.948-4.767 4.815.005.639-.035.01.008.746 2.48.058 5.455-2.04 5.458-5.585.028-4.63-5.918-5.25-5.918-5.25s-3.12-.647-3.2-3.447c-.061-1.67.964-3.974 3.903-3.988 3.016.07 3.722 2.364 3.706 3.98-.35 2.734-3.196 3.348-3.886 3.538-1.356.491-5.35 1.114-5.528 5.305.255 3.537 2.565 5.392 5.357 5.45z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.692 129.02v19.673h.854V129.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fe72dc",
+    stroke: "#fe72dc",
+    strokeWidth: "1.182",
+    d: "M462.343 491.792c10.629.45 24.113-17.025 26.434-34.54.968-7.231 3.649-39.489-19.173-39.461-14.267.624-23.03 10.244-23.7 23.179-.472 16.155 12.807 21.79 21.673 21.723 8.866-.068 17.318-6.105 17.318-6.105l.184-5.694s-9.133 7.874-17.59 7.004c-8.456-.87-16.695-3.187-17.147-16.334.537-14.332 9.251-18.993 19.19-19.086 18.951.555 15.926 25.97 15.006 35.006-1.446 15.985-15.366 29.138-21.418 30.207-.236 1.387-.413 2.161-.776 4.101z",
+    filter: "url(#u-6)",
+    transform: "matrix(.26458 0 0 .26458 -41.84 19.49)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fbea46",
+    stroke: "#ffa300",
+    strokeWidth: "1.182",
+    d: "M463.688 490.652c7.137-.23 21.69-15.815 24.01-33.33.968-7.232 4.227-38.748-18.594-38.72-14.267.623-21.868 9.564-22.536 22.5-.471 13.925 11.74 20.724 20.605 20.655 8.866-.068 18.174-6.992 18.174-6.992l.181-3.068s-10.277 8.172-18.54 7.302c-8.262-.87-17.7-4.808-18.151-17.955.537-14.332 10.352-20.235 20.29-20.327 20.204.62 16.935 28.467 16.213 35.922-1.644 15.129-16.076 30.948-20.973 31.242-.236 1.386-.316.83-.68 2.77z",
+    filter: "url(#v-3)",
+    transform: "matrix(.26458 0 0 .26458 -41.685 19.535)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15396)",
+    strokeWidth: "0.209",
+    d: "M79.969 150.92l.197-.424.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15398)",
+    strokeWidth: "0.209",
+    d: "M81.633 151.338l.976-.003"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8766)",
+    strokeWidth: "0.209",
+    d: "M82.616 151.345l.485-.87.976-.003.234.44"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15400)",
+    strokeWidth: "0.209",
+    d: "M88.052 130.648h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15402)",
+    strokeWidth: "0.209",
+    d: "M88.043 132.376h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15404)",
+    strokeWidth: "0.209",
+    d: "M88.065 134.117h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.025 135.8h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.697 139.283h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.71 137.587h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15406)",
+    strokeWidth: "0.209",
+    d: "M76.706 135.831h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15408)",
+    strokeWidth: "0.209",
+    d: "M76.733 134.167h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15410)",
+    strokeWidth: "0.209",
+    d: "M78.181 135.024l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15412)",
+    strokeWidth: "0.209",
+    d: "M79.649 134.154l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15414)",
+    strokeWidth: "0.209",
+    d: "M81.116 134.996l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15416)",
+    strokeWidth: "0.209",
+    d: "M82.583 134.133l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15418)",
+    strokeWidth: "0.209",
+    d: "M84.055 134.998l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15420)",
+    strokeWidth: "0.209",
+    d: "M85.522 134.133l.485-.87.976-.003.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8782)",
+    strokeWidth: "0.209",
+    d: "M77.202 135.037l-.491-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.043 137.546h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15422)",
+    strokeWidth: "0.209",
+    d: "M76.706 132.435h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15424)",
+    strokeWidth: "0.209",
+    d: "M78.169 133.283l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15426)",
+    strokeWidth: "0.209",
+    d: "M79.636 132.413l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15428)",
+    strokeWidth: "0.209",
+    d: "M81.103 133.255l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15430)",
+    strokeWidth: "0.209",
+    d: "M82.57 132.392l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15432)",
+    strokeWidth: "0.209",
+    d: "M84.042 133.257l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15434)",
+    strokeWidth: "0.209",
+    d: "M85.51 132.392l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8800)",
+    strokeWidth: "0.209",
+    d: "M77.189 133.297l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.034 140.983h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#26121c",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.043 142.734h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.052 144.448h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.052 146.167h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.039 139.233h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15436)",
+    strokeWidth: "0.209",
+    d: "M78.116 129.859l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15438)",
+    strokeWidth: "0.209",
+    d: "M79.583 128.99l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15440)",
+    strokeWidth: "0.209",
+    d: "M81.05 129.831l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15442)",
+    strokeWidth: "0.209",
+    d: "M82.518 128.968l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15444)",
+    strokeWidth: "0.209",
+    d: "M83.99 129.833l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15446)",
+    strokeWidth: "0.209",
+    d: "M87.242 129.23l-.29.57m-1.498-.832l.255-.49"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8816)",
+    strokeWidth: "0.209",
+    d: "M78.345 128.544l.255.456m-1.43.859l-.331-.556"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8772)",
+    strokeWidth: "0.209",
+    d: "M76.702 130.712h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#c3bec4",
+    fillOpacity: "0.871",
+    stroke: "#d2cfcf",
+    strokeWidth: "0.208",
+    d: "M76.738 147.927h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.725 146.212h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.738 144.491h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.706 142.789h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.72 141.015h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15448)",
+    strokeWidth: "0.209",
+    d: "M78.406 150.225l.29-.592.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15450)",
+    strokeWidth: "0.209",
+    d: "M79.68 149.632l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15452)",
+    strokeWidth: "0.209",
+    d: "M81.146 150.474l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15454)",
+    strokeWidth: "0.209",
+    d: "M82.614 149.611l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15456)",
+    strokeWidth: "0.209",
+    d: "M84.085 150.476l.486-.869.976-.003.32.59"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15458)",
+    strokeWidth: "0.209",
+    d: "M85.552 149.611l.486-.87.976-.002.428.782"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8834)",
+    strokeWidth: "0.209",
+    d: "M76.804 149.514l.423-.734.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.07 147.856h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8850)",
+    strokeWidth: "0.269",
+    d: "M88.068 149.21l-.011-19.568-5.077-2.524-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15460)",
+    strokeWidth: "0.209",
+    d: "M78.169 131.555l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15462)",
+    strokeWidth: "0.209",
+    d: "M79.636 130.685l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15464)",
+    strokeWidth: "0.209",
+    d: "M81.103 131.527l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15466)",
+    strokeWidth: "0.209",
+    d: "M82.57 130.664l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15468)",
+    strokeWidth: "0.209",
+    d: "M84.042 131.53l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15470)",
+    strokeWidth: "0.209",
+    d: "M85.51 130.664l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8852)",
+    strokeWidth: "0.209",
+    d: "M77.189 131.569l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15472)",
+    strokeWidth: "0.209",
+    d: "M78.156 136.7l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15474)",
+    strokeWidth: "0.209",
+    d: "M79.624 135.83l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15476)",
+    strokeWidth: "0.209",
+    d: "M81.09 136.672l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15478)",
+    strokeWidth: "0.209",
+    d: "M82.558 135.81l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15480)",
+    strokeWidth: "0.209",
+    d: "M84.03 136.674l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15482)",
+    strokeWidth: "0.209",
+    d: "M85.497 135.809l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8868)",
+    strokeWidth: "0.209",
+    d: "M77.176 136.714l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15484)",
+    strokeWidth: "0.209",
+    d: "M78.156 138.44l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15486)",
+    strokeWidth: "0.209",
+    d: "M79.624 137.571l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15488)",
+    strokeWidth: "0.209",
+    d: "M81.09 138.413l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15490)",
+    strokeWidth: "0.209",
+    d: "M82.558 137.55l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15492)",
+    strokeWidth: "0.209",
+    d: "M84.03 138.415l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15494)",
+    strokeWidth: "0.209",
+    d: "M85.497 137.55l.485-.87.976-.003.49.867-.484.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8884)",
+    strokeWidth: "0.209",
+    d: "M77.176 138.455l-.49-.867.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15496)",
+    strokeWidth: "0.209",
+    d: "M78.156 140.13l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15498)",
+    strokeWidth: "0.209",
+    d: "M79.624 139.26l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15500)",
+    strokeWidth: "0.209",
+    d: "M81.09 140.103l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15502)",
+    strokeWidth: "0.209",
+    d: "M82.558 139.24l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15504)",
+    strokeWidth: "0.209",
+    d: "M84.03 140.105l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15506)",
+    strokeWidth: "0.209",
+    d: "M85.497 139.24l.485-.87.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8900)",
+    strokeWidth: "0.209",
+    d: "M77.176 140.144l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15508)",
+    strokeWidth: "0.209",
+    d: "M78.169 141.87l.485-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15510)",
+    strokeWidth: "0.209",
+    d: "M79.636 141.001l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15512)",
+    strokeWidth: "0.209",
+    d: "M81.103 141.843l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15514)",
+    strokeWidth: "0.209",
+    d: "M82.57 140.98l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15516)",
+    strokeWidth: "0.209",
+    d: "M84.042 141.845l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15518)",
+    strokeWidth: "0.209",
+    d: "M85.51 140.98l.485-.87.976-.003.49.867-.485.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8916)",
+    strokeWidth: "0.209",
+    d: "M77.189 141.885l-.49-.867.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15520)",
+    strokeWidth: "0.209",
+    d: "M78.194 145.34l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15522)",
+    strokeWidth: "0.209",
+    d: "M79.662 144.47l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15524)",
+    strokeWidth: "0.209",
+    d: "M81.128 145.312l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15526)",
+    strokeWidth: "0.209",
+    d: "M82.596 144.449l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15528)",
+    strokeWidth: "0.209",
+    d: "M84.068 145.314l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15530)",
+    strokeWidth: "0.209",
+    d: "M85.535 144.448l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8932)",
+    strokeWidth: "0.209",
+    d: "M77.214 145.353l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15532)",
+    strokeWidth: "0.209",
+    d: "M78.194 147.067l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15534)",
+    strokeWidth: "0.209",
+    d: "M79.662 146.198l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15536)",
+    strokeWidth: "0.209",
+    d: "M81.128 147.04l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15538)",
+    strokeWidth: "0.209",
+    d: "M82.596 146.177l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15540)",
+    strokeWidth: "0.209",
+    d: "M84.068 147.042l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15542)",
+    strokeWidth: "0.209",
+    d: "M85.535 146.176l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8948)",
+    strokeWidth: "0.209",
+    d: "M77.214 147.081l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15544)",
+    strokeWidth: "0.209",
+    d: "M78.194 148.77l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15546)",
+    strokeWidth: "0.209",
+    d: "M79.662 147.9l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15548)",
+    strokeWidth: "0.209",
+    d: "M81.128 148.742l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15550)",
+    strokeWidth: "0.209",
+    d: "M82.596 147.879l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15552)",
+    strokeWidth: "0.209",
+    d: "M84.068 148.744l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15554)",
+    strokeWidth: "0.209",
+    d: "M85.535 147.879l.485-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8964)",
+    strokeWidth: "0.209",
+    d: "M77.214 148.783l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15556)",
+    strokeWidth: "0.209",
+    d: "M79.901 127.76l.189.365"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15558)",
+    strokeWidth: "0.209",
+    d: "M81.075 128.104l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8980)",
+    strokeWidth: "0.209",
+    d: "M84.014 128.106l.192-.36"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15560)",
+    strokeWidth: "0.209",
+    d: "M78.17 143.624l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15562)",
+    strokeWidth: "0.209",
+    d: "M79.637 142.754l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15564)",
+    strokeWidth: "0.209",
+    d: "M81.105 143.596l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15566)",
+    strokeWidth: "0.209",
+    d: "M82.573 142.733l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15568)",
+    strokeWidth: "0.209",
+    d: "M84.041 143.599l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient15570)",
+    strokeWidth: "0.209",
+    d: "M85.509 142.733l.485-.87.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8988)",
+    strokeWidth: "0.209",
+    d: "M77.192 143.638l-.49-.867.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9004)",
+    d: "M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z",
+    filter: "url(#S-292)",
+    opacity: "0.535",
+    transform: "translate(.144 143.895) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9006)",
+    d: "M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z",
+    filter: "url(#U-4)",
+    opacity: "0.827",
+    transform: "translate(.144 143.895) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9008)",
+    strokeWidth: "0.187",
+    d: "M83.056 151.176a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9010)",
+    strokeWidth: "0.104",
+    d: "M82.574 150.72l.185.21-1.075.772-.184-.21z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9012)",
+    strokeWidth: "0.187",
+    d: "M82.967 127.257a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9014)",
+    strokeWidth: "0.104",
+    d: "M82.486 126.8l.184.21-1.074.773-.185-.21z"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
+},{"react":"node_modules/react/index.js"}],"src/components/Zero.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Icon() {
+  return /*#__PURE__*/_react.default.createElement("svg", {
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: "80",
+    height: "145",
+    version: "1.1",
+    viewBox: "0 0 160 297"
+  }, /*#__PURE__*/_react.default.createElement("defs", null, /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "k"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#081e1e",
+    stopOpacity: "0.441"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#7a8a8a"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "j"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#fefbfb"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.894",
+    stopColor: "#787878",
+    stopOpacity: "0.502"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#4d4d4d"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(33.447 69.327) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "i"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#647172"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#a0bcbd",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-944.78",
+    x2: "-776.19",
+    y1: "927.98",
+    y2: "1224.9",
+    gradientTransform: "translate(92.588 33.674) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "h"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.16",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#555151"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-1030.3",
+    x2: "-832.93",
+    y1: "500.09",
+    y2: "868.4",
+    gradientTransform: "translate(97.258 56.89) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-512.93",
+    x2: "-332",
+    y1: "522.7",
+    y2: "819.59",
+    gradientTransform: "translate(71.507 56.222) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-680.48",
+    x2: "-521.71",
+    y1: "930.52",
+    y2: "1219.7",
+    gradientTransform: "translate(79.112 33.54) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "a"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "b"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.897"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.422",
+    stopColor: "#e0dddd"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#656262"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "c"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.354",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "d"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#ccbea6"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#625133",
+    stopOpacity: "0"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "e"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#454038"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#19150e"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "f"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "g"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#FFF",
+    stopOpacity: "0.8"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#c0d3e5",
+    stopOpacity: "0.196"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "l"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#931709"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.471",
+    stopColor: "#b82508",
+    stopOpacity: "0.961"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.598",
+    stopColor: "#dd3307",
+    stopOpacity: "0.925"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.755",
+    stopColor: "#e22c06",
+    stopOpacity: "0.851"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0.953",
+    stopColor: "orange",
+    stopOpacity: "0.745"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ffad00",
+    stopOpacity: "0.992"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 26.587 154.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-816.34",
+    cy: "-59.112",
+    r: "100.8",
+    gradientTransform: "matrix(.05213 0 0 .09064 94.322 100.794)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-822.07",
+    cy: "-55.121",
+    r: "106.26",
+    gradientTransform: "matrix(.05213 0 0 .0897 94.322 100.589)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-823.52",
+    cy: "-59.37",
+    r: "102.38",
+    gradientTransform: "matrix(.05213 0 0 .09275 94.322 100.93)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-824.82",
+    cy: "-63.561",
+    r: "8.187",
+    gradientTransform: "matrix(.05213 0 0 1.20144 94.322 171.57)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    cx: "-831.73",
+    cy: "-73.753",
+    r: "108",
+    gradientTransform: "matrix(.05213 0 0 .08997 94.322 101.309)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#h"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "772.26",
+    x2: "801.666",
+    y1: "540.527",
+    y2: "540.527",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "751.999",
+    x2: "781.406",
+    y1: "565.145",
+    y2: "565.145",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "731.752",
+    x2: "761.159",
+    y1: "541.124",
+    y2: "541.124",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "711.492",
+    x2: "740.898",
+    y1: "565.931",
+    y2: "565.931",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "792.575",
+    x2: "821.982",
+    y1: "565.203",
+    y2: "565.203",
+    gradientTransform: "scale(1.45652 .68657)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.95402 0 0 .97946 -1099.002 4.751)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "224.673",
+    x2: "253.475",
+    y1: "820.097",
+    y2: "820.097",
+    gradientTransform: "scale(1.45657 .68655)",
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "0",
+    stopColor: "#1d1120"
+  }), /*#__PURE__*/_react.default.createElement("stop", {
+    offset: "1",
+    stopColor: "#ebe6ec",
+    stopOpacity: "0.841"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "translate(-745.587 182.997) scale(.97946)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.9739 0 0 .99594 423.534 -526.422)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(-1185.05 -571.56)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(-473.762 -1.414)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16269-5",
+    x1: "410.4",
+    x2: "225.82",
+    y1: "613.99",
+    y2: "282.66",
+    gradientTransform: "translate(63.887 113.228) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#k"
+  }), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16271-6",
+    cx: "349",
+    cy: "498.5",
+    r: "131.11",
+    gradientTransform: "matrix(.00205 -.17018 .04882 .00059 57.027 198.315)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#j"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16273-6",
+    x1: "478.23",
+    x2: "220.65",
+    y1: "766.21",
+    y2: "209.62",
+    gradientTransform: "translate(63.887 113.228) scale(.05213)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#i"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "q-35",
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("radialGradient", {
+    id: "radialGradient16275-0",
+    cx: "627.18",
+    cy: "503.78",
+    r: "109.15",
+    gradientTransform: "matrix(1.34808 -.00892 .01423 2.14957 -504.087 -574.508)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#l"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "s-9",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.364"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    width: "4.213",
+    height: "1.123",
+    x: "-1.607",
+    y: "-0.061",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "8.661"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "u-00",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "2"
+  })), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "v-90",
+    width: "1.2",
+    height: "1.2",
+    x: "-0.1",
+    y: "-0.1",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "0.9"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8766-3",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8772-3",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8782-1",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8800-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8816-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8834-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8850-0",
+    x1: "976.82",
+    x2: "1258.5",
+    y1: "276.12",
+    y2: "720.6",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#b"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8852-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8868-1",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8884-7",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8900-9",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8916-1",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8932-0",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8948-3",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8964-5",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8980-9",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient8988-4",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9004-8",
+    x1: "-214.5",
+    x2: "-271.17",
+    y1: "170.74",
+    y2: "121.4",
+    gradientTransform: "translate(1910.902 -23.064)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#g"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "S-92",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "1.687"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9006-3",
+    x1: "237.71",
+    x2: "288.74",
+    y1: "289.86",
+    y2: "344.43",
+    gradientTransform: "translate(1204.028 -600.772)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#f"
+  }), /*#__PURE__*/_react.default.createElement("filter", {
+    id: "U-3",
+    colorInterpolationFilters: "sRGB"
+  }, /*#__PURE__*/_react.default.createElement("feGaussianBlur", {
+    stdDeviation: "3.868"
+  })), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9008-4",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 65.729 117.252)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#c"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9010-9",
+    x1: "381.34",
+    x2: "390.85",
+    y1: "747.55",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 100.721 113.81)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9012-0",
+    x1: "331.11",
+    x2: "372.53",
+    y1: "712.42",
+    y2: "743.76",
+    gradientTransform: "matrix(.04667 0 0 .04667 65.64 93.333)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#e"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient9014-5",
+    x1: "384.99",
+    x2: "390.85",
+    y1: "747.14",
+    y2: "747.55",
+    gradientTransform: "matrix(.03346 .03818 -.04215 .03031 100.633 89.89)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#d"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16408",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16410",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.584 131.417)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16412",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16414",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16416",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16418",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16420",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16422",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16424",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16426",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16428",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16430",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16432",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.553 114.205)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16434",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.556 113.702)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16436",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16438",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16440",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16442",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16444",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16446",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 112.464)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16448",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16450",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16452",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16454",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16456",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16458",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.487 109.04)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16460",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16462",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16464",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16466",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16468",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16470",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.583 129.684)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16472",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16474",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16476",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16478",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16480",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16482",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 110.736)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16484",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16486",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16488",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16490",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16492",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16494",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 115.882)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16496",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16498",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16500",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16502",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16504",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16506",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 117.622)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16508",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16510",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16512",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16514",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16516",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16518",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.528 119.312)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16520",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16522",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16524",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16526",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16528",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16530",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.54 121.052)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16532",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16534",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16536",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16538",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16540",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16542",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 124.521)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16544",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16546",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16548",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16550",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16552",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16554",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 126.249)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16556",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16558",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16560",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16562",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16564",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16566",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.565 127.951)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16568",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16570",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.512 107.313)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16572",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16574",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16576",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16578",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16580",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  }), /*#__PURE__*/_react.default.createElement("linearGradient", {
+    id: "linearGradient16582",
+    x1: "1147.3",
+    x2: "1060.9",
+    y1: "605.28",
+    y2: "305.68",
+    gradientTransform: "matrix(.04973 0 0 .05106 26.541 122.806)",
+    gradientUnits: "userSpaceOnUse",
+    xlinkHref: "#a"
+  })), /*#__PURE__*/_react.default.createElement("g", {
+    transform: "matrix(9.07379 0 0 9.18926 -665.624 -1132.24)"
+  }, /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16269-5)",
+    strokeWidth: "0.265",
+    d: "M80.436 153.126l-.662-.075c-1.468-.166-2.774-.643-3.629-1.324-.618-.493-1.442-1.503-1.538-1.884-.016-.064-.021-4.949-.012-10.855l.017-10.737.121-.263c.276-.599.959-1.331 1.583-1.697 1.963-1.152 5.02-1.656 7.732-1.274 1.86.26 3.737.993 4.612 1.797.189.174.74.877.85 1.081.149.283.166 1.624.152 11.683l-.015 10.267-.15.295c-.284.563-1.212 1.515-1.918 1.969-.827.531-2.055.867-3.65.998-.585.048-3.127.062-3.494.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16271-6)",
+    stroke: "#3a4d53",
+    strokeWidth: "0.156",
+    d: "M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient16273-6)",
+    stroke: "#ebe5e5",
+    strokeOpacity: "0.297",
+    strokeWidth: "0.158",
+    d: "M80.682 153.711c-2.646-.145-4.278-.674-5.503-1.786-.432-.39-.907-.953-1.078-1.275l-.16-.3.013-11.343.013-11.342.185-.31c.273-.46 1.057-1.234 1.5-1.48 2.571-1.431 6.32-1.877 9.716-1.155 1.318.28 2.752.831 3.529 1.355.421.285.972.912 1.229 1.4l.192.367v22.418l-.132.283c-.161.345-.359.608-.811 1.078-1.148 1.192-2.536 1.766-4.85 2.008-.904.095-2.855.136-3.844.082zm3.633-.608c2.087-.23 3.211-.703 4.319-1.814.584-.587.881-.993 1.03-1.41.058-.163.071-2.065.073-10.822.003-11.904.043-10.735-.392-11.414-.478-.746-1.054-1.224-2.001-1.66-2.34-1.078-5.292-1.365-8.05-.783-1.222.257-2.503.749-3.255 1.249-.549.364-1.262 1.218-1.441 1.725-.067.19-.078 1.653-.078 10.922v10.702l.182.363c.1.2.368.576.596.836 1.265 1.449 2.9 2.062 5.884 2.207.656.031 2.457-.027 3.133-.1z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-35)",
+    transform: "matrix(.03143 0 0 .05233 71.593 112.334)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#140b0b",
+    stroke: "#383838",
+    strokeWidth: "0.052",
+    d: "M82.88 151.684l5.454-2.409.027-19.998-5.323-2.577-1.85-.003-5.388 2.613.02 19.873 5.444 2.475 1.616.027z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#radialGradient16275-0)",
+    d: "M362.42 725.29l94.393-42.902.456-356.11-92.114-45.891-32.015-.059-93.254 46.536.341 353.88 94.222 44.074 27.97.47z",
+    filter: "url(#s-9)",
+    opacity: "0.85",
+    transform: "matrix(.05456 0 0 .05476 63.041 111.79)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#f8ae1b",
+    stroke: "#ff2124",
+    strokeWidth: "2.699",
+    d: "M120.77 522.93a6.47 169.29 0 11-12.939 0 6.47 169.29 0 1112.939 0z",
+    filter: "url(#q-35)",
+    transform: "matrix(.03143 0 0 .05233 85.478 112.277)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M77.636 134.473c-.518.027 0 .059-.668.066-.142-3.792 3.013-5.056 5.363-5.048 2.35.008 5.076.733 5.044 4.842-.032 4.11-3.481 4.763-4.866 5.368-1.638.728-2.688 1.643-3.791 2.968-1.104 1.325-1.292 4.99-1.292 4.99l10.012.079-.024.568s-8.11.05-10.718-.046c.102-2.986.271-3.304.678-4.466.505-1.521 2.148-3.613 4.884-4.755 1.388-.578 4.412-1.551 4.424-4.681.012-3.13-2.236-4.187-4.351-4.128-2.115.058-4.748 1.623-4.695 4.243z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.973 149.084c0-.206.094-.15.1-.626 4.138-.188 4.728-5.922 4.737-9.01.008-3.087-1.3-8.671-4.715-8.593-3.416.078-4.723 5.732-4.765 8.774-.042 3.043 1.105 8.81 4.645 8.853.006.313.024-.105.04.66-3.166-.13-5.25-3.553-5.262-9.509-.012-5.955 2.566-9.385 5.365-9.482 2.8-.098 5.24 3.774 5.308 9.268.07 5.494-1.852 9.726-5.453 9.664z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M84.907 148.769h-.657v-17.813l-6.575 13.79 10.242-.024v.67l-11.26-.026 7.506-16.03h.77l-.026 19.433z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M86.804 130.29l-9.052-.055-.826 9.33c1.767-.269 3.413-.574 5.327-.65 2.61-.002 4.747 1.995 4.765 4.686.017 2.691-2.08 5.11-4.806 5.202-2.178-.12-4.874-1.458-4.394-5.31-.465 0-.324-.134-.717-.13-.765 3.844 1.982 6.023 5.067 6.048 3.085.026 5.51-2.4 5.524-5.777.013-3.376-2.824-5.415-5.389-5.378-2.564.037-4.619.43-4.619.43l.675-7.77 8.394.105.086-.591-.034-.14z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M77.243 130.066l-.002.714h8.926l-4.25 7.676s4.581.362 4.807 4.41c-.131 2.65-.928 5.028-4.35 5.29-4.217.378-4.759-2.896-4.3-4.706-.156-.03-.704-.32-.86-.27-.42 1.796.176 5.905 5.175 5.793 4.76-.566 5.154-4.774 5.132-6.05-.222-4.272-4.504-5.125-4.504-5.125l3.629-6.579.02-1.075-9.422-.078z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M82.91 129.825c-1.889.06-5.74 4.184-6.353 8.818-.256 1.913-1.118 10.252 4.92 10.245 3.775-.165 5.786-2.53 5.963-5.953.125-3.684-3.106-5.483-5.452-5.465-2.346.018-4.809 1.85-4.809 1.85l-.047.811s2.719-2.162 4.905-1.932c2.186.23 4.683 1.273 4.803 4.751-.142 3.792-2.74 5.354-5.369 5.378-5.345-.164-4.48-7.532-4.29-9.504.435-4.003 4.254-8.189 5.55-8.267.062-.366.083-.22.18-.732z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M76.96 130.33h10.51l-.002.927-5.92 17.346-.615-.127 5.963-17.457-9.919.035-.018-.724z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M82.107 148.88c.018-.503.023-.107.032-.768-2.802.067-4.575-2.333-4.65-4.604-.072-2.22 1.683-3.8 4.368-4.48.85-.288 5.004-.8 5.116-4.469.03-2.367-1.39-4.84-4.586-4.752-3.197.088-4.755 2.357-4.664 4.853.122 3.016 2.686 3.647 4.564 4.26 1.05.62 4.51.524 4.687 4.395-.005 2.81-2.686 4.948-4.767 4.815.005.639-.035.01.008.746 2.48.058 5.455-2.04 5.458-5.585.028-4.63-5.918-5.25-5.918-5.25s-3.12-.647-3.2-3.447c-.061-1.67.964-3.974 3.903-3.988 3.016.07 3.722 2.364 3.706 3.98-.35 2.734-3.196 3.348-3.886 3.538-1.356.491-5.35 1.114-5.528 5.305.255 3.537 2.565 5.392 5.357 5.45z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#722",
+    strokeWidth: "0.265",
+    d: "M81.692 129.02v19.673h.854V129.02z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fe72dc",
+    stroke: "#fe72dc",
+    strokeWidth: "1.197",
+    d: "M549.916 483.761c15.64-.711 17.124-21.59 17.156-33.26.033-11.67-3.978-31.563-16.887-31.268-12.91.296-16.361 20.73-16.52 32.23-.158 11.501 2.92 32.227 16.3 32.387.024.625.09 2.912.056 3.799-11.966-.494-20.444-13.94-20.491-36.45-.046-22.508 10.256-36.03 20.836-36.399 10.58-.369 20.732 15.012 20.994 35.775.262 20.763-7.794 37.32-21.404 37.085-.068-1.352.01-4.488-.04-3.9z",
+    filter: "url(#u-00)",
+    transform: "matrix(.26458 0 0 .26458 -63.65 20.234)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#fbea46",
+    stroke: "#ffa300",
+    strokeWidth: "1.182",
+    d: "M549.896 487.034c0-.778.356-.563.378-2.363 15.64-.712 17.87-22.383 17.903-34.054.032-11.67-4.911-32.774-17.82-32.478-12.91.296-17.852 21.661-18.01 33.162-.159 11.5 4.177 33.299 17.557 33.458.024 1.184.09-.396.15 2.494-11.966-.493-19.84-13.427-19.885-35.936-.046-22.51 9.697-35.472 20.277-35.84 10.58-.37 19.8 14.266 20.061 35.03.262 20.763-7.002 36.76-20.611 36.527z",
+    filter: "url(#v-90)",
+    transform: "matrix(.26458 0 0 .26458 -63.515 20.006)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16408)",
+    strokeWidth: "0.209",
+    d: "M79.969 150.92l.197-.424.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16410)",
+    strokeWidth: "0.209",
+    d: "M81.633 151.338l.976-.003"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8766-3)",
+    strokeWidth: "0.209",
+    d: "M82.616 151.345l.485-.87.976-.003.234.44"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16412)",
+    strokeWidth: "0.209",
+    d: "M88.052 130.648h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16414)",
+    strokeWidth: "0.209",
+    d: "M88.043 132.376h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16416)",
+    strokeWidth: "0.209",
+    d: "M88.065 134.117h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.025 135.8h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.697 139.283h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.71 137.587h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16418)",
+    strokeWidth: "0.209",
+    d: "M76.706 135.831h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16420)",
+    strokeWidth: "0.209",
+    d: "M76.733 134.167h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16422)",
+    strokeWidth: "0.209",
+    d: "M78.181 135.024l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16424)",
+    strokeWidth: "0.209",
+    d: "M79.649 134.154l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16426)",
+    strokeWidth: "0.209",
+    d: "M81.116 134.996l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16428)",
+    strokeWidth: "0.209",
+    d: "M82.583 134.133l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16430)",
+    strokeWidth: "0.209",
+    d: "M84.055 134.998l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16432)",
+    strokeWidth: "0.209",
+    d: "M85.522 134.133l.485-.87.976-.003.491.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8782-1)",
+    strokeWidth: "0.209",
+    d: "M77.202 135.037l-.491-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.043 137.546h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16434)",
+    strokeWidth: "0.209",
+    d: "M76.706 132.435h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16436)",
+    strokeWidth: "0.209",
+    d: "M78.169 133.283l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16438)",
+    strokeWidth: "0.209",
+    d: "M79.636 132.413l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16440)",
+    strokeWidth: "0.209",
+    d: "M81.103 133.255l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16442)",
+    strokeWidth: "0.209",
+    d: "M82.57 132.392l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16444)",
+    strokeWidth: "0.209",
+    d: "M84.042 133.257l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16446)",
+    strokeWidth: "0.209",
+    d: "M85.51 132.392l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8800-0)",
+    strokeWidth: "0.209",
+    d: "M77.189 133.297l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.034 140.983h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#26121c",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.043 142.734h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.052 144.448h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.052 146.167h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.039 139.233h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16448)",
+    strokeWidth: "0.209",
+    d: "M78.116 129.859l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16450)",
+    strokeWidth: "0.209",
+    d: "M79.583 128.99l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16452)",
+    strokeWidth: "0.209",
+    d: "M81.05 129.831l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16454)",
+    strokeWidth: "0.209",
+    d: "M82.518 128.968l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16456)",
+    strokeWidth: "0.209",
+    d: "M83.99 129.833l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16458)",
+    strokeWidth: "0.209",
+    d: "M87.242 129.23l-.29.57m-1.498-.832l.255-.49"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8816-0)",
+    strokeWidth: "0.209",
+    d: "M78.345 128.544l.255.456m-1.43.859l-.331-.556"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8772-3)",
+    strokeWidth: "0.209",
+    d: "M76.702 130.712h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#c3bec4",
+    fillOpacity: "0.871",
+    stroke: "#d2cfcf",
+    strokeWidth: "0.208",
+    d: "M76.738 147.927h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.725 146.212h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#d2cfcf",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.738 144.491h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.706 142.789h-.596"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#bebebe",
+    fillOpacity: "0.846",
+    stroke: "#d8d8d8",
+    strokeWidth: "0.208",
+    d: "M76.72 141.015h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16460)",
+    strokeWidth: "0.209",
+    d: "M78.406 150.225l.29-.592.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16462)",
+    strokeWidth: "0.209",
+    d: "M79.68 149.632l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16464)",
+    strokeWidth: "0.209",
+    d: "M81.146 150.474l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16466)",
+    strokeWidth: "0.209",
+    d: "M82.614 149.611l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16468)",
+    strokeWidth: "0.209",
+    d: "M84.085 150.476l.486-.869.976-.003.32.59"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16470)",
+    strokeWidth: "0.209",
+    d: "M85.552 149.611l.486-.87.976-.002.428.782"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8834-5)",
+    strokeWidth: "0.209",
+    d: "M76.804 149.514l.423-.734.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "#847f77",
+    strokeWidth: "0.208",
+    d: "M88.07 147.856h-.597"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8850-0)",
+    strokeWidth: "0.269",
+    d: "M88.068 149.21l-.011-19.568-5.077-2.524-1.765-.003-5.14 2.56.019 19.464 5.246 2.351 1.498-.002 5.194-2.26.036-.017z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16472)",
+    strokeWidth: "0.209",
+    d: "M78.169 131.555l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16474)",
+    strokeWidth: "0.209",
+    d: "M79.636 130.685l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16476)",
+    strokeWidth: "0.209",
+    d: "M81.103 131.527l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16478)",
+    strokeWidth: "0.209",
+    d: "M82.57 130.664l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16480)",
+    strokeWidth: "0.209",
+    d: "M84.042 131.53l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16482)",
+    strokeWidth: "0.209",
+    d: "M85.51 130.664l.485-.87.976-.002.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8852-0)",
+    strokeWidth: "0.209",
+    d: "M77.189 131.569l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16484)",
+    strokeWidth: "0.209",
+    d: "M78.156 136.7l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16486)",
+    strokeWidth: "0.209",
+    d: "M79.624 135.83l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16488)",
+    strokeWidth: "0.209",
+    d: "M81.09 136.672l.486-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16490)",
+    strokeWidth: "0.209",
+    d: "M82.558 135.81l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16492)",
+    strokeWidth: "0.209",
+    d: "M84.03 136.674l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16494)",
+    strokeWidth: "0.209",
+    d: "M85.497 135.809l.485-.87.976-.002.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8868-1)",
+    strokeWidth: "0.209",
+    d: "M77.176 136.714l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16496)",
+    strokeWidth: "0.209",
+    d: "M78.156 138.44l.486-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16498)",
+    strokeWidth: "0.209",
+    d: "M79.624 137.571l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16500)",
+    strokeWidth: "0.209",
+    d: "M81.09 138.413l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16502)",
+    strokeWidth: "0.209",
+    d: "M82.558 137.55l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16504)",
+    strokeWidth: "0.209",
+    d: "M84.03 138.415l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16506)",
+    strokeWidth: "0.209",
+    d: "M85.497 137.55l.485-.87.976-.003.49.867-.484.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8884-7)",
+    strokeWidth: "0.209",
+    d: "M77.176 138.455l-.49-.867.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16508)",
+    strokeWidth: "0.209",
+    d: "M78.156 140.13l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16510)",
+    strokeWidth: "0.209",
+    d: "M79.624 139.26l.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16512)",
+    strokeWidth: "0.209",
+    d: "M81.09 140.103l.486-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16514)",
+    strokeWidth: "0.209",
+    d: "M82.558 139.24l.486-.87.975-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16516)",
+    strokeWidth: "0.209",
+    d: "M84.03 140.105l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16518)",
+    strokeWidth: "0.209",
+    d: "M85.497 139.24l.485-.87.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8900-9)",
+    strokeWidth: "0.209",
+    d: "M77.176 140.144l-.49-.866.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16520)",
+    strokeWidth: "0.209",
+    d: "M78.169 141.87l.485-.869.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16522)",
+    strokeWidth: "0.209",
+    d: "M79.636 141.001l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16524)",
+    strokeWidth: "0.209",
+    d: "M81.103 141.843l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16526)",
+    strokeWidth: "0.209",
+    d: "M82.57 140.98l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16528)",
+    strokeWidth: "0.209",
+    d: "M84.042 141.845l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16530)",
+    strokeWidth: "0.209",
+    d: "M85.51 140.98l.485-.87.976-.003.49.867-.485.869"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8916-1)",
+    strokeWidth: "0.209",
+    d: "M77.189 141.885l-.49-.867.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16532)",
+    strokeWidth: "0.209",
+    d: "M78.194 145.34l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16534)",
+    strokeWidth: "0.209",
+    d: "M79.662 144.47l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16536)",
+    strokeWidth: "0.209",
+    d: "M81.128 145.312l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16538)",
+    strokeWidth: "0.209",
+    d: "M82.596 144.449l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16540)",
+    strokeWidth: "0.209",
+    d: "M84.068 145.314l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16542)",
+    strokeWidth: "0.209",
+    d: "M85.535 144.448l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8932-0)",
+    strokeWidth: "0.209",
+    d: "M77.214 145.353l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16544)",
+    strokeWidth: "0.209",
+    d: "M78.194 147.067l.485-.869.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16546)",
+    strokeWidth: "0.209",
+    d: "M79.662 146.198l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16548)",
+    strokeWidth: "0.209",
+    d: "M81.128 147.04l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16550)",
+    strokeWidth: "0.209",
+    d: "M82.596 146.177l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16552)",
+    strokeWidth: "0.209",
+    d: "M84.068 147.042l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16554)",
+    strokeWidth: "0.209",
+    d: "M85.535 146.176l.485-.869.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8948-3)",
+    strokeWidth: "0.209",
+    d: "M77.214 147.081l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16556)",
+    strokeWidth: "0.209",
+    d: "M78.194 148.77l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16558)",
+    strokeWidth: "0.209",
+    d: "M79.662 147.9l.485-.87.976-.003.49.867"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16560)",
+    strokeWidth: "0.209",
+    d: "M81.128 148.742l.486-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16562)",
+    strokeWidth: "0.209",
+    d: "M82.596 147.879l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16564)",
+    strokeWidth: "0.209",
+    d: "M84.068 148.744l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16566)",
+    strokeWidth: "0.209",
+    d: "M85.535 147.879l.485-.87.976-.003.49.866-.485.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8964-5)",
+    strokeWidth: "0.209",
+    d: "M77.214 148.783l-.49-.866.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16568)",
+    strokeWidth: "0.209",
+    d: "M79.901 127.76l.189.365"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16570)",
+    strokeWidth: "0.209",
+    d: "M81.075 128.104l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8980-9)",
+    strokeWidth: "0.209",
+    d: "M84.014 128.106l.192-.36"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16572)",
+    strokeWidth: "0.209",
+    d: "M78.17 143.624l.485-.87.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16574)",
+    strokeWidth: "0.209",
+    d: "M79.637 142.754l.485-.87.976-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16576)",
+    strokeWidth: "0.209",
+    d: "M81.105 143.596l.486-.87.975-.002.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16578)",
+    strokeWidth: "0.209",
+    d: "M82.573 142.733l.485-.87.976-.002.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16580)",
+    strokeWidth: "0.209",
+    d: "M84.041 143.599l.485-.87.976-.003.491.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient16582)",
+    strokeWidth: "0.209",
+    d: "M85.509 142.733l.485-.87.976-.003.49.866-.484.87"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "none",
+    stroke: "url(#linearGradient8988-4)",
+    strokeWidth: "0.209",
+    d: "M77.192 143.638l-.49-.867.485-.869.976-.003.49.866"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9004-8)",
+    d: "M1575.9 180.7c79.675 8.788 115.89-21.813 124.69-31.728 8.458-9.538 14.694-19.504 21.408-30.552.046-5.487-1.6-126.99-1.6-126.99s-9.317-.374-10.813-.316c.081 48.602-137.08 163.73-133.68 189.58z",
+    filter: "url(#S-92)",
+    opacity: "0.535",
+    transform: "translate(.144 143.895) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "url(#linearGradient9006-3)",
+    d: "M1556.2-370.77c-31.59.576-79.299 13.838-102.44 26.104-12.914 7.597-27.623 16.398-36.605 33.618-.108 11.826.967 294.58.967 294.58s16.792.036 20.292-.09c13.74-117.88 203.59-261.72 118.13-350.08l-.345-4.132z",
+    filter: "url(#U-3)",
+    opacity: "0.827",
+    transform: "translate(.144 143.895) scale(.05213)"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9008-4)",
+    strokeWidth: "0.187",
+    d: "M83.056 151.176a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9010-9)",
+    strokeWidth: "0.104",
+    d: "M82.574 150.72l.185.21-1.075.772-.184-.21z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#494a4d",
+    stroke: "url(#linearGradient9012-0)",
+    strokeWidth: "0.187",
+    d: "M82.967 127.257a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
+  }), /*#__PURE__*/_react.default.createElement("path", {
+    fill: "#060a18",
+    stroke: "url(#linearGradient9014-5)",
+    strokeWidth: "0.104",
+    d: "M82.486 126.8l.184.21-1.074.773-.185-.21z"
+  })));
+}
+
+var _default = Icon;
+exports.default = _default;
 },{"react":"node_modules/react/index.js"}],"node_modules/parcel/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
@@ -32604,11 +55719,27 @@ var _react = _interopRequireDefault(require("react"));
 
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
-var _Header = _interopRequireDefault(require("./components/Header.js"));
-
 var _Default = _interopRequireDefault(require("./components/Default.js"));
 
 var _One = _interopRequireDefault(require("./components/One.js"));
+
+var _Two = _interopRequireDefault(require("./components/Two.js"));
+
+var _Three = _interopRequireDefault(require("./components/Three.js"));
+
+var _Four = _interopRequireDefault(require("./components/Four.js"));
+
+var _Five = _interopRequireDefault(require("./components/Five.js"));
+
+var _Six = _interopRequireDefault(require("./components/Six.js"));
+
+var _Seven = _interopRequireDefault(require("./components/Seven.js"));
+
+var _Eight = _interopRequireDefault(require("./components/Eight.js"));
+
+var _Nine = _interopRequireDefault(require("./components/Nine.js"));
+
+var _Zero = _interopRequireDefault(require("./components/Zero.js"));
 
 require("./css/style.scss");
 
@@ -32620,13 +55751,13 @@ var useState = _react.default.useState,
 var App = function App(props) {
   return /*#__PURE__*/_react.default.createElement("div", {
     className: "app"
-  }, /*#__PURE__*/_react.default.createElement(_Default.default, null), /*#__PURE__*/_react.default.createElement(_One.default, null));
+  }, /*#__PURE__*/_react.default.createElement(_Default.default, null), /*#__PURE__*/_react.default.createElement(_One.default, null), /*#__PURE__*/_react.default.createElement(_Two.default, null), /*#__PURE__*/_react.default.createElement(_Three.default, null), /*#__PURE__*/_react.default.createElement(_Four.default, null), /*#__PURE__*/_react.default.createElement(_Five.default, null), /*#__PURE__*/_react.default.createElement(_Six.default, null), /*#__PURE__*/_react.default.createElement(_Seven.default, null), /*#__PURE__*/_react.default.createElement(_Eight.default, null), /*#__PURE__*/_react.default.createElement(_Nine.default, null), /*#__PURE__*/_react.default.createElement(_Zero.default, null));
 };
 
 var target = document.getElementById('app');
 
 _reactDom.default.render( /*#__PURE__*/_react.default.createElement(App, null), target);
-},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/Header.js":"src/components/Header.js","./components/Default.js":"src/components/Default.js","./components/One.js":"src/components/One.js","./css/style.scss":"src/css/style.scss"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","react-dom":"node_modules/react-dom/index.js","./components/Default.js":"src/components/Default.js","./components/One.js":"src/components/One.js","./components/Two.js":"src/components/Two.js","./components/Three.js":"src/components/Three.js","./components/Four.js":"src/components/Four.js","./components/Five.js":"src/components/Five.js","./components/Six.js":"src/components/Six.js","./components/Seven.js":"src/components/Seven.js","./components/Eight.js":"src/components/Eight.js","./components/Nine.js":"src/components/Nine.js","./components/Zero.js":"src/components/Zero.js","./css/style.scss":"src/css/style.scss"}],"node_modules/parcel/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -32654,7 +55785,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41767" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "34297" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
