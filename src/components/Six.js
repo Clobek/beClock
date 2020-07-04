@@ -1905,7 +1905,7 @@ function Icon() {
           d="M81.079 152.16l-5.755-2.711.016-20.633 5.77-2.585h1.98l5.748 2.56-.012 20.766c-1.652.827-4.219 1.911-5.914 2.642l-1.833-.038zm7.36-2.824l.04-20.127-5.412-2.614-1.911-.005-5.463 2.659.027 20.002 5.398 2.533 1.778.02 5.543-2.468z"
         ></path>
         <path
-          fill="url(#linearGradient16273-1)"
+          fill="url(#linearGradient16273)"
           stroke="#ebe5e5"
           strokeOpacity="0.297"
           strokeWidth="0.158"
@@ -2742,13 +2742,13 @@ function Icon() {
         ></path>
         <path
           fill="#494a4d"
-          stroke="url(#linearGradient9008-3)"
+          stroke="url(#linearGradient9008-0)"
           strokeWidth="0.187"
           d="M83.056 151.176a.98.98 0 11-1.96 0 .98.98 0 011.96 0z"
         ></path>
         <path
           fill="#060a18"
-          stroke="url(#linearGradient9010-9)"
+          stroke="url(#linearGradient909)"
           strokeWidth="0.104"
           d="M82.574 150.72l.185.21-1.075.772-.184-.21z"
         ></path>

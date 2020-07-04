@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import moment from 'moment';
 import Default from './components/Default.js'
 import One from './components/One.js'
 import Two from './components/Two.js'
@@ -15,6 +16,33 @@ import './css/style.scss';
 const {useState, useEffect} = React
 
 const App = (props) => {
+    const [time, setTime] = useState('')
+
+    setInterval(function(){setTime(moment().format('hh:mm:ss'))}, 1000)
+
+    const checkTime = (num) =>{
+        if(time.split('')[num] == '0'){
+            return <Zero/>
+        } else if (time.split('')[num] == '1'){
+            return <One/>
+        } else if (time.split('')[num] == '2'){
+            return <Two/>
+        } else if (time.split('')[num] == '3'){
+            return <Three/>
+        } else if (time.split('')[num] == '4'){
+            return <Four/>
+        } else if (time.split('')[num] == '5'){
+            return <Five/>
+        } else if (time.split('')[num] == '6'){
+            return <Six/>
+        }  else if (time.split('')[num] == '7'){
+            return <Seven/>
+        } else if (time.split('')[num] == '8'){
+            return <Eight/>
+        } else if (time.split('')[num] == '9'){
+            return <Nine/>
+        }
+    }
     return (
         <div className="app">
             <Default/>
@@ -28,6 +56,17 @@ const App = (props) => {
             <Eight/>
             <Nine/>
             <Zero/>
+            <div style={{color: "white"}}>{time}</div>
+            <div style={{display: "flex"}}>
+                <div>{checkTime(0)}</div>
+                <div>{checkTime(1)}</div>
+                <div style={{width: "calc(1vw)"}}>&nbsp;</div>
+                <div>{checkTime(3)}</div>
+                <div>{checkTime(4)}</div>
+                <div style={{width: "calc(1vw)"}}>&nbsp;</div>
+                <div>{checkTime(6)}</div>
+                <div>{checkTime(7)}</div>
+            </div>
         </div>
     );
 };
