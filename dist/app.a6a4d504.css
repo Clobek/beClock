@@ -10,13 +10,24 @@ html > * {
 }
 @keyframes glow {
   0% {
-    text-shadow: 0 0 30px #ffa300, 0.3vmin 0.5vmin #ffa300;
+    text-shadow: 0 0 30px #ffa300, 0.15vmax 0.25vmax #ffa300;
   }
   50% {
-    text-shadow: 0 0 20px rgba(255, 163, 0, 0.7), 0.3vmin 0.5vmin rgba(255, 163, 0, 0.5);
+    text-shadow: 0 0 20px rgba(255, 163, 0, 0.7), 0.15vmax 0.25vmax rgba(255, 163, 0, 0.5);
   }
   100% {
-    text-shadow: 0 0 30px #ffa300, 0.3vmin 0.5vmin #ffa300;
+    text-shadow: 0 0 30px #ffa300, 0.15vmax 0.25vmax #ffa300;
+  }
+}
+@keyframes boxGlow {
+  0% {
+    box-shadow: 0 0 15px #ffa300, 0 0.25vmax #ffa300;
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(255, 163, 0, 0.7), 0 0.25vmax rgba(255, 163, 0, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 15px #ffa300, 0 0.25vmax #ffa300;
   }
 }
 body {
@@ -40,15 +51,16 @@ body #app .app__header {
   width: 100%;
   box-sizing: border-box;
   border-bottom: solid #fbea46;
+  animation: boxGlow 2s infinite;
 }
 body #app .app__header-name {
   display: flex;
   justify-content: flex-start;
-  padding-left: 2vmax;
-  padding-bottom: 1vmax;
+  padding-left: 4vmin;
+  padding-bottom: 2vmin;
   align-items: center;
-  height: 100%;
-  font-size: 8vmax;
+  height: 24vmax;
+  font-size: 16vmin;
   color: #fbea46;
   font-family: belock;
   box-sizing: border-box;
@@ -58,14 +70,15 @@ body #app .app__clock {
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
   height: 12vmax;
 }
 body #app .app__clock-space {
   width: 0.5%;
+  height: 100%;
 }
 body #app .app__clock-bigSpace {
   width: 3%;
+  height: 100%;
 }
 body #app .app__clock-one, body #app .app__clock-two, body #app .app__clock-three, body #app .app__clock-four, body #app .app__clock-five, body #app .app__clock-six {
   display: flex;

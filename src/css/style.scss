@@ -11,9 +11,15 @@ html > * {
 // Font created by http://www.glukfonts.pl/
 
 @keyframes glow {
-    0%   {text-shadow: 0 0 30px rgba(255, 163, 0, 1), .3vmin .5vmin rgba(255, 163, 0, 1)}
-    50%  {text-shadow: 0 0 20px rgba(255, 163, 0, .7), .3vmin .5vmin rgba(255, 163, 0, .5)}
-    100% {text-shadow: 0 0 30px rgba(255, 163, 0, 1), .3vmin .5vmin rgba(255, 163, 0, 1)}
+    0%   {text-shadow: 0 0 30px rgba(255, 163, 0, 1), .15vmax .25vmax rgba(255, 163, 0, 1)}
+    50%  {text-shadow: 0 0 20px rgba(255, 163, 0, .7), .15vmax .25vmax rgba(255, 163, 0, .5)}
+    100% {text-shadow: 0 0 30px rgba(255, 163, 0, 1), .15vmax .25vmax rgba(255, 163, 0, 1)}
+}
+
+@keyframes boxGlow {
+    0%   {box-shadow: 0 0 15px rgba(255, 163, 0, 1), 0 .25vmax rgba(255, 163, 0, 1)}
+    50%  {box-shadow: 0 0 10px rgba(255, 163, 0, .7), 0 .25vmax rgba(255, 163, 0, .5)}
+    100% {box-shadow: 0 0 15px rgba(255, 163, 0, 1), 0 .25vmax rgba(255, 163, 0, 1)}
 }
 
 body{
@@ -34,14 +40,15 @@ body{
                 width: 100%;
                 box-sizing: border-box;
                 border-bottom: solid #fbea46;
+                animation: boxGlow 2s infinite;
                 &-name{
                     display: flex;
                     justify-content: flex-start;
-                    padding-left: 2vmax;
-                    padding-bottom: 1vmax;
+                    padding-left: 4vmin;
+                    padding-bottom: 2vmin;
                     align-items: center;
-                    height: 100%;
-                    font-size: 8vmax;
+                    height: 24vmax;
+                    font-size: 16vmin;
                     color: #fbea46;
                     font-family: belock;
                     box-sizing: border-box;
@@ -52,13 +59,14 @@ body{
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                border-radius: 10px;
                 height: 12vmax;
                 &-space {
                     width: .5%;
+                    height: 100%;
                 }
                 &-bigSpace{
                     width: 3%;
+                    height: 100%;
                 }
                 &-one, &-two, &-three, &-four, &-five, &-six{
                     display: flex;
@@ -67,6 +75,9 @@ body{
                     height: 100%;
                     width: 6%;
                 }
+            }
+            &__footer{
+                
             }
         }      
     }
