@@ -6,9 +6,9 @@ function Icon() {
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width="120"
-      height="206"
+      height="204"
       version="1.1"
-      viewBox="0 0 160 287"
+      viewBox="0 0 160 280"
     >
       <defs>
         <linearGradient
@@ -2087,7 +2087,7 @@ function Icon() {
           xlinkHref="#d"
         ></linearGradient>
       </defs>
-      <g transform="matrix(1 0 0 .95383 -27.437 12.573)">
+      <g transform="matrix(.99833 0 0 .96282 -25.403 11.377)">
         <g>
           <path
             fill="url(#aa)"
