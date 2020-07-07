@@ -412,6 +412,7 @@ body{
                                     position: relative;  
                                     text-align: center;
                                     height: 80%;
+                                    outline: none;
                                     &--thumb{
                                       position: absolute;
                                       left: $slider-width/2 - $slider-thumb-size/2;
@@ -424,6 +425,7 @@ body{
                                       border-radius: 50%;
                                       pointer-events: none;
                                       box-shadow: 0 0 10px black;
+                                      outline: none;
                                     }
                                     &--bar{
                                       left: $slider-width/2 - $slider-track-thickness/2;
@@ -433,6 +435,7 @@ body{
                                       pointer-events: none;
                                       width: $slider-track-thickness;    
                                       border-radius: 10px;
+                                      outline: none;
                                     }
                                     input[type=range][orient=vertical]{
                                       margin: 0;
@@ -442,6 +445,7 @@ body{
                                       position: relative;
                                       writing-mode: bt-lr; // IE
                                       -webkit-appearance: slider-vertical;  // webkit
+                                      outline: none;
                                       &::-webkit-slider-runnable-track, 
                                       &::-webkit-slider-thumb {
                                         -webkit-appearance: none;

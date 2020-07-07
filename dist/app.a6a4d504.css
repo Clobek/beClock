@@ -467,6 +467,7 @@ body #app .app__alarm--sound--body--media--volume--slider {
   position: relative;
   text-align: center;
   height: 80%;
+  outline: none;
 }
 body #app .app__alarm--sound--body--media--volume--slider--thumb {
   position: absolute;
@@ -480,6 +481,7 @@ body #app .app__alarm--sound--body--media--volume--slider--thumb {
   border-radius: 50%;
   pointer-events: none;
   box-shadow: 0 0 10px black;
+  outline: none;
 }
 body #app .app__alarm--sound--body--media--volume--slider--bar {
   left: 66px;
@@ -489,6 +491,7 @@ body #app .app__alarm--sound--body--media--volume--slider--bar {
   pointer-events: none;
   width: 8px;
   border-radius: 10px;
+  outline: none;
 }
 body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical] {
   margin: 0;
@@ -498,6 +501,7 @@ body #app .app__alarm--sound--body--media--volume--slider input[type=range][orie
   position: relative;
   writing-mode: bt-lr;
   -webkit-appearance: slider-vertical;
+  outline: none;
 }
 body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-webkit-slider-runnable-track, body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-webkit-slider-thumb {
   -webkit-appearance: none;
