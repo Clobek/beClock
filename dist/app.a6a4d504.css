@@ -5,11 +5,11 @@ html {
   --secondaryFive: rgba(255, 163, 0, .5);
 }
 
-html[data-theme=sleep] {
-  --primary: #4676fb;
-  --secondary: rgba(2, 37, 114, 1);
-  --secondarySeven: rgba(2, 37, 114, .7);
-  --secondaryFive: rgba(2, 37, 114, .5);
+html[data-theme=asleep] {
+  --primary: #0a4cff;
+  --secondary: rgba(0, 54, 170, 1);
+  --secondarySeven: rgba(0, 54, 170, 0.7);
+  --secondaryFive: rgba(0, 54, 170, .5);
 }
 
 * {
@@ -133,11 +133,22 @@ body #app .app__alarm--set--title {
   color: var(--primary);
   font-size: 1.5vmax;
   text-shadow: 0.08vmax 0.13vmax var(--secondary);
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
 }
 body #app .app__alarm--set--body {
   height: 90%;
   width: 100%;
-  border: solid white;
 }
 body #app .app__alarm--set--body--raise {
   display: flex;
@@ -157,18 +168,32 @@ body #app .app__alarm--set--body--raise1, body #app .app__alarm--set--body--rais
   height: 100%;
   width: 15%;
 }
-body #app .app__alarm--set--body--raise .fab, body #app .app__alarm--set--body--raise .fas {
+body #app .app__alarm--set--body--raise1 .fab, body #app .app__alarm--set--body--raise1 .fas, body #app .app__alarm--set--body--raise2 .fab, body #app .app__alarm--set--body--raise2 .fas, body #app .app__alarm--set--body--raise3 .fab, body #app .app__alarm--set--body--raise3 .fas, body #app .app__alarm--set--body--raise4 .fab, body #app .app__alarm--set--body--raise4 .fas {
   color: var(--primary);
   font-size: 2vmax;
   text-shadow: 0.08vmax 0.13vmax var(--secondary);
+  padding: 1vmax;
 }
-body #app .app__alarm--set--body--raise .fab:hover, body #app .app__alarm--set--body--raise .fas:hover {
+body #app .app__alarm--set--body--raise1 .fab:hover, body #app .app__alarm--set--body--raise1 .fas:hover, body #app .app__alarm--set--body--raise2 .fab:hover, body #app .app__alarm--set--body--raise2 .fas:hover, body #app .app__alarm--set--body--raise3 .fab:hover, body #app .app__alarm--set--body--raise3 .fas:hover, body #app .app__alarm--set--body--raise4 .fab:hover, body #app .app__alarm--set--body--raise4 .fas:hover {
   cursor: pointer;
   color: var(--secondary);
   text-shadow: 0.08vmax 0.13vmax var(--primary);
 }
-body #app .app__alarm--set--body--raise .fab:active, body #app .app__alarm--set--body--raise .fas:active {
+body #app .app__alarm--set--body--raise1 .fab:active, body #app .app__alarm--set--body--raise1 .fas:active, body #app .app__alarm--set--body--raise2 .fab:active, body #app .app__alarm--set--body--raise2 .fas:active, body #app .app__alarm--set--body--raise3 .fab:active, body #app .app__alarm--set--body--raise3 .fas:active, body #app .app__alarm--set--body--raise4 .fab:active, body #app .app__alarm--set--body--raise4 .fas:active {
   transform: scale(0.98);
+}
+body #app .app__alarm--set--body--raise11, body #app .app__alarm--set--body--raise22, body #app .app__alarm--set--body--raise33, body #app .app__alarm--set--body--raise44 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100%;
+  width: 15%;
+}
+body #app .app__alarm--set--body--raise11 .fab, body #app .app__alarm--set--body--raise11 .fas, body #app .app__alarm--set--body--raise22 .fab, body #app .app__alarm--set--body--raise22 .fas, body #app .app__alarm--set--body--raise33 .fab, body #app .app__alarm--set--body--raise33 .fas, body #app .app__alarm--set--body--raise44 .fab, body #app .app__alarm--set--body--raise44 .fas {
+  color: var(--primary);
+  font-size: 2vmax;
+  text-shadow: 0.08vmax 0.13vmax var(--secondary);
+  padding: 1vmax;
 }
 body #app .app__alarm--set--body--clock {
   display: flex;
@@ -206,23 +231,71 @@ body #app .app__alarm--set--body--lower1, body #app .app__alarm--set--body--lowe
   height: 100%;
   width: 15%;
 }
-body #app .app__alarm--set--body--lower .fab, body #app .app__alarm--set--body--lower .fas {
+body #app .app__alarm--set--body--lower1 .fab, body #app .app__alarm--set--body--lower1 .fas, body #app .app__alarm--set--body--lower2 .fab, body #app .app__alarm--set--body--lower2 .fas, body #app .app__alarm--set--body--lower3 .fab, body #app .app__alarm--set--body--lower3 .fas, body #app .app__alarm--set--body--lower4 .fab, body #app .app__alarm--set--body--lower4 .fas {
   color: var(--primary);
   font-size: 2vmax;
   text-shadow: 0.08vmax 0.13vmax var(--secondary);
+  padding: 1vmax;
 }
-body #app .app__alarm--set--body--lower .fab:hover, body #app .app__alarm--set--body--lower .fas:hover {
+body #app .app__alarm--set--body--lower1 .fab:hover, body #app .app__alarm--set--body--lower1 .fas:hover, body #app .app__alarm--set--body--lower2 .fab:hover, body #app .app__alarm--set--body--lower2 .fas:hover, body #app .app__alarm--set--body--lower3 .fab:hover, body #app .app__alarm--set--body--lower3 .fas:hover, body #app .app__alarm--set--body--lower4 .fab:hover, body #app .app__alarm--set--body--lower4 .fas:hover {
   cursor: pointer;
   color: var(--secondary);
   text-shadow: 0.08vmax 0.13vmax var(--primary);
 }
-body #app .app__alarm--set--body--lower .fab:active, body #app .app__alarm--set--body--lower .fas:active {
+body #app .app__alarm--set--body--lower1 .fab:active, body #app .app__alarm--set--body--lower1 .fas:active, body #app .app__alarm--set--body--lower2 .fab:active, body #app .app__alarm--set--body--lower2 .fas:active, body #app .app__alarm--set--body--lower3 .fab:active, body #app .app__alarm--set--body--lower3 .fas:active, body #app .app__alarm--set--body--lower4 .fab:active, body #app .app__alarm--set--body--lower4 .fas:active {
   transform: scale(0.98);
 }
+body #app .app__alarm--set--body--lower11, body #app .app__alarm--set--body--lower22, body #app .app__alarm--set--body--lower33, body #app .app__alarm--set--body--lower44 {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+  width: 15%;
+}
+body #app .app__alarm--set--body--lower11 .fab, body #app .app__alarm--set--body--lower11 .fas, body #app .app__alarm--set--body--lower22 .fab, body #app .app__alarm--set--body--lower22 .fas, body #app .app__alarm--set--body--lower33 .fab, body #app .app__alarm--set--body--lower33 .fas, body #app .app__alarm--set--body--lower44 .fab, body #app .app__alarm--set--body--lower44 .fas {
+  color: var(--primary);
+  font-size: 2vmax;
+  text-shadow: 0.08vmax 0.13vmax var(--secondary);
+  padding: 1vmax;
+}
 body #app .app__alarm--set--body--button {
-  border: solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
   height: 25%;
   width: 100%;
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+body #app .app__alarm--set--body--button .far {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary);
+  font-size: 2vmax;
+  text-shadow: 0.08vmax 0.13vmax var(--secondary);
+  box-shadow: 0.08vmax 0.13vmax var(--secondary);
+  border: solid var(--primary);
+  padding: 1vmax;
+}
+body #app .app__alarm--set--body--button .far:hover {
+  cursor: pointer;
+  color: var(--secondary);
+  text-shadow: 0.08vmax 0.13vmax var(--primary);
+}
+body #app .app__alarm--set--body--button .far:active {
+  transform: scale(0.98);
 }
 body #app .app__alarm--sound {
   display: flex;
@@ -239,6 +312,327 @@ body #app .app__alarm--sound--title {
   color: var(--primary);
   font-size: 1.5vmax;
   text-shadow: 0.08vmax 0.13vmax var(--secondary);
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+body #app .app__alarm--sound--body {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+body #app .app__alarm--sound--body--media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  width: 100%;
+}
+body #app .app__alarm--sound--body--media--presets {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 15%;
+}
+body #app .app__alarm--sound--body--media--presets--title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 16%;
+  width: 100%;
+  color: var(--primary);
+  font-size: 1.2vmax;
+  text-shadow: 0.1vmax 0.05vmax var(--secondary);
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+body #app .app__alarm--sound--body--media--presets--rock, body #app .app__alarm--sound--body--media--presets--rnb, body #app .app__alarm--sound--body--media--presets--rap, body #app .app__alarm--sound--body--media--presets--pop, body #app .app__alarm--sound--body--media--presets--electronic, body #app .app__alarm--sound--body--media--presets--country, body #app .app__alarm--sound--body--media--presets--misc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 12%;
+  width: 100%;
+  color: var(--primary);
+  font-size: 1vmax;
+  text-shadow: 0.1vmax 0.05vmax var(--secondary);
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+body #app .app__alarm--sound--body--media--presets--rock:hover, body #app .app__alarm--sound--body--media--presets--rnb:hover, body #app .app__alarm--sound--body--media--presets--rap:hover, body #app .app__alarm--sound--body--media--presets--pop:hover, body #app .app__alarm--sound--body--media--presets--electronic:hover, body #app .app__alarm--sound--body--media--presets--country:hover, body #app .app__alarm--sound--body--media--presets--misc:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+body #app .app__alarm--sound--body--media--presets--rock:active, body #app .app__alarm--sound--body--media--presets--rnb:active, body #app .app__alarm--sound--body--media--presets--rap:active, body #app .app__alarm--sound--body--media--presets--pop:active, body #app .app__alarm--sound--body--media--presets--electronic:active, body #app .app__alarm--sound--body--media--presets--country:active, body #app .app__alarm--sound--body--media--presets--misc:active {
+  transform: scale(0.98);
+}
+body #app .app__alarm--sound--body--media--video {
+  height: 100%;
+  width: 70%;
+}
+body #app .app__alarm--sound--body--media--selection {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body #app .app__alarm--sound--body--media--selection--body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: var(--primary);
+  text-shadow: 0.09vmax 0.06vmax var(--secondary);
+  font-size: 1vmax;
+}
+body #app .app__alarm--sound--body--media--selection--body--song {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  width: 49%;
+  height: 16%;
+  border: solid 1px var(--primary);
+}
+body #app .app__alarm--sound--body--media--selection--body--song:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+body #app .app__alarm--sound--body--media--selection--body--song:active {
+  transform: scale(0.98);
+}
+body #app .app__alarm--sound--body--media--selection--body--song--name {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 50%;
+}
+body #app .app__alarm--sound--body--media--selection--body--song--artist {
+  width: 100%;
+  height: 50%;
+}
+body #app .app__alarm--sound--body--media--volume {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 15%;
+}
+body #app .app__alarm--sound--body--media--volume .fas {
+  color: var(--primary);
+  text-shadow: 0.05vmax 0.03vmax var(--secondary);
+  padding: 1vmax;
+}
+body #app .app__alarm--sound--body--media--volume--slider {
+  display: inline-block;
+  width: 140px;
+  position: relative;
+  text-align: center;
+  height: 80%;
+}
+body #app .app__alarm--sound--body--media--volume--slider--thumb {
+  position: absolute;
+  left: 55px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: var(--primary);
+  color: black;
+  font-size: 70%;
+  border-radius: 50%;
+  pointer-events: none;
+  box-shadow: 0 0 10px black;
+}
+body #app .app__alarm--sound--body--media--volume--slider--bar {
+  left: 66px;
+  bottom: 0;
+  position: absolute;
+  background: linear-gradient(var(--primary), var(--secondary));
+  pointer-events: none;
+  width: 8px;
+  border-radius: 10px;
+}
+body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical] {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: inline-block;
+  position: relative;
+  writing-mode: bt-lr;
+  -webkit-appearance: slider-vertical;
+}
+body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-webkit-slider-runnable-track, body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  cursor: pointer;
+}
+body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-webkit-slider-runnable-track:hover, body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-webkit-slider-thumb:hover {
+  cursor: pointer;
+}
+body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-webkit-slider-runnable-track {
+  text-align: center;
+  border: none;
+  background: #343440;
+  width: 8px;
+  border-color: #343440;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #3D3D4A;
+}
+body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-moz-range-track {
+  text-align: center;
+  border: none;
+  background: #343440;
+  width: 8px;
+  border-color: #343440;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #3D3D4A;
+}
+body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-ms-track {
+  text-align: center;
+  border: none;
+  background: #343440;
+  width: 8px;
+  border-color: #343440;
+  border-radius: 10px;
+  box-shadow: 0 0 0 2px #3D3D4A;
+  color: transparent;
+  height: 100%;
+}
+body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-ms-fill-lower, body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-ms-fill-upper, body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-ms-tooltip {
+  display: none;
+}
+body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-webkit-slider-thumb {
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+}
+body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-moz-range-thumb {
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+}
+body #app .app__alarm--sound--body--media--volume--slider input[type=range][orient=vertical]::-ms-thumb {
+  width: 30px;
+  height: 30px;
+  opacity: 0;
+}
+body #app .app__alarm--sound--body--media--volume--footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  color: var(--primary);
+  font-size: 0.9vmax;
+  text-shadow: 0.1vmax 0.06vmax var(--secondary);
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+body #app .app__alarm--sound--body--buttons {
+  height: 25%;
+  width: 100%;
+}
+body #app .app__alarm--sound--body--buttons--title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 40%;
+  width: 100%;
+  font-size: 1.2vmax;
+  color: var(--primary);
+  text-shadow: 0.08vmax 0.05vmax var(--secondary);
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently supported by Chrome and Opera */
+}
+body #app .app__alarm--sound--body--buttons--entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60%;
+  width: 100%;
+}
+body #app .app__alarm--sound--body--buttons--entry input {
+  padding: 5px;
+  font-size: 1vmax;
+  margin: 5px;
+  outline: none;
+  width: 50%;
+  border-radius: 3px;
+}
+body #app .app__alarm--sound--body--buttons--entry button {
+  margin: 5px;
+  font-size: 1vmax;
+  padding: 5px;
+  box-sizing: border-box;
+  color: var(--primary);
+  background-color: black;
+  border: solid 1px var(--primary);
+  box-shadow: 0.08vmax 0.08vmax var(--secondary);
+  outline: none;
+}
+body #app .app__alarm--sound--body--buttons--entry button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+body #app .app__alarm--sound--body--buttons--entry button:active {
+  transform: scale(1.08);
 }
 body #app .app__footer {
   display: flex;
@@ -293,10 +687,6 @@ body #app .app__footer--links .fab:hover, body #app .app__footer--links .fas:hov
   .app__clock--one, .app__clock--two, .app__clock--three, .app__clock--four, .app__clock--five, .app__clock--six {
     width: 13% !important;
   }
-}
-html.transition, html.transition *, html.transition *:before, html.transition *:after {
-  transition: all 1000ms !important;
-  transition-delay: 0 !important;
 }
 
 /*# sourceMappingURL=/app.a6a4d504.css.map */

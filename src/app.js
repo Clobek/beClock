@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import moment from 'moment';
+import ReactPlayer from 'react-player'
 import Header from './components/Header.js'
 import Footer from './components/Footer.js'
 import AlarmSet from './components/AlarmSet.js'
@@ -22,6 +23,21 @@ const {useState, useEffect} = React
 
 const App = (props) => {
 
+    const [player, setPlayer] = useState({
+        url: null,
+        pip: false,
+        playing: false,
+        controls: false,
+        light: false,
+        volume: 0.7,
+        muted: false,
+        played: 0,
+        loaded: 0,
+        duration: 0,
+        playbackRate: 1.0,
+        loop: false
+    })
+
     const [time, setTime] = useState('')
 
     const [theme, setTheme] = useState('awake')
@@ -33,16 +49,51 @@ const App = (props) => {
         minuteOnes: ''
     })
 
-    const transition = () =>{
-        document.documentElement.classList.add('transition');
-        window.setTimeout(()=>{
-            document.documentElement.classList.remove('transition')
-        }, 1000);
+    const [alarmCheck, setAlarmCheck] = useState(false)
+
+    const [genre, setGenre] = useState(null)
+
+    const handleGenre = async (genre) =>{
+        event.preventDefault();
+        try{
+            const request = await fetch(`https://beclock.herokuapp.com/alarms/${genre}`)
+            const response = await request.json()
+            await setGenre(response)
+        } catch(error){
+            console.error(error)
+        }
     }
-    // useEffect(()=>{
-    //     transition()
-    //     document.documentElement.setAttribute('data-theme', theme);
-    // }, [transition])
+
+    const [url, setURL] = useState(null)
+
+    const handleURL = (event) =>{
+        setURL({[event.target.name]: event.target.value})
+    }
+
+    const handleVolumeChange = (e) => {
+        setPlayer({...player, volume: parseFloat(e.target.value) })
+      }
+
+    const compare = () =>{
+        if(`${alarm.hourTens}${alarm.hourOnes}:${alarm.minuteTens}${alarm.minuteOnes}:00` == time){
+            setTheme('awake');
+            setPlayer({...player, playing: true})
+        }
+    };
+
+    useEffect(()=>{
+        if(alarmCheck === true){
+            compare()
+        }
+    }, [compare])
+    
+
+    const transition = () =>{
+    }
+    
+    useEffect(()=>{
+        document.documentElement.setAttribute('data-theme', theme);
+    }, [transition])
 
     setInterval(function(){setTime(moment().format('HH:mm:ss'))}, 1000)
 
@@ -230,7 +281,6 @@ const App = (props) => {
     const lowerHourOnes = (alarmState, alarmStateHourTens) =>{
         if (alarmStateHourTens == ''){
             setAlarm({hourTens: '0', hourOnes: '0', minuteTens: '0', minuteOnes: '0'})
-            return
         }
         if (alarmStateHourTens == '1' || alarmStateHourTens == '0'){
             if (alarmState == ''){
@@ -304,8 +354,8 @@ const App = (props) => {
             <Header/>
             <Clock checkTime={checkTime} time={time}/>
             <div className="app__alarm">
-                <AlarmSound/>
-                <AlarmSet alarm={alarm} setAlarm={setAlarm} alarmTime={alarmTime} raiseHourTens={raiseHourTens} raiseMinuteTens={raiseMinuteTens} raiseHourOnes={raiseHourOnes} raiseMinuteOnes={raiseMinuteOnes} lowerHourTens={lowerHourTens} lowerMinuteOnes={lowerMinuteOnes} lowerHourOnes={lowerHourOnes} lowerMinuteTens={lowerMinuteTens}/>
+                <AlarmSound ReactPlayer={ReactPlayer} player={player} setPlayer={setPlayer} handleVolumeChange={handleVolumeChange} genre={genre} handleGenre={handleGenre} url={url} setURL={setURL} handleURL={handleURL}/>
+                <AlarmSet alarm={alarm} setAlarm={setAlarm} alarmTime={alarmTime} raiseHourTens={raiseHourTens} raiseMinuteTens={raiseMinuteTens} raiseHourOnes={raiseHourOnes} raiseMinuteOnes={raiseMinuteOnes} lowerHourTens={lowerHourTens} lowerMinuteOnes={lowerMinuteOnes} lowerHourOnes={lowerHourOnes} lowerMinuteTens={lowerMinuteTens} compare={compare} setAlarmCheck={setAlarmCheck} alarmCheck={alarmCheck} setTheme={setTheme} ReactPlayer={ReactPlayer} player={player} setPlayer={setPlayer}/>
             </div>
             <Footer/>
         </div>
