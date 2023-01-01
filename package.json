@@ -12,7 +12,7 @@
     "license": "ISC",
     "dependencies": {
         "moment": "^2.27.0",
-        "parcel": "^1.12.4",
+        "parcel": "^2.8.2",
         "parcel-plugin-inlinesvg": "^0.1.1",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
